@@ -1,0 +1,78 @@
+origin_port,destination_port,distance_nm,typical_transit_days,route_notes
+Port Hedland,Paradip,3224,10.3,Via SE Asia Straits
+Port Hedland,Vizag,3252,10.4,Via SE Asia Straits
+Port Hedland,Gangavaram,3252,10.4,Via SE Asia Straits
+Port Hedland,Gopalpur,3332,10.7,Via SE Asia Straits
+Port Hedland,Dhamra,3224,10.3,Via SE Asia Straits
+Port Hedland,Sagar-Sandheads,3224,10.3,Via SE Asia Straits
+Port Hedland,Haldia,3293,10.6,Via SE Asia Straits
+Newcastle,Paradip,5669,18.2,Via SE Asia Straits
+Newcastle,Vizag,5697,18.3,Via SE Asia Straits
+Newcastle,Gangavaram,5697,18.3,Via SE Asia Straits
+Newcastle,Gopalpur,5777,18.5,Via SE Asia Straits
+Newcastle,Dhamra,5669,18.2,Via SE Asia Straits
+Newcastle,Sagar-Sandheads,5669,18.2,Via SE Asia Straits
+Newcastle,Haldia,5737,18.4,Via SE Asia Straits
+Gladstone,Paradip,5074,16.3,Via SE Asia Straits
+Gladstone,Vizag,5101,16.3,Via SE Asia Straits
+Gladstone,Gangavaram,5101,16.3,Via SE Asia Straits
+Gladstone,Gopalpur,5181,16.6,Via SE Asia Straits
+Gladstone,Dhamra,5074,16.3,Via SE Asia Straits
+Gladstone,Sagar-Sandheads,5074,16.3,Via SE Asia Straits
+Gladstone,Haldia,5142,16.5,Via SE Asia Straits
+Baltimore,Paradip,10040,32.2,Via Cape of Good Hope
+Baltimore,Vizag,9786,31.4,Via Cape of Good Hope
+Baltimore,Gangavaram,9786,31.4,Via Cape of Good Hope
+Baltimore,Gopalpur,9866,31.6,Via Cape of Good Hope
+Baltimore,Dhamra,10040,32.2,Via Cape of Good Hope
+Baltimore,Sagar-Sandheads,10040,32.2,Via Cape of Good Hope
+Baltimore,Haldia,10109,32.4,Via Cape of Good Hope
+Norfolk,Paradip,9913,31.8,Via Cape of Good Hope
+Norfolk,Vizag,9659,31.0,Via Cape of Good Hope
+Norfolk,Gangavaram,9659,31.0,Via Cape of Good Hope
+Norfolk,Gopalpur,9739,31.2,Via Cape of Good Hope
+Norfolk,Dhamra,9913,31.8,Via Cape of Good Hope
+Norfolk,Sagar-Sandheads,9913,31.8,Via Cape of Good Hope
+Norfolk,Haldia,9982,32.0,Via Cape of Good Hope
+Nacala,Paradip,3879,12.4,Direct route
+Nacala,Vizag,3625,11.6,Direct route
+Nacala,Gangavaram,3625,11.6,Direct route
+Nacala,Gopalpur,3705,11.9,Direct route
+Nacala,Dhamra,3879,12.4,Direct route
+Nacala,Sagar-Sandheads,3879,12.4,Direct route
+Nacala,Haldia,3948,12.7,Direct route
+Beira,Paradip,4385,14.1,Direct route
+Beira,Vizag,4130,13.2,Direct route
+Beira,Gangavaram,4130,13.2,Direct route
+Beira,Gopalpur,4210,13.5,Direct route
+Beira,Dhamra,4385,14.1,Direct route
+Beira,Sagar-Sandheads,4385,14.1,Direct route
+Beira,Haldia,4453,14.3,Direct route
+Vostochny,Paradip,4612,14.8,Via SE Asia Straits
+Vostochny,Vizag,4640,14.9,Via SE Asia Straits
+Vostochny,Gangavaram,4640,14.9,Via SE Asia Straits
+Vostochny,Gopalpur,4720,15.1,Via SE Asia Straits
+Vostochny,Dhamra,4612,14.8,Via SE Asia Straits
+Vostochny,Sagar-Sandheads,4612,14.8,Via SE Asia Straits
+Vostochny,Haldia,4681,15.0,Via SE Asia Straits
+Murmansk,Paradip,9447,30.3,Via SE Asia Straits
+Murmansk,Vizag,9193,29.5,Via SE Asia Straits
+Murmansk,Gangavaram,9193,29.5,Via SE Asia Straits
+Murmansk,Gopalpur,9273,29.7,Via SE Asia Straits
+Murmansk,Dhamra,9447,30.3,Via SE Asia Straits
+Murmansk,Sagar-Sandheads,9447,30.3,Via SE Asia Straits
+Murmansk,Haldia,9516,30.5,Via SE Asia Straits
+Kalimantan,Paradip,2349,7.5,Via SE Asia Straits
+Kalimantan,Vizag,2377,7.6,Via SE Asia Straits
+Kalimantan,Gangavaram,2377,7.6,Via SE Asia Straits
+Kalimantan,Gopalpur,2457,7.9,Via SE Asia Straits
+Kalimantan,Dhamra,2349,7.5,Via SE Asia Straits
+Kalimantan,Sagar-Sandheads,2349,7.5,Via SE Asia Straits
+Kalimantan,Haldia,2417,7.7,Via SE Asia Straits
+Tanjung Bara,Paradip,2740,8.8,Via SE Asia Straits
+Tanjung Bara,Vizag,2768,8.9,Via SE Asia Straits
+Tanjung Bara,Gangavaram,2768,8.9,Via SE Asia Straits
+Tanjung Bara,Gopalpur,2848,9.1,Via SE Asia Straits
+Tanjung Bara,Dhamra,2740,8.8,Via SE Asia Straits
+Tanjung Bara,Sagar-Sandheads,2740,8.8,Via SE Asia Straits
+Tanjung Bara,Haldia,2809,9.0,Via SE Asia Straits

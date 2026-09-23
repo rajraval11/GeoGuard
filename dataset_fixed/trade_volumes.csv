@@ -1,0 +1,166 @@
+date,origin_country,commodity,volume_thousand_metric_tons
+2024-01-01,Australia,Coking Coal,2075.19
+2024-01-01,Indonesia,Thermal Coal,3578.16
+2024-01-01,South Africa,Thermal Coal,1334.28
+2024-01-01,Mozambique,Coking Coal,706.91
+2024-01-01,USA,Metallurgical Coal,835.24
+2024-02-01,Australia,Coking Coal,2323.95
+2024-02-01,Indonesia,Thermal Coal,4001.35
+2024-02-01,South Africa,Thermal Coal,1502.5
+2024-02-01,Mozambique,Coking Coal,596.51
+2024-02-01,USA,Metallurgical Coal,880.27
+2024-03-01,Australia,Coking Coal,2389.17
+2024-03-01,Indonesia,Thermal Coal,3907.36
+2024-03-01,South Africa,Thermal Coal,1694.02
+2024-03-01,Mozambique,Coking Coal,625.56
+2024-03-01,USA,Metallurgical Coal,934.07
+2024-04-01,Australia,Coking Coal,2148.32
+2024-04-01,Indonesia,Thermal Coal,3339.24
+2024-04-01,South Africa,Thermal Coal,1504.32
+2024-04-01,Mozambique,Coking Coal,840.83
+2024-04-01,USA,Metallurgical Coal,851.79
+2024-05-01,Australia,Coking Coal,1889.21
+2024-05-01,Indonesia,Thermal Coal,3850.12
+2024-05-01,South Africa,Thermal Coal,1421.34
+2024-05-01,Mozambique,Coking Coal,765.42
+2024-05-01,USA,Metallurgical Coal,781.53
+2024-06-01,Australia,Coking Coal,1668.68
+2024-06-01,Indonesia,Thermal Coal,3088.67
+2024-06-01,South Africa,Thermal Coal,1126.02
+2024-06-01,Mozambique,Coking Coal,538.58
+2024-06-01,USA,Metallurgical Coal,624.78
+2024-07-01,Australia,Coking Coal,1621.53
+2024-07-01,Indonesia,Thermal Coal,3057.81
+2024-07-01,South Africa,Thermal Coal,1396.38
+2024-07-01,Mozambique,Coking Coal,528.55
+2024-07-01,USA,Metallurgical Coal,606.87
+2024-08-01,Australia,Coking Coal,1645.35
+2024-08-01,Indonesia,Thermal Coal,3346.77
+2024-08-01,South Africa,Thermal Coal,1275.17
+2024-08-01,Mozambique,Coking Coal,541.96
+2024-08-01,USA,Metallurgical Coal,765.37
+2024-09-01,Australia,Coking Coal,2047.51
+2024-09-01,Indonesia,Thermal Coal,3384.64
+2024-09-01,South Africa,Thermal Coal,1564.14
+2024-09-01,Mozambique,Coking Coal,643.59
+2024-09-01,USA,Metallurgical Coal,868.28
+2024-10-01,Australia,Coking Coal,2184.08
+2024-10-01,Indonesia,Thermal Coal,3730.54
+2024-10-01,South Africa,Thermal Coal,1337.13
+2024-10-01,Mozambique,Coking Coal,661.45
+2024-10-01,USA,Metallurgical Coal,920.93
+2024-11-01,Australia,Coking Coal,2185.35
+2024-11-01,Indonesia,Thermal Coal,3404.54
+2024-11-01,South Africa,Thermal Coal,1512.19
+2024-11-01,Mozambique,Coking Coal,727.35
+2024-11-01,USA,Metallurgical Coal,951.76
+2024-12-01,Australia,Coking Coal,2315.64
+2024-12-01,Indonesia,Thermal Coal,4977.19
+2024-12-01,South Africa,Thermal Coal,1312.38
+2024-12-01,Mozambique,Coking Coal,652.88
+2024-12-01,USA,Metallurgical Coal,1002.53
+2025-01-01,Australia,Coking Coal,2189.23
+2025-01-01,Indonesia,Thermal Coal,3354.49
+2025-01-01,South Africa,Thermal Coal,1537.37
+2025-01-01,Mozambique,Coking Coal,820.13
+2025-01-01,USA,Metallurgical Coal,756.24
+2025-02-01,Australia,Coking Coal,2074.63
+2025-02-01,Indonesia,Thermal Coal,3667.11
+2025-02-01,South Africa,Thermal Coal,1221.83
+2025-02-01,Mozambique,Coking Coal,665.24
+2025-02-01,USA,Metallurgical Coal,995.95
+2025-03-01,Australia,Coking Coal,2196.84
+2025-03-01,Indonesia,Thermal Coal,4564.55
+2025-03-01,South Africa,Thermal Coal,1484.07
+2025-03-01,Mozambique,Coking Coal,676.7
+2025-03-01,USA,Metallurgical Coal,947.89
+2025-04-01,Australia,Coking Coal,2143.42
+2025-04-01,Indonesia,Thermal Coal,2881.55
+2025-04-01,South Africa,Thermal Coal,1609.49
+2025-04-01,Mozambique,Coking Coal,902.36
+2025-04-01,USA,Metallurgical Coal,1112.82
+2025-05-01,Australia,Coking Coal,2809.25
+2025-05-01,Indonesia,Thermal Coal,3846.18
+2025-05-01,South Africa,Thermal Coal,1586.74
+2025-05-01,Mozambique,Coking Coal,583.62
+2025-05-01,USA,Metallurgical Coal,836.14
+2025-06-01,Australia,Coking Coal,1632.32
+2025-06-01,Indonesia,Thermal Coal,3479.4
+2025-06-01,South Africa,Thermal Coal,1130.7
+2025-06-01,Mozambique,Coking Coal,434.2
+2025-06-01,USA,Metallurgical Coal,639.65
+2025-07-01,Australia,Coking Coal,1480.29
+2025-07-01,Indonesia,Thermal Coal,2567.83
+2025-07-01,South Africa,Thermal Coal,1283.08
+2025-07-01,Mozambique,Coking Coal,486.67
+2025-07-01,USA,Metallurgical Coal,657.3
+2025-08-01,Australia,Coking Coal,1898.0
+2025-08-01,Indonesia,Thermal Coal,3277.49
+2025-08-01,South Africa,Thermal Coal,1093.4
+2025-08-01,Mozambique,Coking Coal,361.24
+2025-08-01,USA,Metallurgical Coal,665.73
+2025-09-01,Australia,Coking Coal,1968.09
+2025-09-01,Indonesia,Thermal Coal,4112.98
+2025-09-01,South Africa,Thermal Coal,1379.6
+2025-09-01,Mozambique,Coking Coal,701.11
+2025-09-01,USA,Metallurgical Coal,808.98
+2025-10-01,Australia,Coking Coal,2009.87
+2025-10-01,Indonesia,Thermal Coal,3977.21
+2025-10-01,South Africa,Thermal Coal,1394.46
+2025-10-01,Mozambique,Coking Coal,559.95
+2025-10-01,USA,Metallurgical Coal,976.01
+2025-11-01,Australia,Coking Coal,2377.28
+2025-11-01,Indonesia,Thermal Coal,3973.02
+2025-11-01,South Africa,Thermal Coal,1394.18
+2025-11-01,Mozambique,Coking Coal,580.21
+2025-11-01,USA,Metallurgical Coal,895.74
+2025-12-01,Australia,Coking Coal,2176.26
+2025-12-01,Indonesia,Thermal Coal,4761.74
+2025-12-01,South Africa,Thermal Coal,1582.7
+2025-12-01,Mozambique,Coking Coal,519.18
+2025-12-01,USA,Metallurgical Coal,800.8
+2026-01-01,Australia,Coking Coal,2297.26
+2026-01-01,Indonesia,Thermal Coal,3352.13
+2026-01-01,South Africa,Thermal Coal,1664.98
+2026-01-01,Mozambique,Coking Coal,579.29
+2026-01-01,USA,Metallurgical Coal,710.03
+2026-02-01,Australia,Coking Coal,2350.78
+2026-02-01,Indonesia,Thermal Coal,4134.19
+2026-02-01,South Africa,Thermal Coal,1651.99
+2026-02-01,Mozambique,Coking Coal,706.48
+2026-02-01,USA,Metallurgical Coal,775.53
+2026-03-01,Australia,Coking Coal,2097.81
+2026-03-01,Indonesia,Thermal Coal,3893.14
+2026-03-01,South Africa,Thermal Coal,1519.28
+2026-03-01,Mozambique,Coking Coal,662.36
+2026-03-01,USA,Metallurgical Coal,907.99
+2026-04-01,Australia,Coking Coal,2456.86
+2026-04-01,Indonesia,Thermal Coal,4823.41
+2026-04-01,South Africa,Thermal Coal,1272.54
+2026-04-01,Mozambique,Coking Coal,771.52
+2026-04-01,USA,Metallurgical Coal,827.45
+2026-05-01,Australia,Coking Coal,2525.26
+2026-05-01,Indonesia,Thermal Coal,3883.1
+2026-05-01,South Africa,Thermal Coal,1301.59
+2026-05-01,Mozambique,Coking Coal,730.78
+2026-05-01,USA,Metallurgical Coal,923.91
+2026-06-01,Australia,Coking Coal,1833.7
+2026-06-01,Indonesia,Thermal Coal,3226.62
+2026-06-01,South Africa,Thermal Coal,1202.32
+2026-06-01,Mozambique,Coking Coal,504.87
+2026-06-01,USA,Metallurgical Coal,731.08
+2026-07-01,Australia,Coking Coal,1622.67
+2026-07-01,Indonesia,Thermal Coal,2617.62
+2026-07-01,South Africa,Thermal Coal,1057.55
+2026-07-01,Mozambique,Coking Coal,405.88
+2026-07-01,USA,Metallurgical Coal,721.28
+2026-08-01,Australia,Coking Coal,1631.29
+2026-08-01,Indonesia,Thermal Coal,2992.26
+2026-08-01,South Africa,Thermal Coal,1105.69
+2026-08-01,Mozambique,Coking Coal,603.43
+2026-08-01,USA,Metallurgical Coal,591.15
+2026-09-01,Australia,Coking Coal,2277.91
+2026-09-01,Indonesia,Thermal Coal,4129.98
+2026-09-01,South Africa,Thermal Coal,1404.09
+2026-09-01,Mozambique,Coking Coal,768.67
+2026-09-01,USA,Metallurgical Coal,792.69

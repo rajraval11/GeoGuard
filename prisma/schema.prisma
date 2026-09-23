@@ -1,0 +1,335 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  CHARTERER
+  LOGISTICS_MANAGER
+  ANALYST
+  ADMIN
+}
+
+enum AccountStatus {
+  ACTIVE
+  SUSPENDED
+  PENDING
+}
+
+enum Tier {
+  COMMERCIAL
+  ENTERPRISE
+}
+
+enum RiskTolerance {
+  CONSERVATIVE
+  MODERATE
+  AGGRESSIVE
+}
+
+enum ContractPreference {
+  SPOT
+  SHORT_TERM
+  MEDIUM_TERM
+  HYBRID
+}
+
+enum AnalysisStatus {
+  COMPLETED
+  PROCESSING
+  FAILED
+  DRAFT
+}
+
+model Organization {
+  id                   String        @id @default(uuid())
+  name                 String
+  tier                 Tier          @default(COMMERCIAL)
+  defaultCurrency      String        @default("USD")
+  defaultRiskTolerance RiskTolerance @default(MODERATE)
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+
+  users                User[]
+  analyses             Analysis[]
+
+  @@map("organizations")
+}
+
+model User {
+  id             String        @id @default(uuid())
+  name           String
+  email          String        @unique
+  passwordHash   String
+  role           Role          @default(CHARTERER)
+  status         AccountStatus @default(ACTIVE)
+  organizationId String
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  lastActive     DateTime?
+
+  organization   Organization  @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  analyses       Analysis[]
+  auditLogs      AuditLog[]
+
+  @@index([organizationId])
+  @@index([email])
+  @@map("users")
+}
+
+model Port {
+  id                  String   @id
+  name                String
+  country             String
+  code                String   @unique
+  maxDraftMeters      Float
+  maxLoaMeters        Float
+  maxBeamMeters       Float
+  tideRestriction     Boolean  @default(false)
+  averageWaitingHours Float    @default(12.0)
+  congestionIndex     String   @default("Moderate")
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  originRoutes        Route[]  @relation("OriginPort")
+  destinationRoutes   Route[]  @relation("DestinationPort")
+
+  @@map("ports")
+}
+
+model Route {
+  id                String   @id
+  originPortId      String
+  destinationPortId String
+  distanceNM        Float
+  canalTransit      String?  @default("None")
+  typicalBunkerMT   Float?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  originPort        Port     @relation("OriginPort", fields: [originPortId], references: [id])
+  destinationPort   Port     @relation("DestinationPort", fields: [destinationPortId], references: [id])
+
+  @@unique([originPortId, destinationPortId])
+  @@map("routes")
+}
+
+model VesselClass {
+  id                    String   @id
+  name                  String   @unique
+  dwtMin                Int
+  dwtMax                Int
+  typicalDraftM         Float
+  typicalLoaM          Float
+  typicalBeamM         Float
+  dailyFuelConsumptionMT Float
+  suitableCargoes       String[]
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@map("vessel_classes")
+}
+
+model Analysis {
+  id                     String         @id
+  createdAt              DateTime       @default(now())
+  updatedAt              DateTime       @updatedAt
+  status                 AnalysisStatus @default(COMPLETED)
+  userId                 String
+  organizationId         String
+
+  // Cargo specification
+  cargoType              String
+  quantityMT             Int
+  shipmentsCount         Int            @default(1)
+  laycanStart            DateTime?
+  laycanEnd              DateTime?
+  specialHandling        String?
+
+  // Route & Contract
+  originPortId           String
+  destinationPortId      String
+  planningDurationMonths Int            @default(12)
+  preference             ContractPreference @default(HYBRID)
+  riskTolerance          RiskTolerance  @default(MODERATE)
+
+  // Recommendation & Model Outputs
+  recommendedVessel      String         @default("Panamax")
+  strategyName           String
+  mixAllocation          String
+  expectedCostPerTon     Float
+  expectedSavingsVsSpot  Float          @default(0.0)
+  riskLevel              String         @default("Moderate")
+  confidencePercentage   Int            @default(88)
+  timingAdvice           String         @default("BOOK WITHIN 15 DAYS")
+  plainEnglishRationale  String         @db.Text
+
+  // Anomaly & Voyage economics
+  anomalyDetected        Boolean?
+  anomalyNotes           String?
+  anomalyScore           Float?
+  freightPerTon          Float          @default(14.20)
+  bunkerCostPerTon       Float          @default(4.15)
+  portChargesPerTon      Float          @default(1.25)
+  waitingCostPerTon      Float          @default(0.65)
+  demurrageRiskPerTon    Float          @default(0.45)
+  deadheadingPerTon      Float          @default(0.45)
+  lighteringPerTon       Float          @default(0.0)
+  totalDeliveredCost     Float          @default(21.15)
+
+  // Raw calculation snapshot for UI charts
+  rawResultJson          Json
+
+  user                   User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organization           Organization   @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  shipments              Shipment[]
+  forecast               Forecast?
+  riskSimulation         RiskSimulation?
+  strategies             ContractStrategy[]
+  modelRuns              ModelRun[]
+
+  @@index([organizationId])
+  @@index([userId])
+  @@index([createdAt])
+  @@map("analyses")
+}
+
+model Shipment {
+  id                 String   @id @default(uuid())
+  analysisId         String
+  shipmentNumber     Int
+  monthLabel         String
+  cargoQuantityMT    Int
+  vesselClassName    String
+  contractAllocation String
+  estimatedCostPerTon Float
+  totalEstimatedCost Float
+  createdAt          DateTime @default(now())
+
+  analysis           Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@index([analysisId])
+  @@map("shipments")
+}
+
+model Forecast {
+  id                 String   @id @default(uuid())
+  analysisId         String   @unique
+  currentRate        Float
+  fourWeekForecast   Float
+  eightWeekForecast  Float
+  forecastRangeText  String
+  timeSeriesJson     Json
+  createdAt          DateTime @default(now())
+
+  analysis           Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@map("forecasts")
+}
+
+model RiskSimulation {
+  id                 String   @id @default(uuid())
+  analysisId         String   @unique
+  scenarioCount      Int      @default(1000)
+  expectedCostPerTon Float
+  valueAtRisk95      Float
+  conditionalValueAtRisk95 Float
+  worstCaseCostPerTon Float
+  distributionJson   Json
+  createdAt          DateTime @default(now())
+
+  analysis           Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@map("risk_simulations")
+}
+
+model ContractStrategy {
+  id                 String   @id @default(uuid())
+  analysisId         String
+  strategy           String
+  label              String
+  expectedCostPerTon Float
+  worstCaseCostPerTon Float
+  riskLevel          String
+  flexibilityScore   String
+  allocationText     String
+  isRecommended      Boolean  @default(false)
+  createdAt          DateTime @default(now())
+
+  analysis           Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@index([analysisId])
+  @@map("contract_strategies")
+}
+
+model ModelRun {
+  id             String   @id @default(uuid())
+  analysisId     String?
+  modelName      String
+  modelVersion   String
+  status         String   @default("SUCCESS")
+  mae            Float?
+  rmse           Float?
+  executionTimeMs Int
+  runAt          DateTime @default(now())
+  details        Json?
+
+  analysis       Analysis? @relation(fields: [analysisId], references: [id], onDelete: SetNull)
+
+  @@index([analysisId])
+  @@index([runAt])
+  @@map("model_runs")
+}
+
+model DataHealth {
+  id           String   @id
+  sourceName   String
+  status       String   @default("Healthy")
+  recordsCount Int      @default(0)
+  frequency    String   @default("Daily")
+  lastUpdated  DateTime @default(now())
+  notes        String?
+
+  @@map("data_health")
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  userId     String?
+  action     String
+  entityType String
+  entityId   String?
+  details    Json?
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
+
+model WeatherCache {
+  id              String   @id @default(uuid())
+  routeId         String   @unique
+  exposureLevel   String
+  waveHeightM     Float?
+  windSpeedKnots  Float?
+  maxSwellM       Float?
+  maxCurrentKt    Float?
+  worstSegment    String?
+  affectedSegments Json?
+  riskScore       Float?
+  forecastTime    DateTime
+  retrievedAt     DateTime @default(now())
+  expiresAt       DateTime
+  rawPayload      Json?
+
+  @@index([routeId])
+  @@map("weather_cache")
+}

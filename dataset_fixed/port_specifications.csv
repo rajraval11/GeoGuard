@@ -1,0 +1,19 @@
+port_name,country,port_type,max_draft_m,max_loa_m,max_beam_m,max_dwt_tons,cargo_handling_rate_tons_per_day
+Paradip,India,destination,16.5,300.0,46.0,155000,25000
+Vizag,India,destination,16.5,300.0,46.0,155000,25000
+Gangavaram,India,destination,16.5,300.0,46.0,155000,25000
+Gopalpur,India,destination,16.5,300.0,46.0,155000,25000
+Dhamra,India,destination,16.5,300.0,46.0,155000,25000
+Sagar-Sandheads,India,destination,16.5,300.0,46.0,155000,25000
+Haldia,India,destination,16.5,300.0,46.0,155000,25000
+Port Hedland,Australia,origin,18.0,300.0,50.0,180000,40000
+Newcastle,Australia,origin,18.0,300.0,50.0,180000,40000
+Gladstone,Australia,origin,18.0,300.0,50.0,180000,40000
+Baltimore,United States,origin,18.0,300.0,50.0,180000,40000
+Norfolk,United States,origin,18.0,300.0,50.0,180000,40000
+Nacala,Mozambique,origin,18.0,300.0,50.0,180000,40000
+Beira,Mozambique,origin,18.0,300.0,50.0,180000,40000
+Vostochny,Russia,origin,18.0,300.0,50.0,180000,40000
+Murmansk,Russia,origin,18.0,300.0,50.0,180000,40000
+Kalimantan,Indonesia,origin,18.0,300.0,50.0,180000,40000
+Tanjung Bara,Indonesia,origin,18.0,300.0,50.0,180000,40000

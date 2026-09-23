@@ -1,0 +1,5 @@
+vessel_class,typical_dwt_tons,typical_draft_m,typical_loa_m,typical_beam_m,fuel_consumption_laden_tons_per_day,fuel_consumption_port_tons_per_day
+Handysize,38000,10.5,180.0,28.0,18.5,2.5
+Supramax,58000,12.8,190.0,32.2,23.0,3.0
+Panamax,75000,14.2,225.0,32.3,28.5,3.5
+Capesize,180000,18.2,292.0,45.0,42.0,4.5

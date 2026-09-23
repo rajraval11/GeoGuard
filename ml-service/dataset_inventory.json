@@ -1,0 +1,893 @@
+{
+  "bunker_prices.csv": {
+    "filename": "bunker_prices.csv",
+    "rowCount": 8424,
+    "colCount": 4,
+    "columns": [
+      "date",
+      "port",
+      "fuel_type",
+      "price_usd_per_ton"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "port": "str",
+      "fuel_type": "str",
+      "price_usd_per_ton": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-08"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "port": 0,
+      "fuel_type": 0,
+      "price_usd_per_ton": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "price_usd_per_ton": {
+        "min": 321.39,
+        "max": 1009.7,
+        "mean": 609.7779237891739,
+        "std": 156.45273487134125
+      }
+    }
+  },
+  "carbon_emissions.csv": {
+    "filename": "carbon_emissions.csv",
+    "rowCount": 2808,
+    "colCount": 6,
+    "columns": [
+      "date",
+      "vessel_class",
+      "eua_carbon_price_eur_per_ton",
+      "avg_cii_rating",
+      "co2_emissions_tons_per_voyage",
+      "carbon_tax_cost_usd"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "vessel_class": "str",
+      "eua_carbon_price_eur_per_ton": "float64",
+      "avg_cii_rating": "str",
+      "co2_emissions_tons_per_voyage": "float64",
+      "carbon_tax_cost_usd": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-08"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "vessel_class": 0,
+      "eua_carbon_price_eur_per_ton": 0,
+      "avg_cii_rating": 0,
+      "co2_emissions_tons_per_voyage": 0,
+      "carbon_tax_cost_usd": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "eua_carbon_price_eur_per_ton": {
+        "min": 60.77,
+        "max": 120.84,
+        "mean": 86.17746438746438,
+        "std": 15.327778187438643
+      },
+      "co2_emissions_tons_per_voyage": {
+        "min": 522.57,
+        "max": 2204.99,
+        "mean": 1155.482631766382,
+        "std": 587.6297710165077
+      },
+      "carbon_tax_cost_usd": {
+        "min": 10334.81,
+        "max": 171033.72,
+        "mean": 54204.729223646726,
+        "std": 40770.905072003516
+      }
+    }
+  },
+  "commodity_prices.csv": {
+    "filename": "commodity_prices.csv",
+    "rowCount": 132,
+    "colCount": 3,
+    "columns": [
+      "date",
+      "commodity",
+      "price_usd_per_ton"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "commodity": "str",
+      "price_usd_per_ton": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-01"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "commodity": 0,
+      "price_usd_per_ton": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "price_usd_per_ton": {
+        "min": 77.5,
+        "max": 187.68,
+        "mean": 125.27977272727273,
+        "std": 27.770841880047115
+      }
+    }
+  },
+  "currency_exchange_rates.csv": {
+    "filename": "currency_exchange_rates.csv",
+    "rowCount": 2808,
+    "colCount": 4,
+    "columns": [
+      "date",
+      "currency_pair",
+      "exchange_rate",
+      "daily_change_pct"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "currency_pair": "str",
+      "exchange_rate": "float64",
+      "daily_change_pct": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-08"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "currency_pair": 0,
+      "exchange_rate": 0,
+      "daily_change_pct": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "exchange_rate": {
+        "min": 1.0469,
+        "max": 91.9699,
+        "mean": 27.996467414529913,
+        "std": 35.60370152381686
+      },
+      "daily_change_pct": {
+        "min": -1.75,
+        "max": 1.86,
+        "mean": 0.013144586894586896,
+        "std": 0.35350700280520536
+      }
+    }
+  },
+  "demurrage_risks.csv": {
+    "filename": "demurrage_risks.csv",
+    "rowCount": 2808,
+    "colCount": 7,
+    "columns": [
+      "date",
+      "vessel_class",
+      "demurrage_rate_usd_per_day",
+      "despatch_rate_usd_per_day",
+      "allowed_laytime_hours",
+      "projected_delay_hours",
+      "net_demurrage_cost_usd"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "vessel_class": "str",
+      "demurrage_rate_usd_per_day": "float64",
+      "despatch_rate_usd_per_day": "float64",
+      "allowed_laytime_hours": "int64",
+      "projected_delay_hours": "float64",
+      "net_demurrage_cost_usd": "float64"
+    },
+    "dateColumns": [
+      "date",
+      "demurrage_rate_usd_per_day",
+      "despatch_rate_usd_per_day"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-08"
+      },
+      "demurrage_rate_usd_per_day": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      },
+      "despatch_rate_usd_per_day": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "vessel_class": 0,
+      "demurrage_rate_usd_per_day": 0,
+      "despatch_rate_usd_per_day": 0,
+      "allowed_laytime_hours": 0,
+      "projected_delay_hours": 0,
+      "net_demurrage_cost_usd": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "demurrage_rate_usd_per_day": {
+        "min": 9318.8,
+        "max": 36842.18,
+        "mean": 19594.15556267806,
+        "std": 7232.984236628901
+      },
+      "despatch_rate_usd_per_day": {
+        "min": 4659.4,
+        "max": 18421.09,
+        "mean": 9797.077678062678,
+        "std": 3616.4921741165713
+      },
+      "allowed_laytime_hours": {
+        "min": 48.0,
+        "max": 96.0,
+        "mean": 69.0,
+        "std": 17.751400492675828
+      },
+      "projected_delay_hours": {
+        "min": 0.0,
+        "max": 100.8,
+        "mean": 35.508440170940176,
+        "std": 20.485390016328893
+      },
+      "net_demurrage_cost_usd": {
+        "min": 0.0,
+        "max": 26154.95,
+        "mean": 805.9354665242165,
+        "std": 2915.4449377879255
+      }
+    }
+  },
+  "freight_indices.csv": {
+    "filename": "freight_indices.csv",
+    "rowCount": 5216,
+    "colCount": 4,
+    "columns": [
+      "date",
+      "index_name",
+      "vessel_class",
+      "index_value"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "index_name": "str",
+      "vessel_class": "str",
+      "index_value": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2021-01-01",
+        "max": "2025-12-31"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "index_name": 0,
+      "vessel_class": 0,
+      "index_value": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "index_value": {
+        "min": 480.82,
+        "max": 2929.83,
+        "mean": 1474.0396012269937,
+        "std": 592.4406095507181
+      }
+    }
+  },
+  "freight_rates.csv": {
+    "filename": "freight_rates.csv",
+    "rowCount": 4935,
+    "colCount": 6,
+    "columns": [
+      "date",
+      "origin_port",
+      "destination_port",
+      "vessel_class",
+      "route_distance_nm",
+      "freight_rate_usd_per_ton"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "origin_port": "str",
+      "destination_port": "str",
+      "vessel_class": "str",
+      "route_distance_nm": "int64",
+      "freight_rate_usd_per_ton": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-07"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "origin_port": 0,
+      "destination_port": 0,
+      "vessel_class": 0,
+      "route_distance_nm": 0,
+      "freight_rate_usd_per_ton": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "route_distance_nm": {
+        "min": 2130.0,
+        "max": 9280.0,
+        "mean": 4980.285714285715,
+        "std": 2282.6604235120635
+      },
+      "freight_rate_usd_per_ton": {
+        "min": 9.7,
+        "max": 60.73,
+        "mean": 24.23658561296859,
+        "std": 9.213539100140252
+      }
+    }
+  },
+  "model_evaluations.csv": {
+    "filename": "model_evaluations.csv",
+    "rowCount": 1500,
+    "colCount": 9,
+    "columns": [
+      "run_id",
+      "model_name",
+      "vessel_class",
+      "training_date",
+      "rmse",
+      "mape_percent",
+      "r2_score",
+      "top_feature",
+      "model_status"
+    ],
+    "dataTypes": {
+      "run_id": "str",
+      "model_name": "str",
+      "vessel_class": "str",
+      "training_date": "str",
+      "rmse": "float64",
+      "mape_percent": "float64",
+      "r2_score": "float64",
+      "top_feature": "str",
+      "model_status": "str"
+    },
+    "dateColumns": [
+      "training_date"
+    ],
+    "dateRange": {
+      "training_date": {
+        "min": "2024-01-03",
+        "max": "2026-09-08"
+      }
+    },
+    "missingValues": {
+      "run_id": 0,
+      "model_name": 0,
+      "vessel_class": 0,
+      "training_date": 0,
+      "rmse": 0,
+      "mape_percent": 0,
+      "r2_score": 0,
+      "top_feature": 0,
+      "model_status": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "rmse": {
+        "min": 0.8,
+        "max": 3.2,
+        "mean": 1.8397799999999997,
+        "std": 0.6648631289622717
+      },
+      "mape_percent": {
+        "min": 2.51,
+        "max": 9.49,
+        "mean": 5.611586666666668,
+        "std": 1.9761641038973907
+      },
+      "r2_score": {
+        "min": 0.78,
+        "max": 0.96,
+        "mean": 0.8765086666666666,
+        "std": 0.050869326551581454
+      }
+    }
+  },
+  "port_congestion.csv": {
+    "filename": "port_congestion.csv",
+    "rowCount": 8424,
+    "colCount": 6,
+    "columns": [
+      "date",
+      "port_name",
+      "vessels_at_anchor",
+      "vessels_at_berth",
+      "avg_waiting_time_days",
+      "congestion_level"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "port_name": "str",
+      "vessels_at_anchor": "int64",
+      "vessels_at_berth": "int64",
+      "avg_waiting_time_days": "float64",
+      "congestion_level": "str"
+    },
+    "dateColumns": [
+      "date",
+      "avg_waiting_time_days"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-08"
+      },
+      "avg_waiting_time_days": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "port_name": 0,
+      "vessels_at_anchor": 0,
+      "vessels_at_berth": 0,
+      "avg_waiting_time_days": 0,
+      "congestion_level": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "vessels_at_anchor": {
+        "min": 0.0,
+        "max": 27.0,
+        "mean": 7.348765432098766,
+        "std": 4.256655677215881
+      },
+      "vessels_at_berth": {
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 4.08641975308642,
+        "std": 1.8404573353123295
+      },
+      "avg_waiting_time_days": {
+        "min": 0.12,
+        "max": 9.89,
+        "mean": 1.8570144824311492,
+        "std": 1.2768227892955744
+      }
+    }
+  },
+  "port_specifications.csv": {
+    "filename": "port_specifications.csv",
+    "rowCount": 12,
+    "colCount": 8,
+    "columns": [
+      "port_name",
+      "country",
+      "port_type",
+      "max_draft_m",
+      "max_loa_m",
+      "max_beam_m",
+      "max_dwt_tons",
+      "cargo_handling_rate_tons_per_day"
+    ],
+    "dataTypes": {
+      "port_name": "str",
+      "country": "str",
+      "port_type": "str",
+      "max_draft_m": "float64",
+      "max_loa_m": "float64",
+      "max_beam_m": "float64",
+      "max_dwt_tons": "int64",
+      "cargo_handling_rate_tons_per_day": "int64"
+    },
+    "dateColumns": [
+      "cargo_handling_rate_tons_per_day"
+    ],
+    "dateRange": {
+      "cargo_handling_rate_tons_per_day": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      }
+    },
+    "missingValues": {
+      "port_name": 0,
+      "country": 0,
+      "port_type": 0,
+      "max_draft_m": 0,
+      "max_loa_m": 0,
+      "max_beam_m": 0,
+      "max_dwt_tons": 0,
+      "cargo_handling_rate_tons_per_day": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "max_draft_m": {
+        "min": 8.5,
+        "max": 19.5,
+        "mean": 15.325000000000001,
+        "std": 3.013039842237253
+      },
+      "max_loa_m": {
+        "min": 225.0,
+        "max": 320.0,
+        "mean": 278.75,
+        "std": 35.746900692100695
+      },
+      "max_beam_m": {
+        "min": 32.2,
+        "max": 52.0,
+        "mean": 42.324999999999996,
+        "std": 7.746333443519057
+      },
+      "max_dwt_tons": {
+        "min": 45000.0,
+        "max": 200000.0,
+        "mean": 125833.33333333333,
+        "std": 55466.3425107078
+      },
+      "cargo_handling_rate_tons_per_day": {
+        "min": 12000.0,
+        "max": 45000.0,
+        "mean": 27083.333333333332,
+        "std": 11040.901917484602
+      }
+    }
+  },
+  "sailing_distances.csv": {
+    "filename": "sailing_distances.csv",
+    "rowCount": 35,
+    "colCount": 5,
+    "columns": [
+      "origin_port",
+      "destination_port",
+      "distance_nm",
+      "typical_transit_days",
+      "route_notes"
+    ],
+    "dataTypes": {
+      "origin_port": "str",
+      "destination_port": "str",
+      "distance_nm": "int64",
+      "typical_transit_days": "float64",
+      "route_notes": "str"
+    },
+    "dateColumns": [
+      "typical_transit_days"
+    ],
+    "dateRange": {
+      "typical_transit_days": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      }
+    },
+    "missingValues": {
+      "origin_port": 0,
+      "destination_port": 0,
+      "distance_nm": 0,
+      "typical_transit_days": 0,
+      "route_notes": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "distance_nm": {
+        "min": 2130.0,
+        "max": 9280.0,
+        "mean": 4980.285714285715,
+        "std": 2315.7510352243953
+      },
+      "typical_transit_days": {
+        "min": 6.8,
+        "max": 29.7,
+        "mean": 15.959999999999997,
+        "std": 7.4223113571415835
+      }
+    }
+  },
+  "seasonal_calendar.csv": {
+    "filename": "seasonal_calendar.csv",
+    "rowCount": 10,
+    "colCount": 5,
+    "columns": [
+      "region",
+      "event_type",
+      "start_date",
+      "end_date",
+      "severity_notes"
+    ],
+    "dataTypes": {
+      "region": "str",
+      "event_type": "str",
+      "start_date": "str",
+      "end_date": "str",
+      "severity_notes": "str"
+    },
+    "dateColumns": [
+      "start_date",
+      "end_date"
+    ],
+    "dateRange": {
+      "start_date": {
+        "min": "2026-01-01",
+        "max": "2026-12-15"
+      },
+      "end_date": {
+        "min": "2026-02-28",
+        "max": "2026-11-30"
+      }
+    },
+    "missingValues": {
+      "region": 0,
+      "event_type": 0,
+      "start_date": 0,
+      "end_date": 0,
+      "severity_notes": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {}
+  },
+  "trade_volumes.csv": {
+    "filename": "trade_volumes.csv",
+    "rowCount": 165,
+    "colCount": 4,
+    "columns": [
+      "date",
+      "origin_country",
+      "commodity",
+      "volume_thousand_metric_tons"
+    ],
+    "dataTypes": {
+      "date": "str",
+      "origin_country": "str",
+      "commodity": "str",
+      "volume_thousand_metric_tons": "float64"
+    },
+    "dateColumns": [
+      "date"
+    ],
+    "dateRange": {
+      "date": {
+        "min": "2024-01-01",
+        "max": "2026-09-01"
+      }
+    },
+    "missingValues": {
+      "date": 0,
+      "origin_country": 0,
+      "commodity": 0,
+      "volume_thousand_metric_tons": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "volume_thousand_metric_tons": {
+        "min": 361.24,
+        "max": 4977.19,
+        "mean": 1718.3889090909092,
+        "std": 1146.791536307965
+      }
+    }
+  },
+  "vessel_specifications.csv": {
+    "filename": "vessel_specifications.csv",
+    "rowCount": 4,
+    "colCount": 7,
+    "columns": [
+      "vessel_class",
+      "typical_dwt_tons",
+      "typical_draft_m",
+      "typical_loa_m",
+      "typical_beam_m",
+      "fuel_consumption_laden_tons_per_day",
+      "fuel_consumption_port_tons_per_day"
+    ],
+    "dataTypes": {
+      "vessel_class": "str",
+      "typical_dwt_tons": "int64",
+      "typical_draft_m": "float64",
+      "typical_loa_m": "float64",
+      "typical_beam_m": "float64",
+      "fuel_consumption_laden_tons_per_day": "float64",
+      "fuel_consumption_port_tons_per_day": "float64"
+    },
+    "dateColumns": [
+      "fuel_consumption_laden_tons_per_day",
+      "fuel_consumption_port_tons_per_day"
+    ],
+    "dateRange": {
+      "fuel_consumption_laden_tons_per_day": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      },
+      "fuel_consumption_port_tons_per_day": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      }
+    },
+    "missingValues": {
+      "vessel_class": 0,
+      "typical_dwt_tons": 0,
+      "typical_draft_m": 0,
+      "typical_loa_m": 0,
+      "typical_beam_m": 0,
+      "fuel_consumption_laden_tons_per_day": 0,
+      "fuel_consumption_port_tons_per_day": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "typical_dwt_tons": {
+        "min": 38000.0,
+        "max": 180000.0,
+        "mean": 87750.0,
+        "std": 63331.79822700968
+      },
+      "typical_draft_m": {
+        "min": 10.5,
+        "max": 18.2,
+        "mean": 13.925,
+        "std": 3.2325170790989897
+      },
+      "typical_loa_m": {
+        "min": 180.0,
+        "max": 292.0,
+        "mean": 221.75,
+        "std": 50.65158766843675
+      },
+      "typical_beam_m": {
+        "min": 28.0,
+        "max": 45.0,
+        "mean": 34.375,
+        "std": 7.361329137232397
+      },
+      "fuel_consumption_laden_tons_per_day": {
+        "min": 18.5,
+        "max": 42.0,
+        "mean": 28.0,
+        "std": 10.189864245088515
+      },
+      "fuel_consumption_port_tons_per_day": {
+        "min": 2.5,
+        "max": 4.5,
+        "mean": 3.375,
+        "std": 0.8539125638299665
+      }
+    }
+  },
+  "voyage_decisions.csv": {
+    "filename": "voyage_decisions.csv",
+    "rowCount": 1000,
+    "colCount": 11,
+    "columns": [
+      "decision_id",
+      "origin_port",
+      "destination_port",
+      "recommended_vessel_class",
+      "optimal_speed_knots",
+      "bunker_stop_port",
+      "bunker_fuel_type",
+      "bunker_qty_tons",
+      "estimated_voyage_days",
+      "total_cost_usd",
+      "projected_margin_usd"
+    ],
+    "dataTypes": {
+      "decision_id": "str",
+      "origin_port": "str",
+      "destination_port": "str",
+      "recommended_vessel_class": "str",
+      "optimal_speed_knots": "float64",
+      "bunker_stop_port": "str",
+      "bunker_fuel_type": "str",
+      "bunker_qty_tons": "float64",
+      "estimated_voyage_days": "float64",
+      "total_cost_usd": "float64",
+      "projected_margin_usd": "float64"
+    },
+    "dateColumns": [
+      "estimated_voyage_days"
+    ],
+    "dateRange": {
+      "estimated_voyage_days": {
+        "min": "1970-01-01",
+        "max": "1970-01-01"
+      }
+    },
+    "missingValues": {
+      "decision_id": 0,
+      "origin_port": 0,
+      "destination_port": 0,
+      "recommended_vessel_class": 0,
+      "optimal_speed_knots": 0,
+      "bunker_stop_port": 0,
+      "bunker_fuel_type": 0,
+      "bunker_qty_tons": 0,
+      "estimated_voyage_days": 0,
+      "total_cost_usd": 0,
+      "projected_margin_usd": 0
+    },
+    "duplicateRecords": 0,
+    "categoricalSummaries": {},
+    "numericalRanges": {
+      "optimal_speed_knots": {
+        "min": 11.5,
+        "max": 14.0,
+        "mean": 12.7637,
+        "std": 0.7344601702895412
+      },
+      "bunker_qty_tons": {
+        "min": 400.7,
+        "max": 1199.2,
+        "mean": 805.5036000000001,
+        "std": 233.75537778558953
+      },
+      "estimated_voyage_days": {
+        "min": 8.1,
+        "max": 32.0,
+        "mean": 19.8532,
+        "std": 6.883678870690788
+      },
+      "total_cost_usd": {
+        "min": 451610.12,
+        "max": 2199920.26,
+        "mean": 1297592.89157,
+        "std": 506859.06834423234
+      },
+      "projected_margin_usd": {
+        "min": 42509.32,
+        "max": 472233.53,
+        "mean": 198334.07942000002,
+        "std": 94610.07638437582
+      }
+    }
+  }
+}

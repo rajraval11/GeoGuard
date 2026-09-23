@@ -1,0 +1,11 @@
+region,event_type,start_date,end_date,severity_notes
+East Coast India,Monsoon,2026-06-01,2026-09-30,"Southwest monsoon: High swell, discharge delays, anchorage queues at Paradip & Haldia."
+East Coast India,Cyclone Risk,2026-10-01,2026-11-30,Post-monsoon Bay of Bengal cyclone season: Port evacuations and berth operational halts.
+East Coast India,Pre-Monsoon Cyclones,2026-04-15,2026-05-31,Pre-monsoon depression risk in Bay of Bengal: Temporary lightering halts at Sagar/Sandheads.
+East Coast Australia,Tropical Storms,2026-11-01,2026-04-30,Southern hemisphere cyclone season: Heavy rainfall causing rail & port loading delays at Newcastle.
+East Kalimantan Indonesia,Wet Season,2026-11-01,2026-03-31,"Tropical rain season: High moisture content in coal, river barge delays at Samarinda."
+East Kalimantan Indonesia,Dry Season,2026-06-01,2026-08-31,Low river water levels: Reduced barge draft capacities along Mahakam river.
+South Africa,Summer Swells,2026-05-01,2026-08-31,Heavy winter sea swells: TMT coal terminal loading interruptions at Richards Bay.
+Mozambique Channel,Cyclone Season,2026-01-01,2026-03-31,South-West Indian Ocean cyclone activity: Channel transit and berthing delays at Maputo.
+US East Coast,Atlantic Hurricane Season,2026-08-01,2026-10-31,Peak Atlantic hurricane activity: Vessel queueing and port closures at Hampton Roads/Norfolk.
+US East Coast,Winter Freeze,2026-12-15,2026-02-28,Freezing conditions: Rail transport slowdowns for export coal to Norfolk.

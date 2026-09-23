@@ -1,0 +1,119 @@
+{
+  "model_version": "geoguard-v2026.09.09",
+  "training_timestamp": "2026-09-08T20:16:13.134542+00:00",
+  "dataset_source": "dataset_fixed",
+  "dataset_fingerprints": {
+    "freight_indices.csv": "42e005102a4c06f8a6af14fff8d5d1ce22fda9e1bde0174c2eda9e9b725ab149",
+    "freight_rates.csv": "f756d300e0bc570979531c47f48b98469befb2d8903547dc6878760a871da79f",
+    "bunker_prices.csv": "af5e0153a4a1b2451cf13774930ab0c34dffe025e8b6968deeb663f9b82d106b",
+    "commodity_prices.csv": "072b327e8f80408c475255a1b43a5931616e6b1d8167aae0dbf2b9a07d2a5583",
+    "trade_volumes.csv": "62f24b6ff538f41172d5013ed53a69ee3b72b85f52c09d6e2a9dacf5ba1024ea",
+    "seasonal_calendar.csv": "5b0e86949d2171c590e2f88541efe8b99dde937233451ad3684aeaca7ad8d797",
+    "port_specifications.csv": "0cbdf6d6efc2ce6072688c4c413b259188ed0949351a29c6b43e0f2b9167e194",
+    "vessel_specifications.csv": "be66a2c161e65db3197e80dac7ce6e83815a17734be57980fe0465e5246c9320",
+    "sailing_distances.csv": "301413c59052e3925f9b7f7e73c474e3f669dc6b169bfd521c1c80ba848cd0a7",
+    "port_congestion.csv": "7fcab708347aec17baa072335e7bd2746fdc02b654cc9cb459a1bdcdf7964625",
+    "demurrage_risks.csv": "e454653ec9ab433ebfa55e0ceb8d6783d7086a859972818f64a4e07a9d5d248c",
+    "currency_exchange_rates.csv": "45449033fea6754c02273397266ddb0930d9ed3225ee01a966625b9aeee5e3ed",
+    "carbon_emissions.csv": "8d50af3db2035c46b2cde9e488919fc7e66789f1cc1530c6336216c30f19a2e2",
+    "model_evaluations.csv": "a09ddff97ed23660dccc7fa26383da7222ffbd780a2ac099d894607f9e1ac27d",
+    "voyage_decisions.csv": "314f481dc798f97caeaf799d37edcba61a505346180f88ca03ecc7683a4cecc4"
+  },
+  "dataset_row_counts": {
+    "freight_indices.csv": 5216,
+    "freight_rates.csv": 4935,
+    "bunker_prices.csv": 8424,
+    "commodity_prices.csv": 132,
+    "trade_volumes.csv": 165,
+    "seasonal_calendar.csv": 10,
+    "port_specifications.csv": 12,
+    "vessel_specifications.csv": 4,
+    "sailing_distances.csv": 35,
+    "port_congestion.csv": 8424,
+    "demurrage_risks.csv": 2808,
+    "currency_exchange_rates.csv": 2808,
+    "carbon_emissions.csv": 2808,
+    "model_evaluations.csv": 1500,
+    "voyage_decisions.csv": 1000
+  },
+  "features": [
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_28",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_28",
+    "rolling_std_28",
+    "momentum_7",
+    "bunker_vlsfo_price",
+    "bunker_change_7",
+    "coal_price_per_ton",
+    "avg_waiting_time_days",
+    "congestion_change_7",
+    "month_sin",
+    "month_cos",
+    "quarter"
+  ],
+  "canonical_vessel_classes": [
+    "Handysize",
+    "Supramax",
+    "Panamax",
+    "Capesize"
+  ],
+  "train_split_pct": 70,
+  "val_split_pct": 15,
+  "test_split_pct": 15,
+  "train_date_range": {
+    "start": "2021-01-01",
+    "end": "2024-06-30"
+  },
+  "test_date_range": {
+    "start": "2025-03-01",
+    "end": "2025-12-31"
+  },
+  "evaluation_metrics": {
+    "Handysize": {
+      "xgb_mae": 48.18,
+      "xgb_rmse": 60.52,
+      "sar_mae": 57.8,
+      "sar_rmse": 70.71,
+      "ensemble_mae": 47.19,
+      "ensemble_rmse": 59.53,
+      "ensemble_mape_pct": 6.28,
+      "test_samples": 192
+    },
+    "Supramax": {
+      "xgb_mae": 81.24,
+      "xgb_rmse": 101.84,
+      "sar_mae": 107.07,
+      "sar_rmse": 129.6,
+      "ensemble_mae": 79.33,
+      "ensemble_rmse": 100.58,
+      "ensemble_mape_pct": 6.19,
+      "test_samples": 192
+    },
+    "Panamax": {
+      "xgb_mae": 96.53,
+      "xgb_rmse": 123.27,
+      "sar_mae": 113.47,
+      "sar_rmse": 141.75,
+      "ensemble_mae": 92.87,
+      "ensemble_rmse": 118.74,
+      "ensemble_mape_pct": 5.66,
+      "test_samples": 192
+    },
+    "Capesize": {
+      "xgb_mae": 145.72,
+      "xgb_rmse": 192.0,
+      "sar_mae": 174.14,
+      "sar_rmse": 218.33,
+      "ensemble_mae": 142.82,
+      "ensemble_rmse": 188.52,
+      "ensemble_mape_pct": 6.05,
+      "test_samples": 192
+    }
+  },
+  "empirical_correlation": 0.538,
+  "model_status": "PRODUCTION_ACTIVE"
+}

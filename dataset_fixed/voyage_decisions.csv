@@ -1,0 +1,1001 @@
+decision_id,origin_port,destination_port,recommended_vessel_class,optimal_speed_knots,bunker_stop_port,bunker_fuel_type,bunker_qty_tons,estimated_voyage_days,total_cost_usd,projected_margin_usd
+DEC-0001,Samarinda,Gangavaram,Supramax,11.7,Rotterdam,HSFO,1195.9,30.9,908374.89,81170.42
+DEC-0002,Maputo,Paradip,Supramax,13.3,Visakhapatnam,HSFO,1055.5,26.6,1457071.64,152141.89
+DEC-0003,Newcastle,Visakhapatnam (Inner),Panamax,12.1,Visakhapatnam,HSFO,467.4,13.1,837304.0,106521.7
+DEC-0004,Maputo,Dhamra,Capesize,12.0,Visakhapatnam,VLSFO,1124.7,25.0,978531.36,156040.76
+DEC-0005,Samarinda,Gopalpur,Panamax,12.3,Visakhapatnam,LSMGO,926.9,14.8,2012519.04,409463.55
+DEC-0006,Maputo,Visakhapatnam (Outer),Supramax,12.2,Fujairah,LSMGO,962.3,23.3,2145125.18,370551.54
+DEC-0007,Samarinda,Visakhapatnam (Inner),Supramax,13.7,Fujairah,HSFO,900.1,20.1,572437.01,124507.87
+DEC-0008,Newcastle,Visakhapatnam (Inner),Panamax,11.5,Rotterdam,LSMGO,1042.7,26.7,965556.31,147228.35
+DEC-0009,Norfolk,Dhamra,Capesize,13.6,Singapore,VLSFO,612.6,20.2,1300706.43,114730.72
+DEC-0010,Samarinda,Paradip,Supramax,12.7,Fujairah,LSMGO,879.3,30.2,480016.52,101745.44
+DEC-0011,Newcastle,Gangavaram,Capesize,12.0,Visakhapatnam,VLSFO,705.0,22.6,1707148.99,309990.18
+DEC-0012,Richards Bay,Gangavaram,Panamax,11.8,Fujairah,VLSFO,868.9,13.1,1548244.05,200883.71
+DEC-0013,Richards Bay,Visakhapatnam (Inner),Supramax,12.1,Rotterdam,HSFO,408.6,26.9,1139513.89,200240.3
+DEC-0014,Samarinda,Dhamra,Capesize,12.4,Visakhapatnam,HSFO,751.7,12.1,1442671.02,230240.75
+DEC-0015,Newcastle,Paradip,Panamax,12.6,Rotterdam,VLSFO,1151.1,12.2,521774.02,49660.15
+DEC-0016,Samarinda,Haldia,Supramax,12.2,Singapore,HSFO,814.1,31.6,824400.22,145136.4
+DEC-0017,Newcastle,Dhamra,Panamax,11.6,Visakhapatnam,VLSFO,1123.6,9.9,1886473.19,336414.39
+DEC-0018,Norfolk,Gopalpur,Supramax,12.9,Rotterdam,LSMGO,425.1,12.0,1588678.15,187012.37
+DEC-0019,Norfolk,Paradip,Panamax,14.0,Fujairah,HSFO,809.2,23.6,1861870.33,353321.39
+DEC-0020,Newcastle,Haldia,Handysize,13.6,Visakhapatnam,VLSFO,1198.5,29.8,938972.66,85140.78
+DEC-0021,Samarinda,Paradip,Panamax,13.9,Singapore,LSMGO,746.0,10.4,1311135.33,192613.49
+DEC-0022,Richards Bay,Visakhapatnam (Outer),Handysize,13.6,Visakhapatnam,VLSFO,1147.2,17.5,703383.12,120348.79
+DEC-0023,Norfolk,Gopalpur,Handysize,12.7,Fujairah,LSMGO,987.2,17.6,791932.96,105736.21
+DEC-0024,Maputo,Gopalpur,Panamax,13.3,Singapore,LSMGO,823.2,10.6,1785312.78,333532.37
+DEC-0025,Newcastle,Visakhapatnam (Outer),Panamax,13.9,Fujairah,HSFO,469.0,20.3,2024130.04,441476.84
+DEC-0026,Maputo,Dhamra,Capesize,12.8,Rotterdam,VLSFO,1021.5,12.4,1524273.63,166514.31
+DEC-0027,Norfolk,Haldia,Handysize,11.8,Rotterdam,VLSFO,895.3,28.0,1559010.48,307126.98
+DEC-0028,Norfolk,Gopalpur,Handysize,13.8,Visakhapatnam,VLSFO,994.4,11.5,1561402.73,233813.68
+DEC-0029,Richards Bay,Haldia,Handysize,12.2,Rotterdam,VLSFO,1060.3,21.4,805629.88,116029.38
+DEC-0030,Maputo,Haldia,Supramax,13.9,Fujairah,VLSFO,760.6,26.5,1160811.31,236917.32
+DEC-0031,Richards Bay,Paradip,Panamax,13.8,Rotterdam,VLSFO,820.3,12.9,1835458.49,222316.77
+DEC-0032,Maputo,Visakhapatnam (Outer),Panamax,12.1,Fujairah,HSFO,1161.1,19.4,1519880.66,279007.38
+DEC-0033,Maputo,Gangavaram,Handysize,12.3,Visakhapatnam,LSMGO,666.5,13.8,1657470.01,336688.63
+DEC-0034,Newcastle,Visakhapatnam (Inner),Panamax,12.2,Singapore,VLSFO,429.0,28.2,652843.98,103834.31
+DEC-0035,Samarinda,Gangavaram,Supramax,13.9,Rotterdam,LSMGO,416.3,23.3,790896.46,156890.98
+DEC-0036,Norfolk,Paradip,Handysize,11.5,Rotterdam,LSMGO,727.6,9.0,1179633.35,223592.18
+DEC-0037,Newcastle,Dhamra,Supramax,13.8,Rotterdam,LSMGO,777.8,24.9,1486821.12,125892.56
+DEC-0038,Maputo,Gopalpur,Panamax,12.5,Singapore,HSFO,582.4,15.7,1492239.55,241006.13
+DEC-0039,Maputo,Haldia,Supramax,12.1,Singapore,VLSFO,557.0,23.6,977636.16,171736.06
+DEC-0040,Newcastle,Gangavaram,Supramax,12.7,Visakhapatnam,LSMGO,807.8,21.8,987539.19,189914.87
+DEC-0041,Maputo,Dhamra,Panamax,13.9,Rotterdam,LSMGO,460.3,14.1,550418.24,87338.21
+DEC-0042,Richards Bay,Visakhapatnam (Inner),Panamax,12.3,Visakhapatnam,HSFO,495.9,16.4,1228115.05,206945.0
+DEC-0043,Maputo,Paradip,Panamax,13.4,Rotterdam,HSFO,991.3,24.2,1885578.73,333061.68
+DEC-0044,Richards Bay,Gopalpur,Supramax,13.9,Visakhapatnam,HSFO,953.1,18.8,1314306.61,259058.53
+DEC-0045,Norfolk,Gangavaram,Panamax,13.6,Singapore,HSFO,1088.7,19.6,1494350.84,267926.5
+DEC-0046,Newcastle,Gopalpur,Handysize,12.9,Visakhapatnam,VLSFO,512.1,29.5,521150.01,87066.96
+DEC-0047,Richards Bay,Gangavaram,Supramax,12.8,Fujairah,HSFO,553.1,8.6,1136708.73,235668.78
+DEC-0048,Maputo,Gopalpur,Capesize,13.1,Rotterdam,HSFO,970.7,12.2,710872.63,133715.67
+DEC-0049,Norfolk,Visakhapatnam (Inner),Panamax,12.3,Rotterdam,VLSFO,561.0,31.5,2039196.44,207989.86
+DEC-0050,Richards Bay,Paradip,Handysize,12.0,Rotterdam,LSMGO,1020.5,30.8,1914586.81,279390.48
+DEC-0051,Maputo,Gopalpur,Capesize,11.5,Visakhapatnam,LSMGO,621.4,23.7,1181210.71,177551.29
+DEC-0052,Norfolk,Paradip,Supramax,12.7,Singapore,LSMGO,989.9,26.0,1938052.17,264849.57
+DEC-0053,Maputo,Gopalpur,Capesize,13.1,Rotterdam,LSMGO,830.1,11.5,1430687.84,192008.8
+DEC-0054,Maputo,Haldia,Handysize,13.7,Singapore,LSMGO,500.8,21.8,1583609.42,348007.93
+DEC-0055,Samarinda,Paradip,Capesize,14.0,Singapore,HSFO,873.6,15.4,1092767.8,131019.4
+DEC-0056,Maputo,Paradip,Capesize,13.3,Singapore,LSMGO,724.6,17.0,1629821.24,154546.99
+DEC-0057,Norfolk,Visakhapatnam (Outer),Panamax,13.5,Visakhapatnam,HSFO,484.9,19.7,1347749.42,128240.97
+DEC-0058,Samarinda,Dhamra,Handysize,13.0,Rotterdam,LSMGO,789.2,22.2,1291575.74,185815.43
+DEC-0059,Norfolk,Haldia,Supramax,11.5,Singapore,HSFO,657.9,11.5,570098.84,104103.68
+DEC-0060,Maputo,Dhamra,Capesize,13.9,Visakhapatnam,LSMGO,1198.2,11.7,1013221.53,133543.75
+DEC-0061,Newcastle,Visakhapatnam (Inner),Supramax,12.2,Singapore,VLSFO,466.7,14.8,2111411.32,212626.72
+DEC-0062,Newcastle,Haldia,Handysize,12.4,Rotterdam,HSFO,1012.5,23.2,1499613.37,189124.42
+DEC-0063,Samarinda,Gangavaram,Capesize,13.6,Visakhapatnam,HSFO,959.2,26.8,717727.19,95461.4
+DEC-0064,Newcastle,Visakhapatnam (Inner),Supramax,12.1,Fujairah,LSMGO,652.0,30.3,1034622.29,193805.16
+DEC-0065,Newcastle,Paradip,Handysize,13.6,Fujairah,LSMGO,556.6,10.9,789820.53,149241.14
+DEC-0066,Newcastle,Visakhapatnam (Outer),Handysize,13.9,Rotterdam,HSFO,861.2,23.4,1094402.24,240560.37
+DEC-0067,Norfolk,Haldia,Panamax,12.0,Fujairah,LSMGO,953.7,31.1,1567826.31,264083.53
+DEC-0068,Richards Bay,Dhamra,Capesize,11.8,Rotterdam,LSMGO,1193.1,18.8,975972.62,187142.71
+DEC-0069,Maputo,Haldia,Handysize,12.2,Fujairah,VLSFO,891.0,13.3,917775.35,74614.52
+DEC-0070,Norfolk,Haldia,Panamax,13.6,Visakhapatnam,VLSFO,701.8,21.0,1177007.98,231283.86
+DEC-0071,Norfolk,Gangavaram,Supramax,13.6,Singapore,VLSFO,930.3,20.7,849176.83,173991.17
+DEC-0072,Richards Bay,Dhamra,Panamax,11.7,Singapore,HSFO,764.9,9.3,1753935.18,249376.4
+DEC-0073,Newcastle,Gopalpur,Panamax,11.7,Visakhapatnam,HSFO,1024.7,10.8,914558.6,150749.33
+DEC-0074,Newcastle,Gopalpur,Panamax,12.9,Singapore,HSFO,727.9,18.5,680989.69,70387.01
+DEC-0075,Richards Bay,Haldia,Handysize,13.3,Fujairah,VLSFO,1036.9,17.0,2154862.49,307026.86
+DEC-0076,Samarinda,Gopalpur,Capesize,13.1,Visakhapatnam,LSMGO,947.5,23.4,958730.06,166510.29
+DEC-0077,Richards Bay,Gangavaram,Capesize,12.6,Fujairah,VLSFO,936.7,23.2,1404570.74,143352.73
+DEC-0078,Maputo,Visakhapatnam (Outer),Panamax,11.8,Visakhapatnam,HSFO,897.8,15.2,1457113.41,178781.46
+DEC-0079,Richards Bay,Visakhapatnam (Outer),Handysize,13.4,Visakhapatnam,HSFO,945.5,12.0,1043446.42,93535.99
+DEC-0080,Maputo,Visakhapatnam (Inner),Supramax,12.3,Visakhapatnam,HSFO,956.8,10.6,1158048.97,167833.54
+DEC-0081,Norfolk,Visakhapatnam (Outer),Panamax,13.2,Rotterdam,HSFO,1168.4,17.1,1664231.7,331715.89
+DEC-0082,Maputo,Dhamra,Capesize,12.6,Singapore,HSFO,805.9,10.3,2150795.44,372913.4
+DEC-0083,Samarinda,Paradip,Capesize,13.5,Visakhapatnam,VLSFO,956.3,13.7,1939773.55,176428.6
+DEC-0084,Norfolk,Visakhapatnam (Inner),Handysize,13.5,Rotterdam,VLSFO,501.6,26.9,1671321.39,328147.95
+DEC-0085,Richards Bay,Paradip,Handysize,13.9,Rotterdam,HSFO,938.7,17.0,1007608.52,168101.36
+DEC-0086,Newcastle,Gangavaram,Handysize,13.5,Visakhapatnam,HSFO,906.8,13.1,2070755.31,269255.79
+DEC-0087,Newcastle,Haldia,Handysize,13.6,Rotterdam,LSMGO,656.1,14.1,1567181.63,256637.26
+DEC-0088,Newcastle,Haldia,Panamax,13.8,Rotterdam,HSFO,540.3,24.8,496264.53,69317.06
+DEC-0089,Samarinda,Haldia,Handysize,12.3,Singapore,VLSFO,1124.4,26.2,1674325.83,279571.9
+DEC-0090,Newcastle,Visakhapatnam (Inner),Supramax,13.2,Singapore,LSMGO,867.3,20.8,1404376.57,151126.09
+DEC-0091,Samarinda,Paradip,Panamax,13.2,Rotterdam,LSMGO,992.9,27.9,547307.4,120230.23
+DEC-0092,Richards Bay,Gangavaram,Handysize,13.6,Fujairah,VLSFO,1105.7,29.5,1725529.58,280627.67
+DEC-0093,Maputo,Visakhapatnam (Inner),Panamax,11.6,Rotterdam,HSFO,1163.6,13.1,1070691.33,185524.16
+DEC-0094,Newcastle,Gopalpur,Capesize,13.2,Rotterdam,LSMGO,964.0,9.8,1181621.84,238409.05
+DEC-0095,Maputo,Visakhapatnam (Inner),Handysize,12.5,Singapore,HSFO,978.0,8.7,1676609.25,162712.92
+DEC-0096,Samarinda,Dhamra,Panamax,13.9,Fujairah,HSFO,857.3,19.4,2073318.44,419228.32
+DEC-0097,Maputo,Dhamra,Panamax,13.9,Visakhapatnam,HSFO,876.4,19.9,1021026.14,173769.2
+DEC-0098,Richards Bay,Haldia,Supramax,11.6,Visakhapatnam,LSMGO,429.6,22.2,1943006.59,304805.78
+DEC-0099,Samarinda,Paradip,Handysize,13.4,Singapore,HSFO,457.5,13.0,1600737.59,346719.62
+DEC-0100,Newcastle,Gopalpur,Panamax,13.4,Visakhapatnam,VLSFO,751.2,12.4,762420.66,102545.02
+DEC-0101,Maputo,Paradip,Panamax,12.9,Fujairah,HSFO,999.5,14.4,2132564.06,357978.89
+DEC-0102,Richards Bay,Dhamra,Panamax,12.7,Singapore,VLSFO,1191.6,27.5,2153282.36,219465.89
+DEC-0103,Samarinda,Haldia,Handysize,12.2,Visakhapatnam,LSMGO,577.2,22.8,490984.23,79885.42
+DEC-0104,Richards Bay,Gopalpur,Capesize,13.3,Singapore,VLSFO,635.8,14.2,2199920.26,229652.21
+DEC-0105,Samarinda,Gangavaram,Handysize,12.2,Singapore,VLSFO,748.2,11.9,994890.32,206807.99
+DEC-0106,Richards Bay,Dhamra,Supramax,12.8,Singapore,LSMGO,676.4,25.2,665414.26,131734.29
+DEC-0107,Norfolk,Gangavaram,Capesize,12.4,Fujairah,HSFO,1064.3,15.2,1949076.67,407771.88
+DEC-0108,Samarinda,Dhamra,Capesize,13.3,Fujairah,VLSFO,883.0,8.6,1564867.24,311785.64
+DEC-0109,Newcastle,Paradip,Panamax,13.1,Singapore,VLSFO,775.2,14.9,642773.76,96501.62
+DEC-0110,Newcastle,Haldia,Panamax,12.7,Singapore,HSFO,1199.2,30.6,2143671.37,327333.57
+DEC-0111,Richards Bay,Gangavaram,Supramax,11.7,Singapore,HSFO,558.2,8.6,794781.89,171230.95
+DEC-0112,Samarinda,Dhamra,Handysize,11.5,Rotterdam,HSFO,648.9,18.4,1484291.11,206911.22
+DEC-0113,Samarinda,Paradip,Panamax,13.7,Visakhapatnam,LSMGO,1049.4,8.6,1381087.4,127280.43
+DEC-0114,Norfolk,Dhamra,Handysize,12.5,Visakhapatnam,VLSFO,615.9,28.5,2153465.62,368435.84
+DEC-0115,Maputo,Visakhapatnam (Outer),Supramax,12.0,Visakhapatnam,HSFO,951.6,18.6,515556.73,93354.7
+DEC-0116,Richards Bay,Haldia,Supramax,12.0,Fujairah,VLSFO,906.3,30.6,1155161.08,119042.32
+DEC-0117,Maputo,Gopalpur,Panamax,13.0,Rotterdam,VLSFO,643.9,17.7,1587984.06,208350.73
+DEC-0118,Richards Bay,Paradip,Handysize,13.2,Singapore,HSFO,1129.7,15.0,1145069.23,162434.79
+DEC-0119,Maputo,Visakhapatnam (Inner),Handysize,12.8,Visakhapatnam,LSMGO,629.2,29.4,700054.0,148594.9
+DEC-0120,Norfolk,Dhamra,Panamax,13.9,Visakhapatnam,VLSFO,1107.4,19.6,1346992.58,220638.25
+DEC-0121,Norfolk,Haldia,Supramax,12.2,Visakhapatnam,HSFO,850.9,29.1,1000827.55,193327.86
+DEC-0122,Newcastle,Paradip,Handysize,12.7,Fujairah,VLSFO,537.6,18.6,1269755.79,255048.91
+DEC-0123,Norfolk,Gopalpur,Panamax,13.9,Visakhapatnam,LSMGO,577.6,9.2,840728.97,88703.53
+DEC-0124,Richards Bay,Paradip,Capesize,12.0,Singapore,LSMGO,1187.9,13.5,1556894.72,251467.47
+DEC-0125,Maputo,Dhamra,Supramax,13.2,Fujairah,VLSFO,425.9,27.2,785887.76,65014.52
+DEC-0126,Norfolk,Gopalpur,Handysize,12.7,Fujairah,LSMGO,1030.0,29.1,1355034.05,195053.17
+DEC-0127,Richards Bay,Gopalpur,Panamax,13.1,Visakhapatnam,HSFO,1186.5,14.1,1352021.91,206040.87
+DEC-0128,Richards Bay,Gopalpur,Panamax,12.3,Fujairah,VLSFO,985.3,24.2,1604905.89,170085.35
+DEC-0129,Samarinda,Haldia,Panamax,12.6,Fujairah,HSFO,922.3,13.1,1172320.01,213676.47
+DEC-0130,Richards Bay,Paradip,Handysize,13.7,Fujairah,VLSFO,1103.3,14.6,540844.42,82356.52
+DEC-0131,Samarinda,Paradip,Supramax,12.3,Rotterdam,HSFO,402.3,10.7,452650.82,80304.19
+DEC-0132,Samarinda,Visakhapatnam (Inner),Supramax,13.3,Visakhapatnam,HSFO,400.7,26.3,863844.88,184149.89
+DEC-0133,Newcastle,Dhamra,Handysize,12.5,Rotterdam,LSMGO,882.3,9.5,1838982.35,355747.66
+DEC-0134,Maputo,Dhamra,Capesize,12.2,Visakhapatnam,VLSFO,702.7,31.6,1991697.72,388871.47
+DEC-0135,Richards Bay,Haldia,Supramax,12.1,Rotterdam,HSFO,559.2,25.9,1032038.28,84803.39
+DEC-0136,Maputo,Paradip,Supramax,12.6,Visakhapatnam,HSFO,1119.5,30.3,538260.58,48649.7
+DEC-0137,Maputo,Haldia,Supramax,13.5,Visakhapatnam,VLSFO,490.5,15.6,1270829.9,128704.17
+DEC-0138,Norfolk,Gangavaram,Panamax,12.2,Rotterdam,LSMGO,844.4,30.8,1594333.75,146306.08
+DEC-0139,Richards Bay,Dhamra,Supramax,13.4,Visakhapatnam,VLSFO,773.6,19.6,1782242.89,329031.72
+DEC-0140,Maputo,Gangavaram,Panamax,11.6,Visakhapatnam,LSMGO,1110.0,21.5,1194921.1,104976.95
+DEC-0141,Richards Bay,Dhamra,Panamax,11.6,Visakhapatnam,LSMGO,853.1,24.6,1427582.3,264689.25
+DEC-0142,Samarinda,Gopalpur,Supramax,12.1,Singapore,HSFO,922.5,14.0,689508.6,92838.68
+DEC-0143,Richards Bay,Visakhapatnam (Inner),Panamax,13.7,Rotterdam,LSMGO,1198.6,14.9,1189679.28,180671.26
+DEC-0144,Newcastle,Gangavaram,Capesize,12.8,Singapore,LSMGO,737.3,22.3,1045272.41,159945.31
+DEC-0145,Norfolk,Gopalpur,Capesize,13.0,Singapore,HSFO,1067.9,25.0,1943165.63,318297.69
+DEC-0146,Richards Bay,Gopalpur,Capesize,12.6,Fujairah,LSMGO,419.5,9.4,2092838.77,235930.34
+DEC-0147,Norfolk,Visakhapatnam (Inner),Handysize,12.3,Rotterdam,HSFO,1151.3,13.9,2011431.26,368292.5
+DEC-0148,Norfolk,Haldia,Supramax,13.3,Rotterdam,VLSFO,916.0,19.7,1885171.71,220030.85
+DEC-0149,Newcastle,Haldia,Panamax,12.7,Rotterdam,HSFO,689.6,31.5,1922920.22,321879.92
+DEC-0150,Samarinda,Dhamra,Capesize,11.6,Visakhapatnam,VLSFO,1186.6,27.9,735981.89,97740.76
+DEC-0151,Samarinda,Haldia,Supramax,13.1,Singapore,VLSFO,944.4,24.9,1502009.59,202730.22
+DEC-0152,Newcastle,Gangavaram,Handysize,13.3,Rotterdam,LSMGO,996.2,22.3,1112734.33,119349.93
+DEC-0153,Richards Bay,Visakhapatnam (Outer),Handysize,13.7,Visakhapatnam,LSMGO,1059.6,13.2,943567.15,127503.43
+DEC-0154,Norfolk,Gopalpur,Panamax,12.8,Fujairah,HSFO,1020.9,14.8,621134.92,103823.02
+DEC-0155,Norfolk,Haldia,Handysize,14.0,Visakhapatnam,VLSFO,1049.9,18.1,995521.27,216490.58
+DEC-0156,Samarinda,Gangavaram,Capesize,13.7,Visakhapatnam,LSMGO,797.6,14.1,1539734.84,303027.45
+DEC-0157,Norfolk,Gangavaram,Panamax,13.3,Visakhapatnam,HSFO,706.1,23.8,639068.71,78819.4
+DEC-0158,Norfolk,Gopalpur,Panamax,13.1,Rotterdam,LSMGO,435.5,11.6,1203389.5,167951.59
+DEC-0159,Maputo,Haldia,Handysize,12.6,Fujairah,HSFO,716.1,15.4,581989.0,115462.27
+DEC-0160,Maputo,Paradip,Panamax,11.7,Visakhapatnam,VLSFO,495.5,21.4,1522778.37,254506.32
+DEC-0161,Richards Bay,Haldia,Handysize,12.8,Fujairah,VLSFO,1091.3,14.7,1731568.49,142081.14
+DEC-0162,Newcastle,Haldia,Handysize,11.8,Rotterdam,HSFO,1088.2,13.6,807921.38,94430.39
+DEC-0163,Maputo,Dhamra,Capesize,13.8,Singapore,HSFO,553.5,20.0,1411564.98,230800.01
+DEC-0164,Richards Bay,Visakhapatnam (Outer),Capesize,13.7,Rotterdam,VLSFO,835.8,17.6,1052350.97,131864.35
+DEC-0165,Newcastle,Visakhapatnam (Outer),Supramax,12.2,Fujairah,VLSFO,493.9,10.4,1242604.17,136234.9
+DEC-0166,Newcastle,Paradip,Supramax,13.6,Singapore,HSFO,941.0,23.9,1787439.54,392560.25
+DEC-0167,Samarinda,Visakhapatnam (Inner),Supramax,12.6,Rotterdam,HSFO,659.7,27.1,1730167.34,220464.05
+DEC-0168,Norfolk,Haldia,Handysize,13.9,Visakhapatnam,VLSFO,1179.8,11.8,1788914.01,314844.07
+DEC-0169,Newcastle,Haldia,Panamax,13.8,Fujairah,HSFO,1113.7,17.9,1903852.29,279516.87
+DEC-0170,Richards Bay,Gangavaram,Panamax,13.1,Singapore,VLSFO,859.8,16.5,978892.63,163967.31
+DEC-0171,Maputo,Gopalpur,Handysize,13.0,Visakhapatnam,HSFO,503.2,29.7,1775731.61,390617.62
+DEC-0172,Maputo,Visakhapatnam (Inner),Handysize,11.7,Fujairah,LSMGO,1151.6,8.6,1120629.0,217955.15
+DEC-0173,Richards Bay,Gopalpur,Panamax,12.4,Visakhapatnam,LSMGO,634.5,29.6,518272.18,75352.33
+DEC-0174,Newcastle,Paradip,Capesize,11.8,Rotterdam,LSMGO,884.8,11.9,1593590.43,320883.44
+DEC-0175,Maputo,Visakhapatnam (Inner),Handysize,12.6,Rotterdam,LSMGO,1194.4,25.0,1727972.63,364132.53
+DEC-0176,Richards Bay,Paradip,Capesize,13.4,Singapore,LSMGO,501.5,12.8,2068036.14,357258.34
+DEC-0177,Norfolk,Gopalpur,Panamax,13.6,Fujairah,LSMGO,912.5,14.0,1324818.14,205023.37
+DEC-0178,Newcastle,Gopalpur,Panamax,12.1,Rotterdam,LSMGO,713.7,29.0,648561.98,120124.23
+DEC-0179,Richards Bay,Paradip,Capesize,12.6,Fujairah,LSMGO,499.5,14.0,737762.53,63057.59
+DEC-0180,Samarinda,Gangavaram,Supramax,11.9,Visakhapatnam,LSMGO,545.0,20.5,1400648.31,239111.96
+DEC-0181,Norfolk,Dhamra,Handysize,12.5,Visakhapatnam,HSFO,1091.6,23.5,728943.54,63649.76
+DEC-0182,Samarinda,Gangavaram,Supramax,13.6,Singapore,VLSFO,419.9,24.5,607185.13,60310.05
+DEC-0183,Samarinda,Paradip,Supramax,13.6,Singapore,VLSFO,600.1,19.4,1117029.46,230945.35
+DEC-0184,Newcastle,Paradip,Capesize,13.3,Rotterdam,LSMGO,500.3,30.7,824999.94,70618.34
+DEC-0185,Norfolk,Gangavaram,Capesize,13.8,Singapore,LSMGO,1003.2,14.5,750677.56,131232.05
+DEC-0186,Norfolk,Haldia,Panamax,13.4,Rotterdam,LSMGO,716.7,17.9,1342486.39,225798.54
+DEC-0187,Richards Bay,Visakhapatnam (Inner),Panamax,12.1,Singapore,VLSFO,1124.3,9.1,725152.04,99007.0
+DEC-0188,Newcastle,Haldia,Handysize,13.7,Rotterdam,VLSFO,604.8,15.8,1058966.01,140913.24
+DEC-0189,Richards Bay,Visakhapatnam (Outer),Panamax,12.1,Fujairah,HSFO,996.2,10.8,1515129.39,276129.19
+DEC-0190,Richards Bay,Paradip,Panamax,13.8,Singapore,HSFO,449.2,8.6,961695.31,167678.05
+DEC-0191,Richards Bay,Gangavaram,Handysize,13.4,Rotterdam,VLSFO,798.1,16.8,636004.0,75742.92
+DEC-0192,Maputo,Visakhapatnam (Inner),Panamax,13.1,Fujairah,VLSFO,548.9,17.9,1345705.47,294096.57
+DEC-0193,Richards Bay,Dhamra,Handysize,13.0,Rotterdam,LSMGO,998.6,9.4,889285.1,74985.14
+DEC-0194,Norfolk,Paradip,Supramax,13.5,Visakhapatnam,HSFO,552.1,15.5,1643281.63,234641.37
+DEC-0195,Samarinda,Haldia,Panamax,11.6,Singapore,LSMGO,762.5,23.5,588550.35,100756.33
+DEC-0196,Newcastle,Haldia,Handysize,13.9,Fujairah,LSMGO,710.6,22.3,1692164.17,226717.32
+DEC-0197,Samarinda,Haldia,Handysize,13.2,Singapore,HSFO,972.8,15.3,1574134.88,148819.42
+DEC-0198,Richards Bay,Paradip,Handysize,13.6,Singapore,LSMGO,512.3,29.8,1756911.4,361810.67
+DEC-0199,Norfolk,Gangavaram,Handysize,12.4,Fujairah,LSMGO,508.2,11.4,1045244.13,145875.95
+DEC-0200,Richards Bay,Dhamra,Panamax,12.6,Singapore,VLSFO,570.7,26.2,1217006.91,252451.34
+DEC-0201,Newcastle,Haldia,Panamax,13.1,Rotterdam,LSMGO,1074.2,22.4,1243283.76,247257.94
+DEC-0202,Norfolk,Paradip,Handysize,13.2,Rotterdam,HSFO,678.8,23.9,905197.78,120371.7
+DEC-0203,Norfolk,Haldia,Supramax,13.2,Visakhapatnam,LSMGO,1049.8,19.9,2055323.18,338964.49
+DEC-0204,Newcastle,Gangavaram,Handysize,14.0,Rotterdam,VLSFO,1132.0,14.1,1083144.93,216801.94
+DEC-0205,Maputo,Haldia,Handysize,11.8,Singapore,VLSFO,830.4,13.4,1384621.75,269646.23
+DEC-0206,Newcastle,Paradip,Handysize,12.9,Rotterdam,VLSFO,438.0,9.6,1868843.02,300511.84
+DEC-0207,Maputo,Dhamra,Panamax,11.6,Singapore,HSFO,735.3,12.8,1353903.37,221166.24
+DEC-0208,Newcastle,Visakhapatnam (Outer),Supramax,12.6,Singapore,LSMGO,981.9,29.1,734395.89,134545.81
+DEC-0209,Maputo,Paradip,Capesize,13.9,Singapore,HSFO,842.6,10.0,1111382.4,91949.86
+DEC-0210,Norfolk,Visakhapatnam (Inner),Handysize,13.8,Visakhapatnam,LSMGO,1159.5,13.2,1380065.66,154857.17
+DEC-0211,Newcastle,Paradip,Capesize,13.5,Visakhapatnam,VLSFO,949.7,10.6,1063059.08,231168.92
+DEC-0212,Richards Bay,Dhamra,Panamax,13.3,Singapore,VLSFO,653.7,14.2,1849001.53,161685.01
+DEC-0213,Newcastle,Visakhapatnam (Outer),Supramax,13.7,Fujairah,HSFO,853.3,18.1,456563.16,62937.71
+DEC-0214,Samarinda,Gopalpur,Handysize,13.1,Rotterdam,VLSFO,663.4,31.6,624873.17,66790.61
+DEC-0215,Samarinda,Dhamra,Handysize,12.3,Singapore,LSMGO,846.3,28.6,1249171.72,258594.03
+DEC-0216,Richards Bay,Gangavaram,Panamax,11.6,Fujairah,LSMGO,642.6,21.7,631752.09,93378.79
+DEC-0217,Richards Bay,Gopalpur,Handysize,12.8,Rotterdam,VLSFO,669.2,21.0,1618388.37,200985.32
+DEC-0218,Newcastle,Haldia,Supramax,13.2,Visakhapatnam,HSFO,934.3,12.1,571205.94,87688.51
+DEC-0219,Samarinda,Visakhapatnam (Inner),Supramax,12.0,Singapore,VLSFO,1095.3,24.2,560387.17,46907.49
+DEC-0220,Maputo,Haldia,Supramax,13.0,Rotterdam,LSMGO,1133.4,24.9,570554.04,56176.67
+DEC-0221,Maputo,Dhamra,Supramax,13.6,Visakhapatnam,VLSFO,808.9,19.1,637117.36,139010.72
+DEC-0222,Samarinda,Dhamra,Handysize,11.6,Singapore,HSFO,417.8,26.9,1700743.77,341551.02
+DEC-0223,Newcastle,Visakhapatnam (Outer),Handysize,13.2,Fujairah,VLSFO,695.0,16.5,1071708.19,180901.63
+DEC-0224,Richards Bay,Gopalpur,Capesize,12.5,Fujairah,LSMGO,430.5,27.6,774199.71,64670.91
+DEC-0225,Norfolk,Gangavaram,Capesize,13.3,Fujairah,LSMGO,581.9,29.6,2126554.83,274388.45
+DEC-0226,Maputo,Gopalpur,Handysize,13.2,Visakhapatnam,VLSFO,896.6,18.5,642268.3,106296.02
+DEC-0227,Newcastle,Visakhapatnam (Outer),Capesize,11.8,Fujairah,LSMGO,456.8,21.6,1520367.12,234768.56
+DEC-0228,Samarinda,Gopalpur,Capesize,13.6,Singapore,VLSFO,1036.6,15.6,1755339.28,174967.1
+DEC-0229,Newcastle,Haldia,Supramax,13.7,Visakhapatnam,VLSFO,775.8,8.4,1431719.98,164014.79
+DEC-0230,Samarinda,Visakhapatnam (Outer),Handysize,13.2,Rotterdam,VLSFO,781.7,28.7,1002806.09,202433.99
+DEC-0231,Samarinda,Paradip,Capesize,12.9,Rotterdam,LSMGO,720.2,19.8,1267278.96,243291.61
+DEC-0232,Norfolk,Visakhapatnam (Outer),Supramax,13.0,Singapore,HSFO,1101.4,15.7,1309000.15,257887.56
+DEC-0233,Newcastle,Gopalpur,Supramax,13.5,Singapore,VLSFO,809.5,23.4,2146839.1,280539.02
+DEC-0234,Newcastle,Gopalpur,Handysize,13.8,Singapore,VLSFO,422.2,19.8,1010703.76,208818.72
+DEC-0235,Richards Bay,Gangavaram,Supramax,12.1,Singapore,VLSFO,448.6,8.1,1894049.56,278520.46
+DEC-0236,Richards Bay,Visakhapatnam (Outer),Panamax,13.5,Rotterdam,LSMGO,925.0,23.5,1401556.8,209714.18
+DEC-0237,Maputo,Visakhapatnam (Inner),Supramax,11.6,Rotterdam,VLSFO,763.9,22.7,1590889.13,209861.56
+DEC-0238,Richards Bay,Dhamra,Panamax,12.4,Singapore,HSFO,1088.1,31.9,736220.69,109698.6
+DEC-0239,Maputo,Visakhapatnam (Outer),Capesize,12.4,Fujairah,LSMGO,417.2,10.1,1262068.88,236974.18
+DEC-0240,Samarinda,Visakhapatnam (Inner),Handysize,13.3,Visakhapatnam,LSMGO,945.2,24.2,531218.41,104372.95
+DEC-0241,Norfolk,Visakhapatnam (Inner),Supramax,11.6,Fujairah,VLSFO,1181.4,25.1,1883013.56,271297.93
+DEC-0242,Richards Bay,Paradip,Handysize,12.7,Fujairah,LSMGO,823.6,8.8,786715.02,142645.1
+DEC-0243,Newcastle,Visakhapatnam (Outer),Supramax,13.4,Fujairah,HSFO,948.8,26.5,1391681.97,216408.44
+DEC-0244,Samarinda,Paradip,Handysize,13.3,Singapore,VLSFO,583.6,26.8,903452.9,182270.6
+DEC-0245,Newcastle,Visakhapatnam (Outer),Capesize,13.0,Singapore,LSMGO,698.2,21.7,1672761.17,328103.38
+DEC-0246,Newcastle,Visakhapatnam (Outer),Panamax,12.2,Visakhapatnam,LSMGO,415.0,31.4,500935.43,83038.86
+DEC-0247,Maputo,Haldia,Supramax,11.6,Fujairah,HSFO,527.2,26.6,883659.66,96235.52
+DEC-0248,Norfolk,Haldia,Supramax,13.8,Fujairah,LSMGO,722.1,22.3,1278758.02,210783.06
+DEC-0249,Samarinda,Gopalpur,Capesize,13.2,Singapore,HSFO,775.2,19.6,532668.31,58486.95
+DEC-0250,Newcastle,Haldia,Panamax,13.1,Visakhapatnam,VLSFO,408.6,19.5,2016250.23,264119.93
+DEC-0251,Richards Bay,Gangavaram,Supramax,13.7,Rotterdam,HSFO,1096.6,22.2,1116556.68,222246.16
+DEC-0252,Norfolk,Dhamra,Handysize,13.9,Visakhapatnam,LSMGO,1043.5,24.0,1300624.25,108312.59
+DEC-0253,Richards Bay,Haldia,Supramax,12.7,Fujairah,HSFO,1154.2,28.3,1744384.45,143230.56
+DEC-0254,Samarinda,Visakhapatnam (Inner),Handysize,11.6,Singapore,LSMGO,602.9,17.1,643021.25,70718.06
+DEC-0255,Newcastle,Visakhapatnam (Outer),Panamax,13.1,Fujairah,LSMGO,1135.0,12.8,1254681.85,170207.72
+DEC-0256,Samarinda,Visakhapatnam (Outer),Supramax,13.4,Visakhapatnam,HSFO,863.9,18.7,883158.71,75729.49
+DEC-0257,Samarinda,Visakhapatnam (Inner),Supramax,11.7,Fujairah,LSMGO,1128.8,9.5,1766954.16,218238.75
+DEC-0258,Samarinda,Gopalpur,Supramax,11.7,Rotterdam,HSFO,1118.1,11.8,1672291.39,285706.65
+DEC-0259,Norfolk,Gangavaram,Handysize,11.9,Fujairah,LSMGO,981.6,12.3,580663.88,61751.93
+DEC-0260,Maputo,Paradip,Capesize,12.3,Visakhapatnam,HSFO,568.4,13.9,1327227.48,211465.5
+DEC-0261,Newcastle,Haldia,Supramax,13.7,Fujairah,VLSFO,802.0,8.7,2032928.86,281211.23
+DEC-0262,Norfolk,Gangavaram,Panamax,12.3,Rotterdam,LSMGO,1036.9,23.9,2189634.78,398589.56
+DEC-0263,Richards Bay,Visakhapatnam (Outer),Capesize,12.4,Rotterdam,VLSFO,993.4,28.1,1274110.83,187771.06
+DEC-0264,Newcastle,Paradip,Supramax,12.5,Fujairah,HSFO,557.6,25.0,1435787.44,187563.17
+DEC-0265,Richards Bay,Dhamra,Capesize,12.3,Singapore,HSFO,1084.2,9.2,1502721.23,145395.68
+DEC-0266,Maputo,Gangavaram,Panamax,12.5,Fujairah,VLSFO,1197.7,31.5,1039452.06,141872.11
+DEC-0267,Maputo,Gopalpur,Handysize,12.5,Singapore,HSFO,574.8,30.5,926430.38,145544.73
+DEC-0268,Norfolk,Gangavaram,Handysize,11.8,Singapore,HSFO,716.3,16.5,1219455.27,189839.29
+DEC-0269,Newcastle,Gangavaram,Capesize,14.0,Singapore,HSFO,789.7,13.8,1218301.27,247753.09
+DEC-0270,Samarinda,Gangavaram,Handysize,13.1,Fujairah,HSFO,904.5,16.3,2192996.18,225629.62
+DEC-0271,Maputo,Paradip,Handysize,12.4,Rotterdam,LSMGO,1007.6,12.1,1632844.86,354140.55
+DEC-0272,Maputo,Dhamra,Capesize,13.5,Visakhapatnam,VLSFO,740.9,19.1,1645160.43,183916.36
+DEC-0273,Samarinda,Haldia,Panamax,12.5,Singapore,VLSFO,537.3,28.5,2075447.19,367225.39
+DEC-0274,Norfolk,Gopalpur,Panamax,12.7,Fujairah,VLSFO,477.6,15.5,1344082.82,170034.34
+DEC-0275,Maputo,Gangavaram,Capesize,13.8,Fujairah,LSMGO,696.4,30.1,1512298.21,138435.13
+DEC-0276,Newcastle,Visakhapatnam (Inner),Handysize,12.7,Visakhapatnam,HSFO,464.7,20.1,893770.78,170551.59
+DEC-0277,Richards Bay,Visakhapatnam (Inner),Handysize,12.3,Fujairah,VLSFO,1036.0,27.5,831405.03,150550.46
+DEC-0278,Richards Bay,Paradip,Capesize,12.6,Visakhapatnam,HSFO,684.0,21.6,1734428.89,167099.61
+DEC-0279,Maputo,Dhamra,Handysize,11.7,Singapore,LSMGO,1007.8,23.2,2013708.68,399063.05
+DEC-0280,Maputo,Visakhapatnam (Outer),Supramax,12.4,Fujairah,VLSFO,434.8,23.0,615221.53,103648.03
+DEC-0281,Newcastle,Visakhapatnam (Inner),Supramax,12.4,Fujairah,LSMGO,970.1,23.2,1541012.34,280478.27
+DEC-0282,Maputo,Visakhapatnam (Inner),Supramax,12.8,Fujairah,HSFO,1184.3,24.2,615967.93,83017.21
+DEC-0283,Norfolk,Visakhapatnam (Inner),Supramax,13.1,Fujairah,VLSFO,633.9,10.8,1042178.56,172312.34
+DEC-0284,Richards Bay,Paradip,Panamax,13.8,Rotterdam,HSFO,759.4,22.0,1592088.35,233979.16
+DEC-0285,Samarinda,Paradip,Capesize,11.7,Rotterdam,HSFO,729.8,23.1,1025159.8,105902.41
+DEC-0286,Maputo,Dhamra,Capesize,13.3,Visakhapatnam,HSFO,913.8,23.9,1385026.75,267685.68
+DEC-0287,Samarinda,Visakhapatnam (Outer),Supramax,12.6,Rotterdam,VLSFO,537.3,19.1,980930.71,79932.03
+DEC-0288,Richards Bay,Haldia,Supramax,12.8,Rotterdam,HSFO,733.2,18.4,728557.64,145601.09
+DEC-0289,Newcastle,Haldia,Handysize,13.8,Visakhapatnam,VLSFO,682.5,21.9,2000409.65,193907.66
+DEC-0290,Maputo,Gangavaram,Supramax,12.2,Rotterdam,LSMGO,1169.8,16.4,1993411.83,372933.15
+DEC-0291,Norfolk,Dhamra,Panamax,12.6,Singapore,LSMGO,1057.4,30.5,1746077.05,274266.59
+DEC-0292,Maputo,Gangavaram,Panamax,12.2,Fujairah,VLSFO,1081.6,22.7,1622166.39,252592.83
+DEC-0293,Norfolk,Dhamra,Handysize,13.1,Singapore,VLSFO,423.2,28.5,954781.47,105275.17
+DEC-0294,Maputo,Gangavaram,Capesize,13.2,Singapore,VLSFO,1053.4,9.1,2052728.62,182181.38
+DEC-0295,Norfolk,Visakhapatnam (Inner),Panamax,12.8,Fujairah,LSMGO,423.0,31.0,1635585.72,240730.8
+DEC-0296,Norfolk,Paradip,Capesize,13.2,Fujairah,VLSFO,749.9,17.6,1227983.11,181012.05
+DEC-0297,Newcastle,Visakhapatnam (Outer),Handysize,11.7,Visakhapatnam,HSFO,1010.3,27.0,469043.39,102385.07
+DEC-0298,Newcastle,Visakhapatnam (Outer),Capesize,12.6,Visakhapatnam,HSFO,1111.3,12.3,577276.05,71685.93
+DEC-0299,Norfolk,Visakhapatnam (Outer),Capesize,13.4,Singapore,VLSFO,703.8,19.1,621394.22,132773.55
+DEC-0300,Richards Bay,Dhamra,Handysize,12.6,Fujairah,VLSFO,569.8,16.4,957226.18,187780.18
+DEC-0301,Norfolk,Gangavaram,Supramax,11.6,Singapore,HSFO,917.0,30.7,1826179.23,322705.69
+DEC-0302,Samarinda,Visakhapatnam (Outer),Panamax,13.8,Rotterdam,HSFO,840.2,30.8,1634427.04,240722.17
+DEC-0303,Norfolk,Gangavaram,Panamax,11.9,Singapore,HSFO,439.5,14.5,1044447.78,198431.41
+DEC-0304,Norfolk,Paradip,Supramax,11.7,Rotterdam,VLSFO,727.7,14.1,850610.35,145985.04
+DEC-0305,Norfolk,Visakhapatnam (Outer),Supramax,13.9,Singapore,VLSFO,1176.0,25.9,1580533.39,226230.03
+DEC-0306,Maputo,Paradip,Supramax,12.0,Visakhapatnam,HSFO,1026.0,28.8,1979793.95,420510.55
+DEC-0307,Samarinda,Haldia,Panamax,13.0,Visakhapatnam,VLSFO,616.8,22.8,1261469.58,170043.72
+DEC-0308,Richards Bay,Visakhapatnam (Inner),Panamax,12.4,Fujairah,HSFO,1016.8,31.4,1505367.71,269886.67
+DEC-0309,Maputo,Haldia,Supramax,11.6,Rotterdam,VLSFO,945.9,11.1,1099886.69,221103.88
+DEC-0310,Maputo,Visakhapatnam (Inner),Panamax,13.3,Fujairah,VLSFO,965.5,17.6,1086814.83,230818.18
+DEC-0311,Samarinda,Gopalpur,Capesize,13.2,Rotterdam,LSMGO,523.4,29.8,2092762.63,456221.25
+DEC-0312,Norfolk,Paradip,Capesize,13.5,Rotterdam,LSMGO,498.6,20.7,659970.58,141773.88
+DEC-0313,Norfolk,Visakhapatnam (Inner),Supramax,11.7,Rotterdam,VLSFO,940.4,8.3,1650836.3,261727.7
+DEC-0314,Richards Bay,Dhamra,Supramax,13.5,Fujairah,HSFO,925.1,21.2,1104187.6,170171.44
+DEC-0315,Maputo,Haldia,Panamax,13.3,Rotterdam,HSFO,497.2,14.8,451610.12,84598.46
+DEC-0316,Newcastle,Paradip,Handysize,13.2,Fujairah,VLSFO,757.0,10.6,1318578.79,122954.8
+DEC-0317,Norfolk,Paradip,Capesize,12.7,Singapore,HSFO,790.6,16.5,560917.86,122272.34
+DEC-0318,Newcastle,Gangavaram,Handysize,11.6,Visakhapatnam,HSFO,1188.6,16.9,618145.86,110851.31
+DEC-0319,Newcastle,Haldia,Supramax,12.3,Rotterdam,HSFO,835.5,12.1,2002690.64,350451.0
+DEC-0320,Norfolk,Visakhapatnam (Outer),Supramax,12.8,Visakhapatnam,VLSFO,412.7,28.5,583636.57,128069.65
+DEC-0321,Maputo,Gopalpur,Handysize,12.5,Singapore,LSMGO,1042.8,11.7,1326914.01,162991.47
+DEC-0322,Maputo,Paradip,Supramax,13.8,Rotterdam,HSFO,862.4,22.5,961065.55,113363.18
+DEC-0323,Norfolk,Gangavaram,Panamax,12.6,Singapore,LSMGO,459.9,28.4,1360612.45,191373.48
+DEC-0324,Richards Bay,Paradip,Supramax,13.1,Visakhapatnam,VLSFO,557.0,23.0,978939.86,105720.68
+DEC-0325,Richards Bay,Paradip,Capesize,12.8,Singapore,VLSFO,488.6,17.8,1914607.93,271053.31
+DEC-0326,Norfolk,Visakhapatnam (Inner),Supramax,12.4,Visakhapatnam,HSFO,470.4,19.6,535247.43,61779.77
+DEC-0327,Samarinda,Gopalpur,Capesize,12.5,Rotterdam,VLSFO,912.5,18.1,2072151.09,425686.7
+DEC-0328,Maputo,Haldia,Supramax,11.8,Visakhapatnam,VLSFO,650.5,28.0,2153221.5,207415.64
+DEC-0329,Newcastle,Gangavaram,Capesize,13.2,Singapore,HSFO,652.4,13.8,1284031.31,251604.13
+DEC-0330,Richards Bay,Paradip,Supramax,11.6,Rotterdam,LSMGO,710.4,32.0,1523555.53,128153.89
+DEC-0331,Maputo,Gangavaram,Panamax,11.9,Rotterdam,VLSFO,482.7,22.0,1810138.94,346412.14
+DEC-0332,Norfolk,Visakhapatnam (Outer),Panamax,13.4,Visakhapatnam,VLSFO,1123.6,19.1,766953.77,128335.84
+DEC-0333,Norfolk,Gangavaram,Capesize,13.8,Singapore,LSMGO,829.2,25.9,550645.3,97288.69
+DEC-0334,Samarinda,Visakhapatnam (Outer),Handysize,11.7,Rotterdam,VLSFO,1013.4,30.1,1970852.9,167231.67
+DEC-0335,Maputo,Haldia,Handysize,12.1,Singapore,LSMGO,536.1,18.5,1085141.35,105671.92
+DEC-0336,Maputo,Paradip,Capesize,13.7,Fujairah,LSMGO,923.0,26.3,2133469.25,408674.55
+DEC-0337,Maputo,Dhamra,Capesize,13.3,Fujairah,LSMGO,1171.1,17.9,1419413.95,298043.0
+DEC-0338,Maputo,Gopalpur,Handysize,11.5,Fujairah,LSMGO,1056.5,10.0,1143244.23,182718.32
+DEC-0339,Richards Bay,Dhamra,Capesize,11.6,Visakhapatnam,HSFO,1007.5,30.6,1853979.76,373604.49
+DEC-0340,Newcastle,Gangavaram,Supramax,12.3,Rotterdam,LSMGO,751.0,24.1,1923041.9,235673.69
+DEC-0341,Norfolk,Dhamra,Capesize,13.5,Visakhapatnam,VLSFO,940.1,9.8,512571.48,85963.04
+DEC-0342,Maputo,Dhamra,Panamax,13.3,Visakhapatnam,VLSFO,1181.2,12.2,496674.75,78635.41
+DEC-0343,Richards Bay,Visakhapatnam (Outer),Capesize,13.9,Fujairah,HSFO,475.9,17.7,1831442.81,339428.08
+DEC-0344,Richards Bay,Paradip,Supramax,12.0,Singapore,LSMGO,1085.0,23.2,717298.2,59929.2
+DEC-0345,Maputo,Visakhapatnam (Outer),Supramax,13.3,Visakhapatnam,LSMGO,731.5,15.2,1227866.25,264732.64
+DEC-0346,Newcastle,Visakhapatnam (Outer),Panamax,13.8,Visakhapatnam,HSFO,617.5,22.9,2044679.64,295881.09
+DEC-0347,Norfolk,Gangavaram,Handysize,13.4,Fujairah,HSFO,447.1,8.8,851060.97,101823.75
+DEC-0348,Maputo,Visakhapatnam (Inner),Supramax,12.1,Visakhapatnam,VLSFO,477.7,20.6,627041.54,135420.32
+DEC-0349,Norfolk,Visakhapatnam (Inner),Panamax,13.9,Fujairah,HSFO,1144.5,27.0,1206933.67,244674.82
+DEC-0350,Samarinda,Visakhapatnam (Inner),Supramax,11.6,Visakhapatnam,LSMGO,1005.3,21.7,2129646.17,207099.12
+DEC-0351,Norfolk,Paradip,Capesize,12.8,Visakhapatnam,HSFO,535.5,11.4,834428.86,179687.59
+DEC-0352,Maputo,Gopalpur,Supramax,12.3,Visakhapatnam,HSFO,422.6,16.1,816594.49,164425.46
+DEC-0353,Norfolk,Paradip,Handysize,13.4,Visakhapatnam,LSMGO,500.1,30.6,590219.6,51616.77
+DEC-0354,Richards Bay,Haldia,Supramax,13.6,Singapore,HSFO,804.5,18.0,1301304.54,138139.71
+DEC-0355,Samarinda,Paradip,Panamax,12.4,Singapore,HSFO,665.8,11.9,942675.17,108949.92
+DEC-0356,Newcastle,Paradip,Panamax,12.0,Visakhapatnam,HSFO,875.1,8.6,1592733.14,204224.42
+DEC-0357,Samarinda,Dhamra,Supramax,12.1,Fujairah,VLSFO,501.5,20.7,1740054.01,364051.13
+DEC-0358,Samarinda,Haldia,Handysize,12.3,Fujairah,VLSFO,701.4,23.4,1200153.73,227857.72
+DEC-0359,Newcastle,Haldia,Supramax,11.7,Fujairah,HSFO,542.9,18.8,570796.06,48354.68
+DEC-0360,Norfolk,Paradip,Handysize,13.5,Fujairah,HSFO,1003.0,15.6,1493251.25,172637.06
+DEC-0361,Newcastle,Visakhapatnam (Inner),Supramax,12.4,Rotterdam,HSFO,1063.3,9.3,807509.01,98550.22
+DEC-0362,Newcastle,Haldia,Supramax,12.8,Fujairah,LSMGO,1178.2,15.2,2124841.29,263006.1
+DEC-0363,Norfolk,Paradip,Handysize,12.8,Rotterdam,LSMGO,472.7,29.3,1661106.8,335372.43
+DEC-0364,Samarinda,Gangavaram,Supramax,12.5,Singapore,HSFO,446.1,13.2,486685.85,73054.53
+DEC-0365,Richards Bay,Gopalpur,Capesize,13.6,Rotterdam,VLSFO,1144.7,20.3,808969.56,147518.52
+DEC-0366,Norfolk,Paradip,Panamax,12.2,Visakhapatnam,HSFO,783.9,12.0,1109638.14,215253.06
+DEC-0367,Samarinda,Paradip,Supramax,12.2,Visakhapatnam,VLSFO,495.3,10.6,1481378.27,152081.06
+DEC-0368,Samarinda,Visakhapatnam (Inner),Panamax,12.2,Singapore,LSMGO,504.7,12.1,1113742.1,159717.94
+DEC-0369,Newcastle,Paradip,Supramax,13.0,Fujairah,VLSFO,700.2,19.4,803884.98,114014.31
+DEC-0370,Samarinda,Gangavaram,Capesize,13.4,Rotterdam,LSMGO,507.7,27.1,1176003.6,239295.19
+DEC-0371,Richards Bay,Visakhapatnam (Inner),Panamax,14.0,Visakhapatnam,HSFO,1163.9,23.5,465551.11,59865.34
+DEC-0372,Norfolk,Visakhapatnam (Inner),Panamax,13.3,Visakhapatnam,VLSFO,676.3,11.7,1063982.84,137699.38
+DEC-0373,Samarinda,Paradip,Capesize,11.6,Visakhapatnam,VLSFO,882.2,25.6,1208708.81,152606.8
+DEC-0374,Maputo,Paradip,Supramax,11.8,Singapore,VLSFO,1098.5,12.8,1859533.98,383007.87
+DEC-0375,Newcastle,Dhamra,Panamax,13.6,Visakhapatnam,HSFO,403.3,16.4,1815960.93,190634.35
+DEC-0376,Maputo,Dhamra,Capesize,13.1,Singapore,VLSFO,1136.5,24.0,2117094.59,437415.98
+DEC-0377,Samarinda,Dhamra,Capesize,13.8,Visakhapatnam,VLSFO,640.4,10.7,2013694.89,435011.45
+DEC-0378,Newcastle,Haldia,Panamax,13.1,Singapore,HSFO,851.2,21.4,2093249.42,328490.19
+DEC-0379,Richards Bay,Gopalpur,Panamax,11.7,Fujairah,VLSFO,638.4,31.7,1952480.2,190689.42
+DEC-0380,Richards Bay,Visakhapatnam (Inner),Panamax,13.7,Rotterdam,HSFO,572.2,17.2,1762155.07,369427.25
+DEC-0381,Newcastle,Gangavaram,Supramax,12.0,Rotterdam,LSMGO,423.8,17.8,1794320.96,336418.04
+DEC-0382,Maputo,Paradip,Handysize,13.2,Fujairah,HSFO,1178.7,30.8,1942937.5,420246.02
+DEC-0383,Newcastle,Visakhapatnam (Outer),Supramax,13.4,Singapore,HSFO,884.7,21.4,626846.66,89464.83
+DEC-0384,Samarinda,Gopalpur,Supramax,12.4,Singapore,VLSFO,854.6,12.7,1575780.94,230137.73
+DEC-0385,Newcastle,Dhamra,Supramax,12.4,Singapore,LSMGO,953.8,23.1,638264.79,132162.15
+DEC-0386,Maputo,Dhamra,Panamax,12.1,Fujairah,HSFO,831.4,13.6,1783549.83,143784.24
+DEC-0387,Newcastle,Visakhapatnam (Outer),Panamax,14.0,Rotterdam,HSFO,900.9,26.3,703508.13,87682.01
+DEC-0388,Norfolk,Dhamra,Panamax,13.7,Visakhapatnam,HSFO,462.9,30.5,781146.35,73127.66
+DEC-0389,Samarinda,Visakhapatnam (Inner),Handysize,12.1,Fujairah,VLSFO,922.2,8.5,536014.92,97338.76
+DEC-0390,Richards Bay,Paradip,Supramax,11.8,Fujairah,LSMGO,871.0,26.2,1445285.6,170624.38
+DEC-0391,Maputo,Visakhapatnam (Outer),Handysize,13.2,Rotterdam,HSFO,784.2,25.6,847931.23,118676.97
+DEC-0392,Norfolk,Paradip,Handysize,11.8,Fujairah,VLSFO,621.9,24.8,932687.65,180480.05
+DEC-0393,Richards Bay,Paradip,Supramax,12.5,Singapore,HSFO,1182.1,9.6,877346.34,159842.65
+DEC-0394,Richards Bay,Paradip,Panamax,12.7,Rotterdam,HSFO,653.0,26.9,2048963.34,334394.37
+DEC-0395,Samarinda,Gopalpur,Supramax,13.0,Singapore,HSFO,499.8,11.8,1835584.18,339011.25
+DEC-0396,Norfolk,Dhamra,Handysize,13.8,Singapore,HSFO,924.6,28.9,465242.32,77640.88
+DEC-0397,Richards Bay,Gopalpur,Handysize,11.6,Visakhapatnam,HSFO,643.9,28.6,579421.8,122841.45
+DEC-0398,Norfolk,Visakhapatnam (Outer),Handysize,12.7,Visakhapatnam,HSFO,1134.4,27.5,821735.02,96597.86
+DEC-0399,Norfolk,Visakhapatnam (Inner),Handysize,13.6,Fujairah,LSMGO,847.0,10.3,2192256.92,281157.23
+DEC-0400,Newcastle,Haldia,Handysize,12.7,Singapore,HSFO,754.0,14.7,1291807.48,201976.15
+DEC-0401,Samarinda,Dhamra,Handysize,12.9,Rotterdam,VLSFO,485.8,16.5,1671825.27,348419.06
+DEC-0402,Samarinda,Visakhapatnam (Outer),Supramax,13.4,Fujairah,HSFO,538.0,8.4,1596505.03,287036.27
+DEC-0403,Norfolk,Visakhapatnam (Outer),Supramax,12.8,Visakhapatnam,LSMGO,739.7,15.6,737391.49,85236.1
+DEC-0404,Richards Bay,Dhamra,Capesize,13.1,Rotterdam,LSMGO,566.1,27.5,1147457.5,170793.27
+DEC-0405,Richards Bay,Gopalpur,Supramax,11.8,Fujairah,VLSFO,661.4,18.1,1753777.49,331336.49
+DEC-0406,Norfolk,Visakhapatnam (Outer),Panamax,12.4,Visakhapatnam,HSFO,983.8,22.1,2095925.12,173587.13
+DEC-0407,Richards Bay,Visakhapatnam (Outer),Panamax,12.4,Rotterdam,VLSFO,432.2,10.2,2154297.08,236207.67
+DEC-0408,Richards Bay,Gangavaram,Supramax,12.9,Visakhapatnam,HSFO,1130.0,15.4,1437162.09,268890.78
+DEC-0409,Samarinda,Visakhapatnam (Outer),Panamax,13.6,Fujairah,LSMGO,933.5,24.0,1810285.52,184320.81
+DEC-0410,Samarinda,Dhamra,Handysize,12.8,Rotterdam,HSFO,564.1,15.3,505588.66,43958.68
+DEC-0411,Richards Bay,Visakhapatnam (Outer),Panamax,13.6,Rotterdam,HSFO,615.8,27.2,2004453.65,183272.75
+DEC-0412,Samarinda,Haldia,Handysize,11.6,Fujairah,HSFO,459.2,16.8,1142172.88,156370.01
+DEC-0413,Norfolk,Gopalpur,Capesize,13.4,Singapore,HSFO,662.8,13.2,1851408.2,276334.5
+DEC-0414,Maputo,Paradip,Supramax,12.3,Visakhapatnam,HSFO,1019.9,13.9,1947415.66,351292.42
+DEC-0415,Maputo,Paradip,Handysize,13.0,Singapore,VLSFO,598.4,23.4,930863.54,91798.24
+DEC-0416,Newcastle,Visakhapatnam (Outer),Supramax,13.9,Visakhapatnam,HSFO,577.3,20.7,1326178.97,264098.99
+DEC-0417,Samarinda,Gopalpur,Capesize,12.7,Fujairah,HSFO,687.5,16.7,496181.73,81973.49
+DEC-0418,Newcastle,Visakhapatnam (Outer),Supramax,12.0,Visakhapatnam,LSMGO,813.7,30.0,1143151.35,177341.95
+DEC-0419,Norfolk,Haldia,Handysize,12.5,Fujairah,HSFO,819.4,24.6,1657194.81,313598.74
+DEC-0420,Newcastle,Paradip,Panamax,13.5,Fujairah,LSMGO,817.6,22.2,1373663.89,173349.38
+DEC-0421,Newcastle,Dhamra,Handysize,11.6,Singapore,LSMGO,582.7,25.3,1939415.9,193806.25
+DEC-0422,Richards Bay,Visakhapatnam (Inner),Panamax,12.6,Rotterdam,HSFO,702.4,9.3,1026658.95,196114.11
+DEC-0423,Newcastle,Dhamra,Capesize,12.2,Singapore,VLSFO,647.6,29.2,1847931.39,222005.55
+DEC-0424,Richards Bay,Dhamra,Handysize,13.0,Fujairah,LSMGO,821.7,28.8,1532382.98,267920.94
+DEC-0425,Richards Bay,Haldia,Handysize,12.7,Rotterdam,HSFO,1163.4,19.3,2158969.87,187314.5
+DEC-0426,Samarinda,Gangavaram,Panamax,12.0,Fujairah,VLSFO,850.0,9.5,1360205.59,180218.73
+DEC-0427,Samarinda,Gangavaram,Capesize,12.9,Singapore,HSFO,813.0,20.4,674416.84,102595.91
+DEC-0428,Samarinda,Gangavaram,Capesize,13.7,Fujairah,VLSFO,761.6,8.8,553624.69,112810.64
+DEC-0429,Richards Bay,Dhamra,Panamax,12.6,Singapore,LSMGO,506.7,14.1,1391444.71,288721.03
+DEC-0430,Maputo,Visakhapatnam (Outer),Capesize,12.4,Fujairah,VLSFO,1035.7,12.5,558845.01,112534.12
+DEC-0431,Newcastle,Gopalpur,Capesize,13.2,Fujairah,LSMGO,1082.4,30.0,910557.59,165893.17
+DEC-0432,Samarinda,Dhamra,Handysize,12.0,Visakhapatnam,HSFO,567.1,26.1,1457023.42,139767.03
+DEC-0433,Samarinda,Haldia,Supramax,12.3,Rotterdam,LSMGO,543.1,30.6,1185415.85,253928.71
+DEC-0434,Samarinda,Gopalpur,Supramax,11.6,Visakhapatnam,LSMGO,671.6,9.5,1948748.0,205763.62
+DEC-0435,Richards Bay,Paradip,Capesize,14.0,Rotterdam,VLSFO,418.1,26.4,1842102.85,158832.07
+DEC-0436,Richards Bay,Visakhapatnam (Outer),Handysize,11.6,Rotterdam,VLSFO,1045.8,18.2,983200.48,191395.3
+DEC-0437,Richards Bay,Haldia,Handysize,12.6,Visakhapatnam,LSMGO,792.3,21.7,956894.67,204274.88
+DEC-0438,Maputo,Visakhapatnam (Outer),Handysize,12.0,Rotterdam,VLSFO,1015.0,15.2,1212127.68,139045.0
+DEC-0439,Maputo,Gopalpur,Supramax,11.7,Rotterdam,LSMGO,416.6,31.5,1384819.39,302630.13
+DEC-0440,Norfolk,Visakhapatnam (Inner),Handysize,12.9,Singapore,LSMGO,1199.2,29.6,882359.36,129638.74
+DEC-0441,Richards Bay,Visakhapatnam (Inner),Supramax,13.9,Visakhapatnam,VLSFO,422.4,29.1,1498974.14,314668.84
+DEC-0442,Maputo,Haldia,Handysize,13.6,Visakhapatnam,VLSFO,523.5,12.7,1667634.48,154146.92
+DEC-0443,Newcastle,Gangavaram,Supramax,13.8,Singapore,LSMGO,426.4,15.7,1671909.15,343360.64
+DEC-0444,Richards Bay,Paradip,Capesize,12.3,Fujairah,HSFO,621.8,16.6,1558893.7,160463.73
+DEC-0445,Newcastle,Paradip,Handysize,13.3,Singapore,VLSFO,1168.8,18.3,1878958.09,318663.81
+DEC-0446,Norfolk,Paradip,Supramax,11.9,Fujairah,HSFO,722.1,23.4,1268645.31,229181.12
+DEC-0447,Newcastle,Haldia,Panamax,11.5,Fujairah,LSMGO,721.7,25.8,578745.64,79345.52
+DEC-0448,Norfolk,Visakhapatnam (Inner),Panamax,13.5,Rotterdam,VLSFO,837.0,19.8,772955.67,119390.58
+DEC-0449,Norfolk,Gopalpur,Panamax,11.9,Fujairah,VLSFO,1018.7,23.7,1241020.53,217950.42
+DEC-0450,Maputo,Visakhapatnam (Inner),Supramax,13.5,Visakhapatnam,HSFO,797.6,29.8,1750596.68,320889.72
+DEC-0451,Newcastle,Visakhapatnam (Inner),Handysize,13.3,Fujairah,LSMGO,634.4,8.5,1481765.31,240068.63
+DEC-0452,Samarinda,Haldia,Handysize,13.1,Visakhapatnam,HSFO,837.0,12.6,1862313.57,236815.95
+DEC-0453,Newcastle,Visakhapatnam (Inner),Supramax,12.3,Singapore,LSMGO,1162.7,17.2,849307.53,141486.62
+DEC-0454,Norfolk,Gangavaram,Supramax,11.9,Rotterdam,HSFO,515.4,15.7,686337.85,137519.78
+DEC-0455,Newcastle,Visakhapatnam (Inner),Handysize,12.6,Singapore,LSMGO,1068.2,8.6,1767116.88,150205.18
+DEC-0456,Maputo,Paradip,Capesize,12.1,Rotterdam,HSFO,422.2,14.9,859345.9,174344.69
+DEC-0457,Richards Bay,Paradip,Capesize,13.6,Fujairah,HSFO,548.6,25.8,1315284.56,123515.72
+DEC-0458,Maputo,Paradip,Handysize,11.8,Singapore,VLSFO,621.4,28.5,1927946.0,162080.64
+DEC-0459,Richards Bay,Dhamra,Supramax,13.3,Visakhapatnam,LSMGO,876.3,15.6,544630.43,57795.04
+DEC-0460,Maputo,Gopalpur,Supramax,12.0,Fujairah,VLSFO,733.8,31.1,1814343.13,195825.17
+DEC-0461,Maputo,Gangavaram,Panamax,11.6,Visakhapatnam,LSMGO,887.7,16.1,2176119.61,176600.91
+DEC-0462,Richards Bay,Paradip,Panamax,13.6,Singapore,VLSFO,966.6,19.4,2115270.1,446898.87
+DEC-0463,Newcastle,Gangavaram,Capesize,12.7,Singapore,HSFO,843.7,30.7,785913.9,98604.7
+DEC-0464,Richards Bay,Gopalpur,Handysize,13.0,Singapore,HSFO,1081.0,27.4,1186418.61,128821.47
+DEC-0465,Newcastle,Visakhapatnam (Outer),Capesize,12.6,Rotterdam,LSMGO,1153.2,22.3,1245547.11,229179.12
+DEC-0466,Richards Bay,Gangavaram,Supramax,12.2,Fujairah,HSFO,434.9,13.0,1079803.45,206804.3
+DEC-0467,Maputo,Gopalpur,Panamax,12.8,Fujairah,HSFO,1145.3,25.4,1174054.83,99464.01
+DEC-0468,Newcastle,Gangavaram,Capesize,12.8,Visakhapatnam,LSMGO,816.0,26.2,2166106.43,284430.33
+DEC-0469,Norfolk,Haldia,Panamax,12.9,Fujairah,VLSFO,467.1,25.8,649795.95,103715.7
+DEC-0470,Richards Bay,Paradip,Supramax,13.7,Visakhapatnam,HSFO,423.6,29.1,1427022.76,295318.18
+DEC-0471,Samarinda,Gopalpur,Handysize,13.0,Visakhapatnam,LSMGO,647.6,10.1,1814227.48,248672.8
+DEC-0472,Newcastle,Dhamra,Panamax,12.0,Visakhapatnam,LSMGO,1161.5,26.6,864761.61,181784.54
+DEC-0473,Richards Bay,Visakhapatnam (Outer),Supramax,13.3,Fujairah,LSMGO,492.8,29.0,1982170.25,358037.89
+DEC-0474,Samarinda,Visakhapatnam (Outer),Handysize,13.8,Singapore,HSFO,724.2,31.2,1343848.11,269958.46
+DEC-0475,Maputo,Dhamra,Capesize,12.9,Singapore,LSMGO,937.5,9.7,1271048.22,106739.04
+DEC-0476,Norfolk,Visakhapatnam (Inner),Handysize,12.3,Singapore,HSFO,598.2,23.6,1323682.06,274128.74
+DEC-0477,Norfolk,Dhamra,Capesize,13.2,Singapore,HSFO,619.3,31.1,1733033.59,166220.64
+DEC-0478,Samarinda,Paradip,Capesize,12.9,Fujairah,HSFO,987.3,11.6,1875480.97,399234.88
+DEC-0479,Norfolk,Visakhapatnam (Inner),Supramax,13.9,Fujairah,LSMGO,1084.2,24.1,1874069.59,318690.54
+DEC-0480,Richards Bay,Visakhapatnam (Inner),Handysize,13.2,Singapore,VLSFO,1104.9,20.7,1203127.44,205453.87
+DEC-0481,Newcastle,Gangavaram,Capesize,12.1,Fujairah,LSMGO,1094.1,10.0,1320535.92,149088.68
+DEC-0482,Newcastle,Paradip,Panamax,11.9,Rotterdam,LSMGO,541.3,15.2,570163.02,79432.07
+DEC-0483,Newcastle,Dhamra,Handysize,13.7,Rotterdam,HSFO,1110.3,11.4,1202754.14,176726.64
+DEC-0484,Richards Bay,Gopalpur,Capesize,13.0,Fujairah,LSMGO,1152.5,23.1,568798.22,68468.09
+DEC-0485,Newcastle,Dhamra,Panamax,13.1,Singapore,LSMGO,929.6,13.3,1719310.67,344812.07
+DEC-0486,Newcastle,Haldia,Handysize,12.6,Fujairah,HSFO,1198.4,23.8,1205079.54,110918.08
+DEC-0487,Richards Bay,Haldia,Panamax,12.8,Fujairah,HSFO,664.2,22.1,1992940.27,342704.28
+DEC-0488,Samarinda,Paradip,Panamax,12.1,Visakhapatnam,HSFO,1174.3,15.2,1292999.93,252185.01
+DEC-0489,Samarinda,Visakhapatnam (Inner),Supramax,11.8,Visakhapatnam,HSFO,1147.6,30.4,953203.79,188150.14
+DEC-0490,Samarinda,Visakhapatnam (Inner),Supramax,12.0,Singapore,HSFO,1016.7,15.0,918686.01,99454.69
+DEC-0491,Newcastle,Haldia,Supramax,13.1,Rotterdam,HSFO,1168.9,30.5,1981146.56,311083.55
+DEC-0492,Samarinda,Haldia,Handysize,12.6,Fujairah,HSFO,1018.0,12.1,1034484.4,190187.96
+DEC-0493,Richards Bay,Gangavaram,Panamax,11.7,Visakhapatnam,VLSFO,762.5,22.0,1638966.69,187397.48
+DEC-0494,Richards Bay,Gopalpur,Supramax,12.6,Fujairah,HSFO,926.7,15.9,1471463.39,184767.35
+DEC-0495,Samarinda,Gopalpur,Panamax,13.5,Rotterdam,HSFO,548.8,30.7,1628914.43,320029.36
+DEC-0496,Samarinda,Visakhapatnam (Inner),Handysize,13.8,Fujairah,HSFO,460.6,10.1,459468.2,46005.57
+DEC-0497,Newcastle,Visakhapatnam (Outer),Supramax,13.9,Visakhapatnam,VLSFO,1049.3,10.3,1156508.13,153993.2
+DEC-0498,Norfolk,Haldia,Supramax,13.5,Singapore,VLSFO,454.9,24.9,1784094.25,241578.37
+DEC-0499,Samarinda,Visakhapatnam (Inner),Supramax,14.0,Rotterdam,HSFO,978.5,18.8,1921494.99,293003.15
+DEC-0500,Samarinda,Gangavaram,Panamax,13.7,Fujairah,LSMGO,867.8,9.6,1347755.62,150991.44
+DEC-0501,Maputo,Dhamra,Handysize,14.0,Fujairah,VLSFO,1129.4,28.4,542505.12,56139.11
+DEC-0502,Norfolk,Visakhapatnam (Outer),Panamax,13.8,Fujairah,VLSFO,750.2,26.5,1988642.73,334929.67
+DEC-0503,Richards Bay,Visakhapatnam (Outer),Handysize,11.9,Rotterdam,HSFO,575.5,25.9,2116753.94,458782.73
+DEC-0504,Richards Bay,Dhamra,Handysize,12.2,Fujairah,HSFO,1074.7,16.7,2017293.36,237674.44
+DEC-0505,Richards Bay,Dhamra,Supramax,11.8,Visakhapatnam,HSFO,1181.5,25.8,1017710.08,116433.19
+DEC-0506,Richards Bay,Paradip,Capesize,12.3,Visakhapatnam,LSMGO,752.6,11.2,1955616.49,359131.96
+DEC-0507,Samarinda,Visakhapatnam (Inner),Handysize,11.8,Fujairah,HSFO,413.2,31.7,1985266.73,339230.55
+DEC-0508,Richards Bay,Dhamra,Handysize,13.1,Visakhapatnam,HSFO,799.4,21.1,1085293.06,217387.34
+DEC-0509,Samarinda,Visakhapatnam (Inner),Handysize,12.8,Singapore,LSMGO,951.7,29.1,522142.7,79277.87
+DEC-0510,Newcastle,Gangavaram,Handysize,11.8,Fujairah,VLSFO,401.2,23.9,877053.73,185832.95
+DEC-0511,Newcastle,Paradip,Panamax,12.8,Visakhapatnam,VLSFO,563.0,13.1,1166921.5,143304.95
+DEC-0512,Samarinda,Haldia,Supramax,12.2,Singapore,LSMGO,449.5,21.0,675712.98,57632.86
+DEC-0513,Norfolk,Dhamra,Capesize,12.6,Singapore,LSMGO,717.9,13.5,474989.76,79948.1
+DEC-0514,Samarinda,Gangavaram,Handysize,13.8,Rotterdam,LSMGO,1004.6,18.1,1157667.99,204405.1
+DEC-0515,Maputo,Haldia,Panamax,12.0,Visakhapatnam,VLSFO,922.9,15.3,1558409.23,189116.65
+DEC-0516,Norfolk,Gopalpur,Handysize,12.2,Singapore,LSMGO,1105.9,11.4,1600106.07,202452.23
+DEC-0517,Newcastle,Dhamra,Supramax,13.2,Fujairah,LSMGO,1106.1,20.2,1285595.25,228843.98
+DEC-0518,Norfolk,Gopalpur,Handysize,13.3,Visakhapatnam,LSMGO,554.6,21.5,739213.99,69662.85
+DEC-0519,Richards Bay,Gopalpur,Supramax,13.8,Visakhapatnam,VLSFO,609.3,25.3,1159587.68,138898.83
+DEC-0520,Richards Bay,Gangavaram,Supramax,12.7,Rotterdam,LSMGO,457.5,13.7,939296.66,154986.02
+DEC-0521,Maputo,Paradip,Capesize,12.9,Fujairah,HSFO,712.4,9.6,768633.72,107283.1
+DEC-0522,Norfolk,Paradip,Panamax,12.4,Singapore,HSFO,815.6,30.3,1750410.04,159655.59
+DEC-0523,Norfolk,Dhamra,Panamax,11.9,Rotterdam,VLSFO,673.0,18.5,1419981.47,255168.7
+DEC-0524,Norfolk,Visakhapatnam (Outer),Panamax,13.8,Rotterdam,LSMGO,969.3,27.7,831380.91,130762.22
+DEC-0525,Newcastle,Paradip,Handysize,13.4,Fujairah,VLSFO,1090.4,24.0,1846361.96,245892.04
+DEC-0526,Samarinda,Haldia,Handysize,14.0,Visakhapatnam,HSFO,474.3,24.1,779238.61,169242.22
+DEC-0527,Maputo,Haldia,Panamax,12.3,Rotterdam,LSMGO,868.3,27.8,1171229.67,183652.22
+DEC-0528,Newcastle,Gopalpur,Capesize,12.7,Fujairah,VLSFO,693.7,9.7,1656489.29,344807.46
+DEC-0529,Maputo,Gangavaram,Handysize,12.4,Visakhapatnam,LSMGO,874.6,24.4,1121191.19,140294.82
+DEC-0530,Newcastle,Dhamra,Capesize,12.2,Fujairah,VLSFO,818.7,26.2,940021.07,176317.83
+DEC-0531,Richards Bay,Visakhapatnam (Outer),Panamax,12.2,Singapore,LSMGO,443.7,21.4,2154767.06,237208.22
+DEC-0532,Newcastle,Dhamra,Handysize,13.5,Singapore,HSFO,703.6,8.8,1497660.27,325067.79
+DEC-0533,Samarinda,Gopalpur,Panamax,13.9,Rotterdam,LSMGO,739.4,22.3,1131528.64,246376.64
+DEC-0534,Maputo,Haldia,Handysize,12.2,Fujairah,VLSFO,1122.5,29.6,1864453.05,375591.71
+DEC-0535,Richards Bay,Haldia,Handysize,11.6,Visakhapatnam,VLSFO,1076.6,30.5,723894.99,67096.87
+DEC-0536,Samarinda,Haldia,Supramax,12.3,Visakhapatnam,VLSFO,922.9,27.4,1263460.71,267087.9
+DEC-0537,Norfolk,Dhamra,Panamax,13.8,Visakhapatnam,HSFO,1104.1,14.7,1819794.06,268770.55
+DEC-0538,Norfolk,Paradip,Handysize,12.0,Visakhapatnam,HSFO,681.1,31.1,984374.31,119143.99
+DEC-0539,Newcastle,Dhamra,Capesize,13.1,Singapore,VLSFO,552.7,27.7,628535.92,88421.79
+DEC-0540,Maputo,Visakhapatnam (Inner),Handysize,12.0,Visakhapatnam,LSMGO,677.7,25.8,702215.03,115685.63
+DEC-0541,Newcastle,Paradip,Supramax,14.0,Singapore,VLSFO,641.8,26.7,1880557.46,328014.65
+DEC-0542,Richards Bay,Haldia,Handysize,11.5,Visakhapatnam,HSFO,721.1,11.7,2066356.86,373623.46
+DEC-0543,Norfolk,Paradip,Handysize,13.2,Visakhapatnam,LSMGO,541.3,10.8,612155.03,132547.63
+DEC-0544,Maputo,Gangavaram,Capesize,12.0,Singapore,HSFO,887.1,12.6,923937.77,132119.24
+DEC-0545,Newcastle,Haldia,Handysize,11.7,Visakhapatnam,VLSFO,654.7,23.2,1540261.93,326580.63
+DEC-0546,Richards Bay,Gopalpur,Panamax,12.5,Fujairah,HSFO,625.3,9.3,1467549.31,135362.3
+DEC-0547,Newcastle,Gangavaram,Handysize,12.2,Singapore,LSMGO,993.7,17.3,1936056.3,252012.68
+DEC-0548,Newcastle,Haldia,Supramax,11.6,Fujairah,LSMGO,423.1,31.4,1737801.25,256176.98
+DEC-0549,Maputo,Paradip,Handysize,12.7,Fujairah,LSMGO,901.0,8.5,1236883.53,223416.32
+DEC-0550,Samarinda,Visakhapatnam (Outer),Supramax,13.9,Fujairah,LSMGO,679.5,16.4,1097232.2,215828.0
+DEC-0551,Samarinda,Dhamra,Panamax,11.7,Singapore,VLSFO,844.2,19.2,1350575.24,179281.41
+DEC-0552,Maputo,Gangavaram,Supramax,11.8,Rotterdam,LSMGO,428.5,19.9,1258881.05,273867.25
+DEC-0553,Richards Bay,Gangavaram,Handysize,12.7,Singapore,HSFO,1170.7,13.8,1937073.16,248426.55
+DEC-0554,Maputo,Gangavaram,Capesize,13.2,Visakhapatnam,HSFO,978.3,13.7,611917.48,101413.53
+DEC-0555,Richards Bay,Visakhapatnam (Outer),Handysize,13.9,Visakhapatnam,HSFO,430.2,15.8,1777857.28,146587.57
+DEC-0556,Norfolk,Haldia,Handysize,13.4,Fujairah,VLSFO,1187.2,17.5,631126.65,101156.57
+DEC-0557,Norfolk,Gopalpur,Panamax,12.3,Fujairah,HSFO,1141.7,9.9,1862010.12,345223.31
+DEC-0558,Maputo,Gangavaram,Panamax,13.7,Visakhapatnam,LSMGO,524.5,20.3,994839.76,117929.73
+DEC-0559,Maputo,Haldia,Panamax,13.9,Rotterdam,LSMGO,901.7,15.4,722767.27,89527.39
+DEC-0560,Richards Bay,Paradip,Capesize,12.7,Singapore,LSMGO,838.7,9.7,562229.05,61140.31
+DEC-0561,Norfolk,Visakhapatnam (Inner),Supramax,11.6,Fujairah,HSFO,961.5,21.1,1365100.95,161239.3
+DEC-0562,Richards Bay,Paradip,Capesize,12.0,Rotterdam,VLSFO,1048.5,11.1,1778649.11,382795.47
+DEC-0563,Newcastle,Dhamra,Capesize,13.4,Visakhapatnam,LSMGO,668.9,27.4,504904.47,96990.57
+DEC-0564,Maputo,Visakhapatnam (Outer),Panamax,12.5,Visakhapatnam,LSMGO,1071.2,12.2,993650.69,127052.15
+DEC-0565,Newcastle,Gangavaram,Handysize,13.6,Visakhapatnam,HSFO,571.4,26.2,607041.23,119158.98
+DEC-0566,Richards Bay,Visakhapatnam (Inner),Panamax,13.2,Fujairah,HSFO,556.1,22.9,1569428.92,292107.34
+DEC-0567,Richards Bay,Visakhapatnam (Outer),Capesize,12.2,Visakhapatnam,HSFO,882.4,13.1,2134340.37,213926.63
+DEC-0568,Norfolk,Gangavaram,Supramax,12.5,Rotterdam,HSFO,1085.2,23.5,2184905.66,233234.17
+DEC-0569,Newcastle,Gopalpur,Capesize,12.2,Visakhapatnam,LSMGO,487.2,29.0,2139770.89,311378.56
+DEC-0570,Maputo,Haldia,Panamax,13.2,Singapore,HSFO,1072.1,24.0,514729.23,110327.36
+DEC-0571,Maputo,Visakhapatnam (Outer),Panamax,13.9,Singapore,HSFO,901.0,25.4,1998536.97,390175.22
+DEC-0572,Maputo,Visakhapatnam (Inner),Panamax,12.9,Singapore,VLSFO,1013.0,13.0,1919231.41,286403.82
+DEC-0573,Samarinda,Visakhapatnam (Outer),Handysize,13.9,Singapore,VLSFO,678.5,9.4,1510950.07,305285.24
+DEC-0574,Newcastle,Visakhapatnam (Outer),Handysize,13.6,Rotterdam,LSMGO,568.0,17.4,1340105.92,222665.96
+DEC-0575,Newcastle,Visakhapatnam (Inner),Supramax,11.9,Visakhapatnam,VLSFO,1139.5,27.0,520548.45,70823.39
+DEC-0576,Newcastle,Paradip,Supramax,12.8,Visakhapatnam,VLSFO,531.6,9.9,1572258.72,143577.82
+DEC-0577,Samarinda,Visakhapatnam (Inner),Handysize,12.4,Rotterdam,LSMGO,838.9,29.4,1518011.34,148356.11
+DEC-0578,Newcastle,Visakhapatnam (Inner),Panamax,13.4,Visakhapatnam,HSFO,818.1,17.2,1611477.33,270366.42
+DEC-0579,Samarinda,Haldia,Handysize,12.7,Rotterdam,HSFO,515.8,12.0,580185.67,80564.54
+DEC-0580,Norfolk,Gopalpur,Handysize,12.3,Singapore,HSFO,1161.8,31.6,552999.18,84065.87
+DEC-0581,Samarinda,Gangavaram,Panamax,13.5,Singapore,LSMGO,634.9,16.2,1014007.99,113959.89
+DEC-0582,Samarinda,Dhamra,Handysize,13.3,Rotterdam,LSMGO,785.2,22.7,1122637.4,226573.56
+DEC-0583,Richards Bay,Haldia,Panamax,13.4,Fujairah,VLSFO,544.8,30.9,885152.46,186763.69
+DEC-0584,Samarinda,Dhamra,Handysize,12.8,Rotterdam,VLSFO,945.1,25.8,2191252.59,208303.63
+DEC-0585,Norfolk,Paradip,Handysize,11.6,Visakhapatnam,VLSFO,485.5,30.0,693419.03,90391.48
+DEC-0586,Norfolk,Visakhapatnam (Outer),Capesize,13.0,Fujairah,HSFO,461.7,24.9,1321166.62,255643.23
+DEC-0587,Richards Bay,Visakhapatnam (Outer),Panamax,12.4,Singapore,LSMGO,1047.8,24.0,1815640.07,320047.82
+DEC-0588,Maputo,Paradip,Capesize,12.0,Visakhapatnam,LSMGO,684.4,13.3,1857894.33,204343.89
+DEC-0589,Norfolk,Visakhapatnam (Outer),Handysize,12.1,Singapore,LSMGO,1080.5,18.7,1307354.35,148271.13
+DEC-0590,Norfolk,Visakhapatnam (Inner),Supramax,13.7,Fujairah,VLSFO,851.0,18.8,1056446.01,215604.72
+DEC-0591,Newcastle,Paradip,Handysize,11.8,Singapore,HSFO,896.5,29.1,675499.5,63908.48
+DEC-0592,Maputo,Haldia,Supramax,12.5,Visakhapatnam,VLSFO,669.4,12.0,1352437.19,134365.69
+DEC-0593,Maputo,Visakhapatnam (Inner),Supramax,12.1,Fujairah,LSMGO,537.9,29.3,1761529.09,225832.41
+DEC-0594,Maputo,Visakhapatnam (Outer),Capesize,13.9,Fujairah,VLSFO,1073.6,21.0,2088336.8,284456.27
+DEC-0595,Samarinda,Visakhapatnam (Inner),Handysize,11.5,Visakhapatnam,VLSFO,1047.3,16.6,1287673.53,136017.65
+DEC-0596,Newcastle,Haldia,Panamax,13.2,Rotterdam,HSFO,1107.2,18.1,1676468.92,166590.98
+DEC-0597,Newcastle,Haldia,Supramax,13.3,Singapore,LSMGO,1026.2,21.8,596426.0,49634.36
+DEC-0598,Samarinda,Haldia,Supramax,13.2,Visakhapatnam,LSMGO,535.2,29.5,1167760.77,254511.88
+DEC-0599,Newcastle,Gopalpur,Supramax,13.9,Singapore,VLSFO,805.7,12.5,943999.93,179951.42
+DEC-0600,Samarinda,Haldia,Supramax,12.8,Visakhapatnam,HSFO,1124.9,16.5,1014645.35,175160.62
+DEC-0601,Samarinda,Haldia,Handysize,12.2,Fujairah,HSFO,1138.3,9.3,2082001.73,259248.87
+DEC-0602,Newcastle,Gangavaram,Capesize,12.5,Singapore,VLSFO,817.3,12.9,1824174.9,183573.7
+DEC-0603,Richards Bay,Gangavaram,Panamax,11.8,Rotterdam,HSFO,650.1,27.7,971734.55,143235.19
+DEC-0604,Samarinda,Paradip,Capesize,13.8,Rotterdam,LSMGO,407.0,23.6,1907695.98,289876.15
+DEC-0605,Samarinda,Gangavaram,Panamax,11.8,Visakhapatnam,LSMGO,1144.7,28.6,1726132.78,272096.7
+DEC-0606,Maputo,Paradip,Handysize,13.3,Rotterdam,LSMGO,1147.2,29.2,1647420.84,271306.47
+DEC-0607,Samarinda,Gangavaram,Supramax,12.7,Visakhapatnam,HSFO,718.6,31.0,1171173.89,98223.29
+DEC-0608,Richards Bay,Gangavaram,Handysize,13.6,Singapore,LSMGO,487.4,20.3,1843000.08,327791.45
+DEC-0609,Samarinda,Visakhapatnam (Inner),Panamax,11.5,Fujairah,VLSFO,848.2,19.7,480641.21,56962.33
+DEC-0610,Norfolk,Visakhapatnam (Outer),Panamax,12.6,Visakhapatnam,HSFO,465.7,31.8,2157526.97,285344.67
+DEC-0611,Maputo,Visakhapatnam (Outer),Supramax,12.0,Fujairah,VLSFO,1117.6,24.7,609656.81,57051.9
+DEC-0612,Newcastle,Visakhapatnam (Inner),Supramax,14.0,Rotterdam,HSFO,1106.7,27.6,568768.57,103520.35
+DEC-0613,Richards Bay,Gangavaram,Supramax,13.2,Fujairah,LSMGO,1052.6,16.8,1719235.04,337757.1
+DEC-0614,Norfolk,Paradip,Supramax,11.9,Rotterdam,HSFO,1048.5,8.9,1431891.04,129051.88
+DEC-0615,Richards Bay,Visakhapatnam (Inner),Panamax,11.8,Fujairah,HSFO,544.0,18.7,635294.26,72777.15
+DEC-0616,Maputo,Visakhapatnam (Inner),Supramax,13.2,Visakhapatnam,VLSFO,589.9,28.3,1250227.88,142610.48
+DEC-0617,Newcastle,Visakhapatnam (Inner),Handysize,12.2,Rotterdam,HSFO,889.0,13.1,2044041.41,341411.04
+DEC-0618,Newcastle,Paradip,Handysize,13.7,Fujairah,LSMGO,981.4,23.1,1040752.84,138625.59
+DEC-0619,Richards Bay,Paradip,Supramax,11.7,Rotterdam,LSMGO,1046.2,10.3,1236221.72,201367.01
+DEC-0620,Samarinda,Haldia,Panamax,11.7,Visakhapatnam,HSFO,486.2,19.7,1196811.13,205694.73
+DEC-0621,Richards Bay,Dhamra,Capesize,13.0,Singapore,VLSFO,897.2,15.9,1289668.06,105543.61
+DEC-0622,Newcastle,Visakhapatnam (Outer),Panamax,12.4,Fujairah,VLSFO,765.7,23.4,2121629.88,411230.23
+DEC-0623,Samarinda,Paradip,Supramax,12.3,Singapore,VLSFO,927.3,11.3,598957.2,118065.71
+DEC-0624,Maputo,Haldia,Handysize,12.1,Singapore,VLSFO,1039.7,10.2,885635.33,135993.1
+DEC-0625,Samarinda,Paradip,Panamax,13.6,Singapore,HSFO,490.6,29.2,1949161.43,394411.85
+DEC-0626,Norfolk,Gangavaram,Capesize,13.3,Singapore,VLSFO,501.0,26.7,1656902.42,237780.98
+DEC-0627,Maputo,Visakhapatnam (Inner),Supramax,12.2,Visakhapatnam,HSFO,1034.5,8.4,955930.78,172251.55
+DEC-0628,Richards Bay,Gopalpur,Capesize,12.9,Singapore,HSFO,869.0,8.9,797618.31,105007.81
+DEC-0629,Newcastle,Visakhapatnam (Inner),Panamax,13.7,Visakhapatnam,VLSFO,437.8,11.2,620199.62,112412.76
+DEC-0630,Maputo,Gangavaram,Handysize,13.5,Singapore,LSMGO,590.6,11.6,1559889.41,185898.32
+DEC-0631,Norfolk,Paradip,Supramax,12.5,Singapore,LSMGO,1019.0,26.8,708212.04,140371.99
+DEC-0632,Richards Bay,Visakhapatnam (Inner),Handysize,11.9,Singapore,LSMGO,540.0,16.5,1987503.39,394469.79
+DEC-0633,Norfolk,Visakhapatnam (Outer),Capesize,12.8,Visakhapatnam,VLSFO,1187.1,28.7,1102396.27,152884.4
+DEC-0634,Maputo,Visakhapatnam (Outer),Supramax,12.1,Fujairah,HSFO,418.8,22.4,1060467.43,110161.52
+DEC-0635,Maputo,Visakhapatnam (Inner),Supramax,12.6,Rotterdam,HSFO,816.3,12.8,1065140.92,112792.34
+DEC-0636,Maputo,Dhamra,Handysize,12.4,Singapore,HSFO,747.2,10.5,2168349.61,472233.53
+DEC-0637,Samarinda,Paradip,Panamax,12.9,Visakhapatnam,HSFO,1081.3,22.3,1875562.86,166707.92
+DEC-0638,Richards Bay,Gangavaram,Handysize,12.2,Fujairah,HSFO,658.3,22.9,1815020.99,358793.38
+DEC-0639,Samarinda,Visakhapatnam (Outer),Capesize,13.2,Singapore,LSMGO,834.4,28.1,1153225.12,235054.28
+DEC-0640,Newcastle,Gopalpur,Supramax,12.0,Fujairah,HSFO,904.5,16.4,858077.18,80803.13
+DEC-0641,Norfolk,Visakhapatnam (Inner),Panamax,13.3,Fujairah,VLSFO,450.2,17.3,1011376.15,181003.05
+DEC-0642,Richards Bay,Gopalpur,Capesize,12.8,Fujairah,LSMGO,877.5,10.8,886264.39,154085.27
+DEC-0643,Norfolk,Gopalpur,Capesize,11.7,Fujairah,VLSFO,717.4,18.3,1293272.82,194366.4
+DEC-0644,Richards Bay,Dhamra,Handysize,12.1,Fujairah,VLSFO,540.6,28.1,707741.81,74444.2
+DEC-0645,Maputo,Dhamra,Supramax,13.3,Singapore,VLSFO,453.6,12.3,660023.21,132322.03
+DEC-0646,Samarinda,Dhamra,Handysize,12.7,Visakhapatnam,LSMGO,1085.2,30.1,1644784.48,361102.97
+DEC-0647,Newcastle,Visakhapatnam (Outer),Panamax,11.8,Rotterdam,HSFO,479.6,19.7,1769157.71,217072.07
+DEC-0648,Richards Bay,Dhamra,Supramax,13.5,Fujairah,LSMGO,863.5,21.5,1891884.56,180546.06
+DEC-0649,Samarinda,Paradip,Panamax,11.8,Fujairah,HSFO,753.9,27.4,2172916.4,213497.52
+DEC-0650,Newcastle,Dhamra,Capesize,12.2,Rotterdam,HSFO,654.4,19.2,1009152.7,120770.14
+DEC-0651,Norfolk,Gangavaram,Handysize,11.6,Visakhapatnam,LSMGO,562.8,10.2,1563647.24,277671.45
+DEC-0652,Newcastle,Gopalpur,Panamax,12.6,Fujairah,VLSFO,819.6,17.7,1093847.28,216063.44
+DEC-0653,Norfolk,Haldia,Handysize,13.5,Visakhapatnam,HSFO,834.2,9.3,1714149.7,231389.98
+DEC-0654,Newcastle,Gangavaram,Handysize,11.8,Singapore,VLSFO,977.4,20.0,1129428.97,195181.99
+DEC-0655,Newcastle,Gopalpur,Capesize,12.6,Fujairah,HSFO,460.4,22.5,1389062.47,137326.55
+DEC-0656,Norfolk,Haldia,Panamax,12.5,Visakhapatnam,LSMGO,1021.1,22.6,1632967.72,208992.58
+DEC-0657,Samarinda,Haldia,Panamax,12.1,Singapore,VLSFO,1052.3,23.7,537887.59,118129.85
+DEC-0658,Norfolk,Gangavaram,Panamax,11.6,Rotterdam,VLSFO,1090.9,12.3,1557682.46,342174.77
+DEC-0659,Maputo,Visakhapatnam (Outer),Supramax,13.0,Singapore,VLSFO,710.7,16.3,979306.36,80243.71
+DEC-0660,Richards Bay,Gangavaram,Panamax,11.8,Visakhapatnam,LSMGO,1164.8,22.9,1225002.98,178479.28
+DEC-0661,Norfolk,Gopalpur,Handysize,12.9,Fujairah,LSMGO,623.2,16.7,708979.92,137948.3
+DEC-0662,Richards Bay,Gopalpur,Capesize,11.5,Rotterdam,VLSFO,560.7,22.8,1606249.32,233742.31
+DEC-0663,Norfolk,Visakhapatnam (Outer),Panamax,13.0,Rotterdam,HSFO,1154.0,10.9,2199312.26,307722.66
+DEC-0664,Maputo,Dhamra,Supramax,11.9,Rotterdam,VLSFO,869.9,22.8,503813.97,47059.04
+DEC-0665,Maputo,Gangavaram,Handysize,13.5,Rotterdam,HSFO,979.4,11.1,726748.7,71277.38
+DEC-0666,Newcastle,Visakhapatnam (Inner),Supramax,12.3,Fujairah,VLSFO,721.7,23.6,791392.59,114817.79
+DEC-0667,Newcastle,Gopalpur,Capesize,13.4,Rotterdam,LSMGO,597.4,8.5,682377.1,57180.02
+DEC-0668,Samarinda,Dhamra,Panamax,13.7,Visakhapatnam,LSMGO,658.8,8.6,909505.22,127336.03
+DEC-0669,Richards Bay,Gopalpur,Supramax,13.8,Singapore,LSMGO,617.9,23.6,599599.68,120190.85
+DEC-0670,Newcastle,Gangavaram,Capesize,11.5,Singapore,VLSFO,918.6,18.7,547974.31,77515.61
+DEC-0671,Newcastle,Gangavaram,Capesize,12.7,Fujairah,VLSFO,768.9,13.5,1145680.94,243501.35
+DEC-0672,Richards Bay,Dhamra,Capesize,11.6,Fujairah,LSMGO,585.9,11.4,531188.95,63886.02
+DEC-0673,Richards Bay,Gangavaram,Handysize,12.0,Rotterdam,HSFO,1110.2,18.8,1675725.21,135308.8
+DEC-0674,Samarinda,Dhamra,Handysize,14.0,Rotterdam,LSMGO,752.1,19.8,1751409.05,228333.54
+DEC-0675,Norfolk,Visakhapatnam (Inner),Handysize,12.2,Visakhapatnam,VLSFO,615.7,8.3,1976383.85,235329.69
+DEC-0676,Norfolk,Haldia,Panamax,12.5,Rotterdam,HSFO,1154.2,28.8,482943.04,43188.37
+DEC-0677,Maputo,Paradip,Handysize,13.2,Fujairah,HSFO,1012.6,16.2,865009.71,119321.57
+DEC-0678,Richards Bay,Visakhapatnam (Inner),Handysize,12.1,Fujairah,LSMGO,1110.6,22.1,863326.85,173076.85
+DEC-0679,Norfolk,Haldia,Handysize,13.9,Singapore,HSFO,932.7,15.8,1967259.42,362669.83
+DEC-0680,Norfolk,Gangavaram,Capesize,13.3,Rotterdam,VLSFO,807.6,17.0,1662707.87,204541.1
+DEC-0681,Maputo,Dhamra,Panamax,13.9,Rotterdam,VLSFO,637.6,12.4,1054793.14,102310.35
+DEC-0682,Samarinda,Visakhapatnam (Outer),Panamax,13.8,Singapore,VLSFO,1105.7,13.9,2038269.32,196524.66
+DEC-0683,Richards Bay,Gopalpur,Supramax,12.2,Fujairah,LSMGO,855.5,30.0,2139428.13,183026.14
+DEC-0684,Norfolk,Paradip,Capesize,11.5,Visakhapatnam,VLSFO,727.0,20.3,587190.34,58088.35
+DEC-0685,Samarinda,Haldia,Panamax,12.0,Visakhapatnam,VLSFO,516.9,21.4,625407.43,132544.66
+DEC-0686,Norfolk,Gangavaram,Panamax,13.4,Visakhapatnam,LSMGO,888.1,8.5,1259112.84,180849.24
+DEC-0687,Norfolk,Gopalpur,Capesize,12.2,Visakhapatnam,LSMGO,676.8,24.4,721180.43,91619.01
+DEC-0688,Richards Bay,Gangavaram,Handysize,12.9,Singapore,HSFO,697.2,31.9,474091.83,42509.32
+DEC-0689,Norfolk,Dhamra,Panamax,12.9,Rotterdam,HSFO,949.5,26.6,503671.27,78157.87
+DEC-0690,Norfolk,Haldia,Handysize,13.6,Singapore,LSMGO,555.7,22.5,997194.69,194343.44
+DEC-0691,Samarinda,Dhamra,Capesize,11.6,Visakhapatnam,LSMGO,898.3,11.9,2072671.17,274812.47
+DEC-0692,Newcastle,Visakhapatnam (Outer),Supramax,11.6,Singapore,LSMGO,1110.0,12.1,926536.38,146091.65
+DEC-0693,Norfolk,Haldia,Panamax,13.7,Fujairah,HSFO,572.0,30.7,1536536.32,199365.49
+DEC-0694,Newcastle,Gangavaram,Capesize,13.5,Visakhapatnam,LSMGO,1181.3,13.6,1480234.67,286017.32
+DEC-0695,Norfolk,Gopalpur,Capesize,12.3,Fujairah,VLSFO,946.6,27.2,469121.69,66049.33
+DEC-0696,Maputo,Haldia,Supramax,12.1,Visakhapatnam,HSFO,751.7,29.0,1807544.82,323792.8
+DEC-0697,Samarinda,Haldia,Panamax,14.0,Fujairah,HSFO,899.9,27.6,1301251.83,219827.57
+DEC-0698,Richards Bay,Gangavaram,Capesize,12.9,Fujairah,VLSFO,417.1,9.2,1231657.11,158354.48
+DEC-0699,Newcastle,Visakhapatnam (Inner),Handysize,12.3,Rotterdam,HSFO,655.9,12.7,1014304.34,94163.57
+DEC-0700,Maputo,Paradip,Supramax,13.4,Rotterdam,VLSFO,1119.6,27.5,1857241.64,296174.49
+DEC-0701,Norfolk,Dhamra,Handysize,13.8,Rotterdam,LSMGO,897.1,15.5,465982.71,93768.83
+DEC-0702,Norfolk,Paradip,Panamax,11.6,Visakhapatnam,LSMGO,601.4,24.4,527073.93,77643.79
+DEC-0703,Maputo,Paradip,Handysize,12.4,Fujairah,VLSFO,1188.4,25.8,1053951.77,120638.68
+DEC-0704,Samarinda,Gangavaram,Panamax,14.0,Rotterdam,VLSFO,873.9,20.6,1563329.96,268752.08
+DEC-0705,Norfolk,Visakhapatnam (Outer),Capesize,11.8,Visakhapatnam,HSFO,512.8,23.6,805270.05,92682.91
+DEC-0706,Norfolk,Gopalpur,Handysize,13.0,Singapore,LSMGO,796.5,31.9,1440192.67,222229.21
+DEC-0707,Samarinda,Dhamra,Panamax,12.8,Rotterdam,LSMGO,1015.0,19.6,1234138.29,225907.64
+DEC-0708,Richards Bay,Haldia,Panamax,13.9,Rotterdam,HSFO,1019.7,12.9,2194036.59,228109.74
+DEC-0709,Newcastle,Visakhapatnam (Inner),Panamax,12.3,Singapore,VLSFO,694.2,8.5,480294.64,75190.89
+DEC-0710,Richards Bay,Visakhapatnam (Inner),Handysize,12.0,Singapore,HSFO,552.6,22.7,1644820.71,287838.12
+DEC-0711,Richards Bay,Gangavaram,Supramax,12.1,Visakhapatnam,VLSFO,677.7,14.8,1847026.84,234758.02
+DEC-0712,Newcastle,Gopalpur,Handysize,12.7,Singapore,HSFO,753.8,31.5,2151913.88,382873.08
+DEC-0713,Newcastle,Paradip,Capesize,11.9,Fujairah,HSFO,909.0,13.9,1337140.25,185751.79
+DEC-0714,Norfolk,Gangavaram,Panamax,11.6,Rotterdam,LSMGO,616.9,26.4,2051906.15,338818.18
+DEC-0715,Newcastle,Gopalpur,Capesize,13.2,Rotterdam,LSMGO,1125.2,12.3,2108453.64,214774.34
+DEC-0716,Samarinda,Haldia,Handysize,13.5,Fujairah,LSMGO,977.3,30.8,1701049.17,316912.48
+DEC-0717,Samarinda,Gangavaram,Capesize,13.8,Singapore,HSFO,1037.3,20.6,2041299.11,311997.6
+DEC-0718,Newcastle,Gopalpur,Handysize,13.1,Rotterdam,HSFO,1171.6,30.2,1009448.93,117350.29
+DEC-0719,Richards Bay,Visakhapatnam (Inner),Panamax,13.0,Visakhapatnam,LSMGO,454.6,31.5,2091679.08,397875.08
+DEC-0720,Samarinda,Haldia,Supramax,12.9,Visakhapatnam,LSMGO,586.1,18.6,584911.17,66470.17
+DEC-0721,Maputo,Gopalpur,Handysize,13.3,Visakhapatnam,LSMGO,767.2,18.4,1103562.73,96092.98
+DEC-0722,Newcastle,Dhamra,Handysize,12.9,Rotterdam,LSMGO,448.6,13.7,1177376.87,123116.6
+DEC-0723,Maputo,Haldia,Supramax,13.4,Fujairah,VLSFO,914.7,18.1,926637.72,114345.43
+DEC-0724,Maputo,Paradip,Supramax,13.1,Rotterdam,HSFO,701.2,17.4,663137.42,97029.72
+DEC-0725,Maputo,Visakhapatnam (Inner),Supramax,11.9,Fujairah,LSMGO,770.7,22.8,1587667.04,146399.02
+DEC-0726,Norfolk,Visakhapatnam (Outer),Handysize,12.5,Singapore,VLSFO,810.6,25.3,901513.05,130069.72
+DEC-0727,Norfolk,Gopalpur,Panamax,13.9,Rotterdam,HSFO,852.1,23.5,1728261.61,252793.23
+DEC-0728,Maputo,Dhamra,Handysize,11.8,Rotterdam,LSMGO,897.6,21.8,1886777.18,172159.59
+DEC-0729,Newcastle,Visakhapatnam (Inner),Handysize,12.1,Rotterdam,LSMGO,601.6,30.8,1298243.9,283664.44
+DEC-0730,Newcastle,Haldia,Supramax,12.2,Singapore,LSMGO,497.3,24.4,1885681.43,300401.6
+DEC-0731,Norfolk,Gopalpur,Capesize,13.6,Singapore,HSFO,965.3,29.3,488889.56,59177.06
+DEC-0732,Newcastle,Dhamra,Capesize,11.7,Visakhapatnam,VLSFO,764.5,30.4,702822.58,88796.16
+DEC-0733,Maputo,Gangavaram,Supramax,12.7,Visakhapatnam,LSMGO,711.0,27.3,911155.69,154963.75
+DEC-0734,Maputo,Paradip,Panamax,13.6,Rotterdam,VLSFO,905.4,30.3,1705624.59,366678.89
+DEC-0735,Maputo,Dhamra,Handysize,13.7,Fujairah,HSFO,473.7,27.3,519964.61,90576.33
+DEC-0736,Maputo,Visakhapatnam (Inner),Supramax,13.6,Fujairah,VLSFO,1033.6,26.8,2187336.8,226900.22
+DEC-0737,Norfolk,Dhamra,Handysize,13.8,Visakhapatnam,HSFO,409.3,23.3,1520679.66,156537.85
+DEC-0738,Richards Bay,Visakhapatnam (Outer),Capesize,12.5,Fujairah,VLSFO,1011.3,15.6,2135437.79,431467.11
+DEC-0739,Maputo,Gangavaram,Supramax,11.8,Singapore,VLSFO,773.7,15.2,1314648.36,138231.8
+DEC-0740,Newcastle,Dhamra,Handysize,12.7,Singapore,VLSFO,756.1,22.6,747404.93,129414.36
+DEC-0741,Norfolk,Paradip,Panamax,13.6,Rotterdam,HSFO,1155.9,13.5,464767.57,74422.29
+DEC-0742,Samarinda,Dhamra,Handysize,12.8,Visakhapatnam,HSFO,968.5,19.3,2016458.75,188351.86
+DEC-0743,Norfolk,Gangavaram,Panamax,13.6,Fujairah,LSMGO,585.8,19.0,1927514.2,376071.61
+DEC-0744,Norfolk,Visakhapatnam (Inner),Handysize,11.8,Fujairah,LSMGO,737.0,15.7,1158229.68,224878.06
+DEC-0745,Maputo,Gopalpur,Handysize,12.3,Rotterdam,LSMGO,895.8,27.3,1646593.75,311339.69
+DEC-0746,Norfolk,Visakhapatnam (Inner),Supramax,13.9,Visakhapatnam,LSMGO,420.7,19.0,585022.8,55280.47
+DEC-0747,Samarinda,Dhamra,Capesize,12.9,Singapore,LSMGO,509.8,14.7,1284167.98,240685.86
+DEC-0748,Samarinda,Visakhapatnam (Inner),Supramax,12.3,Rotterdam,LSMGO,1165.0,29.6,1457489.8,199335.6
+DEC-0749,Samarinda,Dhamra,Panamax,12.7,Fujairah,LSMGO,502.4,8.2,609461.82,79145.89
+DEC-0750,Maputo,Visakhapatnam (Inner),Handysize,12.0,Singapore,LSMGO,802.1,10.2,883564.51,173932.9
+DEC-0751,Norfolk,Gangavaram,Supramax,11.7,Rotterdam,VLSFO,912.6,19.5,1789637.25,314090.69
+DEC-0752,Norfolk,Gangavaram,Capesize,13.4,Visakhapatnam,HSFO,732.1,27.4,2081820.5,184527.2
+DEC-0753,Richards Bay,Gopalpur,Panamax,11.9,Fujairah,VLSFO,1192.6,27.6,1505360.64,267698.43
+DEC-0754,Norfolk,Dhamra,Capesize,12.2,Singapore,VLSFO,504.8,8.5,829020.24,130930.98
+DEC-0755,Richards Bay,Gopalpur,Supramax,12.1,Visakhapatnam,VLSFO,863.2,22.6,461815.84,57380.41
+DEC-0756,Norfolk,Visakhapatnam (Inner),Supramax,13.4,Fujairah,LSMGO,1122.8,31.7,964306.1,164145.48
+DEC-0757,Newcastle,Visakhapatnam (Outer),Panamax,12.0,Rotterdam,LSMGO,458.2,27.1,1390754.92,243797.19
+DEC-0758,Newcastle,Paradip,Supramax,12.3,Rotterdam,HSFO,616.8,10.8,845298.46,162521.56
+DEC-0759,Samarinda,Visakhapatnam (Inner),Handysize,12.4,Rotterdam,VLSFO,1026.4,19.1,2015161.0,395342.69
+DEC-0760,Newcastle,Gopalpur,Handysize,12.1,Singapore,LSMGO,1042.7,31.5,1307774.36,154379.28
+DEC-0761,Norfolk,Visakhapatnam (Inner),Supramax,12.1,Rotterdam,LSMGO,433.0,10.6,1011895.73,187502.98
+DEC-0762,Richards Bay,Paradip,Supramax,11.8,Visakhapatnam,HSFO,647.2,15.2,873349.5,112797.51
+DEC-0763,Samarinda,Gangavaram,Handysize,12.3,Visakhapatnam,VLSFO,964.3,22.3,1028178.57,155985.52
+DEC-0764,Richards Bay,Gangavaram,Handysize,13.2,Singapore,VLSFO,796.0,15.4,1271128.31,153604.69
+DEC-0765,Newcastle,Dhamra,Panamax,11.6,Fujairah,LSMGO,974.0,18.9,1320588.9,277193.05
+DEC-0766,Norfolk,Haldia,Supramax,11.6,Singapore,LSMGO,995.3,28.7,742644.18,66264.47
+DEC-0767,Richards Bay,Haldia,Panamax,12.7,Visakhapatnam,LSMGO,608.8,27.9,2077930.32,268780.39
+DEC-0768,Richards Bay,Haldia,Panamax,12.6,Rotterdam,VLSFO,931.4,23.9,1974103.9,308245.27
+DEC-0769,Richards Bay,Haldia,Panamax,11.5,Singapore,VLSFO,1001.7,20.3,1190413.75,151950.45
+DEC-0770,Samarinda,Gopalpur,Panamax,13.0,Singapore,HSFO,910.3,15.8,1858422.89,292490.62
+DEC-0771,Newcastle,Visakhapatnam (Outer),Handysize,13.3,Rotterdam,HSFO,709.3,30.5,1369944.48,277934.66
+DEC-0772,Newcastle,Haldia,Supramax,13.3,Rotterdam,LSMGO,868.1,24.1,535621.95,64689.28
+DEC-0773,Norfolk,Paradip,Capesize,13.5,Fujairah,LSMGO,648.2,29.8,1431659.04,206334.69
+DEC-0774,Maputo,Dhamra,Handysize,13.4,Singapore,VLSFO,415.3,18.9,793307.13,64530.13
+DEC-0775,Newcastle,Visakhapatnam (Inner),Handysize,13.5,Fujairah,VLSFO,988.6,11.9,1387004.1,123560.58
+DEC-0776,Norfolk,Gopalpur,Handysize,14.0,Fujairah,HSFO,608.4,12.3,691070.76,106360.29
+DEC-0777,Newcastle,Haldia,Panamax,11.8,Singapore,LSMGO,664.8,29.5,1795835.95,325663.59
+DEC-0778,Maputo,Gangavaram,Supramax,12.3,Fujairah,LSMGO,982.7,22.5,1479792.07,150092.56
+DEC-0779,Maputo,Gangavaram,Capesize,13.8,Rotterdam,VLSFO,1011.3,16.4,713838.24,137226.13
+DEC-0780,Norfolk,Haldia,Panamax,12.7,Fujairah,VLSFO,666.3,18.0,1556277.65,311118.92
+DEC-0781,Samarinda,Paradip,Panamax,11.9,Visakhapatnam,LSMGO,779.8,14.9,1727679.94,372727.9
+DEC-0782,Samarinda,Visakhapatnam (Outer),Supramax,12.2,Singapore,LSMGO,682.0,24.7,1709030.1,353890.21
+DEC-0783,Maputo,Visakhapatnam (Inner),Handysize,12.1,Fujairah,VLSFO,497.7,28.4,531986.86,52912.86
+DEC-0784,Newcastle,Gangavaram,Supramax,13.5,Rotterdam,LSMGO,1108.9,13.7,1494916.7,271154.29
+DEC-0785,Newcastle,Visakhapatnam (Outer),Capesize,12.0,Rotterdam,HSFO,1181.6,11.8,1579642.03,325440.29
+DEC-0786,Maputo,Haldia,Panamax,12.0,Rotterdam,LSMGO,974.6,25.8,1289532.1,229410.84
+DEC-0787,Newcastle,Dhamra,Supramax,13.9,Singapore,LSMGO,447.3,26.5,1182428.87,177811.23
+DEC-0788,Newcastle,Haldia,Panamax,13.5,Singapore,HSFO,583.6,8.1,1816148.6,346980.2
+DEC-0789,Maputo,Paradip,Capesize,13.9,Visakhapatnam,LSMGO,894.9,28.2,907310.06,144456.18
+DEC-0790,Richards Bay,Paradip,Supramax,11.8,Singapore,VLSFO,459.7,23.0,1424678.73,186570.27
+DEC-0791,Richards Bay,Gopalpur,Capesize,11.5,Fujairah,HSFO,850.6,21.4,1049937.25,167744.16
+DEC-0792,Samarinda,Haldia,Supramax,12.7,Rotterdam,VLSFO,963.6,25.9,978754.41,147508.64
+DEC-0793,Maputo,Gopalpur,Handysize,13.8,Rotterdam,LSMGO,1121.7,15.0,1742659.09,281386.26
+DEC-0794,Samarinda,Gopalpur,Handysize,12.0,Rotterdam,VLSFO,500.5,11.3,952021.76,175934.25
+DEC-0795,Norfolk,Visakhapatnam (Outer),Panamax,13.9,Visakhapatnam,HSFO,765.1,27.4,1727208.58,164549.94
+DEC-0796,Samarinda,Paradip,Capesize,12.0,Rotterdam,HSFO,670.7,21.5,1996635.01,299856.39
+DEC-0797,Maputo,Visakhapatnam (Outer),Capesize,13.5,Fujairah,HSFO,867.6,28.0,1456300.5,124069.23
+DEC-0798,Norfolk,Visakhapatnam (Inner),Supramax,12.3,Singapore,LSMGO,985.3,20.6,1510738.79,316850.96
+DEC-0799,Newcastle,Haldia,Handysize,12.8,Singapore,VLSFO,1151.5,30.8,1819467.73,167034.77
+DEC-0800,Newcastle,Visakhapatnam (Outer),Panamax,11.6,Fujairah,LSMGO,853.4,20.2,1946985.6,158682.26
+DEC-0801,Samarinda,Haldia,Supramax,13.0,Fujairah,HSFO,597.4,23.7,749799.78,128533.03
+DEC-0802,Newcastle,Visakhapatnam (Outer),Supramax,11.8,Fujairah,HSFO,692.4,21.4,1996313.63,340809.24
+DEC-0803,Richards Bay,Gangavaram,Capesize,12.8,Singapore,LSMGO,554.4,15.3,555761.97,100549.01
+DEC-0804,Maputo,Visakhapatnam (Inner),Supramax,12.8,Rotterdam,VLSFO,768.2,19.8,664603.78,119217.45
+DEC-0805,Newcastle,Gopalpur,Capesize,13.2,Fujairah,HSFO,979.0,31.4,740986.25,161399.46
+DEC-0806,Samarinda,Paradip,Panamax,13.4,Fujairah,HSFO,756.3,19.5,1772626.89,224152.47
+DEC-0807,Norfolk,Gopalpur,Handysize,12.5,Singapore,VLSFO,864.8,15.4,569171.89,100048.3
+DEC-0808,Richards Bay,Dhamra,Capesize,13.2,Fujairah,HSFO,1178.1,26.3,1967427.27,296599.3
+DEC-0809,Samarinda,Visakhapatnam (Outer),Capesize,12.1,Rotterdam,VLSFO,692.6,10.3,1621090.79,354598.18
+DEC-0810,Samarinda,Gangavaram,Capesize,12.3,Singapore,LSMGO,717.7,20.2,607430.68,80429.44
+DEC-0811,Richards Bay,Paradip,Handysize,13.0,Fujairah,LSMGO,845.2,10.3,2109384.23,451578.07
+DEC-0812,Maputo,Paradip,Panamax,11.8,Rotterdam,VLSFO,1108.8,20.0,1195805.86,260694.81
+DEC-0813,Maputo,Visakhapatnam (Outer),Capesize,13.6,Visakhapatnam,HSFO,579.3,27.9,724440.92,71098.62
+DEC-0814,Norfolk,Haldia,Handysize,13.1,Singapore,LSMGO,972.1,19.0,815744.59,141892.05
+DEC-0815,Maputo,Visakhapatnam (Outer),Panamax,12.8,Rotterdam,VLSFO,657.0,18.9,1318426.76,236403.18
+DEC-0816,Richards Bay,Gopalpur,Supramax,12.2,Fujairah,VLSFO,604.9,19.5,517827.83,64553.31
+DEC-0817,Maputo,Haldia,Handysize,12.7,Rotterdam,LSMGO,811.9,14.3,1807108.33,262331.43
+DEC-0818,Samarinda,Haldia,Panamax,12.3,Rotterdam,HSFO,1021.6,15.3,1093361.99,144552.08
+DEC-0819,Newcastle,Visakhapatnam (Outer),Handysize,13.4,Fujairah,VLSFO,975.4,24.4,2013758.69,213257.49
+DEC-0820,Newcastle,Visakhapatnam (Inner),Handysize,11.7,Visakhapatnam,LSMGO,545.9,8.6,1642356.41,352099.32
+DEC-0821,Richards Bay,Haldia,Handysize,11.8,Visakhapatnam,LSMGO,852.3,8.9,1388688.16,231125.84
+DEC-0822,Norfolk,Gopalpur,Handysize,13.3,Visakhapatnam,VLSFO,957.1,27.8,1889084.76,368274.37
+DEC-0823,Samarinda,Paradip,Panamax,13.5,Visakhapatnam,LSMGO,839.0,22.5,1377945.24,265296.61
+DEC-0824,Norfolk,Haldia,Handysize,12.9,Rotterdam,VLSFO,826.8,24.7,1142134.88,226221.2
+DEC-0825,Samarinda,Dhamra,Handysize,12.2,Fujairah,HSFO,493.0,16.7,702477.79,88630.86
+DEC-0826,Maputo,Dhamra,Handysize,12.4,Fujairah,LSMGO,1138.6,16.5,1805706.81,357261.44
+DEC-0827,Maputo,Visakhapatnam (Outer),Handysize,12.1,Singapore,VLSFO,1099.5,16.0,1498808.11,296684.81
+DEC-0828,Newcastle,Paradip,Handysize,12.9,Visakhapatnam,VLSFO,770.9,24.4,1962273.71,334550.07
+DEC-0829,Norfolk,Haldia,Supramax,11.7,Fujairah,LSMGO,574.5,18.4,803987.1,163747.75
+DEC-0830,Maputo,Gopalpur,Handysize,12.9,Fujairah,VLSFO,889.6,14.3,1006893.51,203895.57
+DEC-0831,Newcastle,Haldia,Panamax,13.6,Fujairah,LSMGO,1158.7,15.6,754052.14,137391.57
+DEC-0832,Richards Bay,Haldia,Panamax,12.5,Visakhapatnam,VLSFO,445.8,13.8,604111.99,119418.48
+DEC-0833,Newcastle,Paradip,Capesize,13.6,Rotterdam,HSFO,444.7,16.7,616625.0,102056.49
+DEC-0834,Maputo,Haldia,Panamax,12.8,Visakhapatnam,HSFO,822.7,30.3,1097945.26,155436.01
+DEC-0835,Newcastle,Dhamra,Capesize,13.1,Visakhapatnam,VLSFO,949.1,24.9,2186076.99,456714.42
+DEC-0836,Richards Bay,Haldia,Supramax,13.5,Visakhapatnam,LSMGO,928.7,8.7,609814.62,108535.71
+DEC-0837,Richards Bay,Haldia,Handysize,11.7,Singapore,HSFO,926.2,8.6,1147233.28,113653.96
+DEC-0838,Newcastle,Paradip,Panamax,13.0,Visakhapatnam,HSFO,1043.4,26.8,1635939.93,218215.09
+DEC-0839,Richards Bay,Gopalpur,Handysize,12.4,Visakhapatnam,HSFO,685.3,21.1,526302.21,62371.35
+DEC-0840,Newcastle,Haldia,Panamax,11.7,Singapore,LSMGO,479.7,19.3,1341080.16,138676.3
+DEC-0841,Richards Bay,Gopalpur,Capesize,13.1,Visakhapatnam,VLSFO,952.4,26.4,1986343.33,340566.13
+DEC-0842,Maputo,Visakhapatnam (Outer),Capesize,13.4,Visakhapatnam,LSMGO,426.7,18.1,1006412.58,177923.1
+DEC-0843,Maputo,Haldia,Panamax,13.9,Fujairah,HSFO,777.4,28.0,723317.04,84331.69
+DEC-0844,Richards Bay,Gangavaram,Capesize,11.7,Singapore,HSFO,688.3,11.3,811322.01,89315.78
+DEC-0845,Maputo,Haldia,Handysize,12.7,Visakhapatnam,HSFO,1177.6,13.3,2069470.3,446251.93
+DEC-0846,Norfolk,Visakhapatnam (Inner),Handysize,12.8,Rotterdam,VLSFO,635.2,27.3,2100747.37,429864.11
+DEC-0847,Norfolk,Visakhapatnam (Outer),Handysize,13.6,Fujairah,VLSFO,841.4,16.6,2045034.37,185052.65
+DEC-0848,Newcastle,Haldia,Supramax,12.1,Fujairah,LSMGO,617.1,20.8,579771.78,102043.56
+DEC-0849,Norfolk,Gangavaram,Handysize,12.6,Singapore,LSMGO,554.3,27.0,1188047.09,253112.89
+DEC-0850,Maputo,Gopalpur,Handysize,11.5,Rotterdam,VLSFO,867.4,18.5,698683.09,100700.65
+DEC-0851,Samarinda,Visakhapatnam (Outer),Capesize,13.9,Singapore,VLSFO,503.1,8.5,2095123.8,278820.51
+DEC-0852,Norfolk,Gangavaram,Capesize,12.2,Rotterdam,HSFO,707.1,12.4,2071794.6,169341.66
+DEC-0853,Newcastle,Dhamra,Capesize,13.7,Visakhapatnam,LSMGO,494.5,16.6,2124788.7,430659.61
+DEC-0854,Richards Bay,Dhamra,Capesize,11.8,Visakhapatnam,HSFO,797.5,15.7,779357.17,98578.88
+DEC-0855,Maputo,Haldia,Panamax,12.9,Singapore,LSMGO,688.2,16.2,1299244.94,234746.68
+DEC-0856,Newcastle,Gangavaram,Handysize,13.5,Fujairah,HSFO,786.0,26.3,2046357.36,191838.19
+DEC-0857,Samarinda,Visakhapatnam (Outer),Handysize,13.0,Singapore,HSFO,743.8,10.2,1062555.45,156082.41
+DEC-0858,Newcastle,Gopalpur,Panamax,11.5,Fujairah,VLSFO,1147.5,19.2,997617.14,173809.52
+DEC-0859,Samarinda,Haldia,Handysize,13.5,Singapore,HSFO,421.5,13.0,986242.92,167190.89
+DEC-0860,Newcastle,Gangavaram,Capesize,13.3,Visakhapatnam,VLSFO,1123.2,28.8,1786307.65,288120.13
+DEC-0861,Samarinda,Gangavaram,Handysize,12.1,Singapore,LSMGO,792.6,29.1,994569.59,200695.51
+DEC-0862,Newcastle,Dhamra,Supramax,13.1,Rotterdam,LSMGO,425.2,9.9,2186154.62,329925.01
+DEC-0863,Maputo,Visakhapatnam (Outer),Supramax,13.9,Fujairah,HSFO,1159.4,18.3,718888.9,152196.21
+DEC-0864,Maputo,Haldia,Handysize,13.6,Visakhapatnam,LSMGO,484.1,10.6,2175145.61,282439.34
+DEC-0865,Richards Bay,Visakhapatnam (Outer),Panamax,13.6,Singapore,VLSFO,1138.6,17.6,1757225.01,222106.58
+DEC-0866,Samarinda,Visakhapatnam (Outer),Panamax,13.0,Fujairah,LSMGO,495.0,28.2,510939.53,105920.65
+DEC-0867,Maputo,Paradip,Handysize,12.4,Singapore,LSMGO,691.8,13.8,1601201.32,262918.16
+DEC-0868,Richards Bay,Visakhapatnam (Outer),Supramax,12.5,Visakhapatnam,HSFO,1179.9,18.9,1811094.68,168983.98
+DEC-0869,Samarinda,Haldia,Panamax,11.6,Visakhapatnam,LSMGO,973.7,9.5,1385260.94,192755.04
+DEC-0870,Richards Bay,Gangavaram,Handysize,11.7,Singapore,HSFO,1039.5,16.4,1217995.53,119473.66
+DEC-0871,Richards Bay,Gangavaram,Panamax,13.6,Singapore,LSMGO,472.5,26.1,1112695.47,118544.85
+DEC-0872,Richards Bay,Gangavaram,Capesize,12.5,Rotterdam,HSFO,1193.2,19.1,1200426.91,177339.54
+DEC-0873,Richards Bay,Visakhapatnam (Outer),Capesize,12.9,Visakhapatnam,HSFO,1056.3,23.6,803848.05,153506.16
+DEC-0874,Norfolk,Dhamra,Panamax,12.1,Singapore,LSMGO,557.6,21.1,500367.16,67860.9
+DEC-0875,Maputo,Dhamra,Capesize,12.0,Singapore,VLSFO,751.2,13.3,1668599.11,336182.73
+DEC-0876,Newcastle,Gopalpur,Panamax,12.6,Rotterdam,VLSFO,1038.1,25.5,1574682.58,157350.2
+DEC-0877,Newcastle,Dhamra,Handysize,12.1,Visakhapatnam,LSMGO,1045.8,19.6,1038078.72,138903.57
+DEC-0878,Maputo,Paradip,Handysize,13.9,Visakhapatnam,LSMGO,1039.5,18.3,2114745.02,224804.72
+DEC-0879,Norfolk,Visakhapatnam (Outer),Panamax,12.0,Singapore,VLSFO,1118.7,19.8,481583.68,63304.45
+DEC-0880,Maputo,Gangavaram,Supramax,13.8,Rotterdam,VLSFO,1136.4,26.8,463444.15,60957.08
+DEC-0881,Richards Bay,Gopalpur,Handysize,12.1,Rotterdam,VLSFO,1101.1,11.3,735214.86,141925.65
+DEC-0882,Samarinda,Gopalpur,Capesize,13.8,Rotterdam,HSFO,657.0,24.0,670114.36,147261.77
+DEC-0883,Maputo,Visakhapatnam (Outer),Supramax,12.7,Rotterdam,HSFO,810.1,12.7,662194.59,124019.59
+DEC-0884,Samarinda,Visakhapatnam (Outer),Capesize,13.9,Rotterdam,LSMGO,1127.5,27.9,1033850.47,86750.64
+DEC-0885,Norfolk,Dhamra,Capesize,13.4,Visakhapatnam,HSFO,508.0,16.9,676351.09,141721.43
+DEC-0886,Samarinda,Gopalpur,Capesize,12.4,Rotterdam,HSFO,1036.6,15.9,1259137.2,271252.85
+DEC-0887,Maputo,Visakhapatnam (Inner),Handysize,13.5,Rotterdam,VLSFO,749.8,13.9,627898.89,100740.64
+DEC-0888,Norfolk,Visakhapatnam (Inner),Panamax,12.7,Rotterdam,VLSFO,1002.8,22.2,1855293.24,204495.46
+DEC-0889,Richards Bay,Paradip,Panamax,13.3,Visakhapatnam,LSMGO,527.6,17.7,1956426.31,325839.42
+DEC-0890,Maputo,Paradip,Panamax,13.2,Singapore,HSFO,1092.1,22.4,1439095.54,116369.36
+DEC-0891,Maputo,Gangavaram,Capesize,13.6,Visakhapatnam,HSFO,471.2,8.6,1374473.9,126908.12
+DEC-0892,Maputo,Dhamra,Supramax,13.4,Fujairah,LSMGO,878.6,31.7,981688.41,110058.84
+DEC-0893,Samarinda,Gopalpur,Handysize,11.8,Visakhapatnam,HSFO,538.3,26.6,834741.43,96000.09
+DEC-0894,Norfolk,Gopalpur,Panamax,12.3,Fujairah,LSMGO,1025.0,31.6,2132205.03,423060.14
+DEC-0895,Newcastle,Paradip,Handysize,12.5,Singapore,HSFO,733.7,23.0,1014618.26,200327.96
+DEC-0896,Richards Bay,Haldia,Supramax,14.0,Fujairah,VLSFO,669.1,16.5,827840.41,75273.13
+DEC-0897,Norfolk,Gangavaram,Capesize,12.0,Visakhapatnam,VLSFO,678.4,25.4,1850159.22,370800.3
+DEC-0898,Samarinda,Haldia,Panamax,13.9,Singapore,LSMGO,1171.4,23.5,1590547.62,171274.66
+DEC-0899,Samarinda,Dhamra,Supramax,12.0,Fujairah,LSMGO,786.6,18.0,1379714.69,183314.27
+DEC-0900,Norfolk,Visakhapatnam (Outer),Supramax,12.5,Rotterdam,LSMGO,698.3,8.4,779219.27,155240.68
+DEC-0901,Norfolk,Gangavaram,Supramax,13.9,Fujairah,LSMGO,1162.1,18.7,1160646.23,229027.86
+DEC-0902,Samarinda,Visakhapatnam (Outer),Panamax,12.8,Fujairah,VLSFO,965.4,20.7,875384.44,155991.07
+DEC-0903,Newcastle,Dhamra,Supramax,12.6,Fujairah,HSFO,933.2,30.0,530611.13,87262.72
+DEC-0904,Samarinda,Gangavaram,Supramax,13.4,Fujairah,VLSFO,1127.4,21.5,1381711.89,245929.77
+DEC-0905,Maputo,Gangavaram,Supramax,11.6,Singapore,VLSFO,609.0,17.1,1967046.17,269741.85
+DEC-0906,Samarinda,Haldia,Panamax,12.9,Rotterdam,LSMGO,803.9,15.0,1047698.06,117721.85
+DEC-0907,Norfolk,Gangavaram,Supramax,11.5,Fujairah,VLSFO,1158.6,12.0,1414365.28,287052.44
+DEC-0908,Maputo,Gangavaram,Supramax,12.0,Singapore,LSMGO,1136.2,27.5,757284.39,103301.06
+DEC-0909,Norfolk,Dhamra,Supramax,12.6,Fujairah,VLSFO,561.5,9.6,1727170.63,206473.54
+DEC-0910,Richards Bay,Visakhapatnam (Inner),Supramax,12.3,Singapore,VLSFO,882.3,22.5,1259918.77,241690.05
+DEC-0911,Samarinda,Dhamra,Handysize,13.9,Singapore,HSFO,1134.3,8.7,1620058.99,309676.18
+DEC-0912,Norfolk,Haldia,Panamax,12.1,Visakhapatnam,VLSFO,900.6,9.9,2187122.49,302341.79
+DEC-0913,Maputo,Haldia,Supramax,12.9,Visakhapatnam,HSFO,935.5,11.8,1754073.3,311205.7
+DEC-0914,Newcastle,Gangavaram,Handysize,14.0,Visakhapatnam,HSFO,458.5,23.5,777155.0,71401.71
+DEC-0915,Norfolk,Visakhapatnam (Inner),Handysize,13.4,Visakhapatnam,HSFO,957.8,20.3,1550874.54,317345.79
+DEC-0916,Richards Bay,Visakhapatnam (Inner),Supramax,11.5,Rotterdam,LSMGO,455.7,18.8,1688643.41,215173.93
+DEC-0917,Norfolk,Dhamra,Panamax,12.3,Fujairah,LSMGO,1196.2,17.4,668911.09,117157.93
+DEC-0918,Norfolk,Paradip,Supramax,13.9,Rotterdam,VLSFO,759.8,11.1,1304826.84,203224.29
+DEC-0919,Newcastle,Gopalpur,Capesize,12.9,Rotterdam,HSFO,758.3,27.7,996472.73,93183.56
+DEC-0920,Newcastle,Gopalpur,Capesize,13.6,Singapore,VLSFO,402.3,17.7,645615.71,111666.68
+DEC-0921,Samarinda,Visakhapatnam (Outer),Handysize,12.0,Fujairah,HSFO,520.8,18.4,525432.51,108270.66
+DEC-0922,Richards Bay,Gangavaram,Panamax,13.4,Visakhapatnam,HSFO,946.2,25.1,1689953.58,261648.27
+DEC-0923,Richards Bay,Visakhapatnam (Inner),Panamax,13.0,Rotterdam,HSFO,589.5,8.9,977200.13,150355.79
+DEC-0924,Norfolk,Dhamra,Supramax,12.1,Visakhapatnam,VLSFO,1012.4,21.5,1093518.16,234199.76
+DEC-0925,Norfolk,Gopalpur,Panamax,12.5,Rotterdam,VLSFO,626.0,30.4,1538700.85,310292.67
+DEC-0926,Maputo,Visakhapatnam (Outer),Panamax,12.5,Fujairah,LSMGO,438.2,12.7,1040309.97,209572.85
+DEC-0927,Maputo,Haldia,Panamax,12.5,Visakhapatnam,VLSFO,692.5,22.9,2065773.17,351732.24
+DEC-0928,Maputo,Haldia,Supramax,12.7,Fujairah,LSMGO,1003.0,11.0,1062744.39,168081.87
+DEC-0929,Norfolk,Visakhapatnam (Inner),Supramax,11.6,Rotterdam,VLSFO,489.3,9.1,2085676.4,308340.51
+DEC-0930,Norfolk,Gopalpur,Panamax,13.5,Singapore,LSMGO,992.8,28.9,482819.73,87091.11
+DEC-0931,Samarinda,Dhamra,Supramax,13.7,Rotterdam,VLSFO,625.6,20.3,1127875.05,165010.6
+DEC-0932,Samarinda,Gangavaram,Panamax,11.8,Rotterdam,LSMGO,422.7,12.2,1474521.81,260606.53
+DEC-0933,Richards Bay,Paradip,Capesize,12.1,Visakhapatnam,LSMGO,682.5,22.9,1469849.4,122596.73
+DEC-0934,Newcastle,Paradip,Capesize,12.3,Singapore,LSMGO,1122.0,26.3,1774209.67,262525.45
+DEC-0935,Norfolk,Visakhapatnam (Inner),Handysize,13.9,Visakhapatnam,LSMGO,619.8,8.5,667054.87,142062.76
+DEC-0936,Norfolk,Paradip,Capesize,11.6,Singapore,LSMGO,786.8,24.3,1495662.97,141803.13
+DEC-0937,Maputo,Visakhapatnam (Outer),Handysize,11.6,Fujairah,VLSFO,1115.5,19.2,747640.8,125505.38
+DEC-0938,Maputo,Dhamra,Panamax,14.0,Singapore,HSFO,1129.2,30.6,619015.53,58307.15
+DEC-0939,Newcastle,Gopalpur,Supramax,12.0,Fujairah,HSFO,756.5,31.9,1393669.19,236757.63
+DEC-0940,Richards Bay,Dhamra,Capesize,12.2,Fujairah,VLSFO,709.7,16.1,1510920.14,326190.41
+DEC-0941,Norfolk,Visakhapatnam (Outer),Capesize,12.8,Fujairah,LSMGO,1070.1,17.1,2079081.64,190260.59
+DEC-0942,Samarinda,Visakhapatnam (Inner),Supramax,13.1,Visakhapatnam,VLSFO,716.0,9.9,928500.06,75758.02
+DEC-0943,Newcastle,Visakhapatnam (Inner),Panamax,13.8,Fujairah,LSMGO,477.8,12.6,794745.76,143084.25
+DEC-0944,Newcastle,Paradip,Handysize,13.8,Rotterdam,HSFO,989.8,22.4,775461.18,126291.42
+DEC-0945,Richards Bay,Visakhapatnam (Inner),Supramax,12.2,Singapore,LSMGO,598.8,24.3,2197736.95,295443.07
+DEC-0946,Norfolk,Gangavaram,Supramax,13.1,Fujairah,LSMGO,706.8,17.4,502207.16,101059.15
+DEC-0947,Samarinda,Visakhapatnam (Inner),Handysize,13.0,Fujairah,HSFO,638.5,13.1,2048351.63,258100.11
+DEC-0948,Maputo,Paradip,Panamax,13.6,Singapore,VLSFO,1187.6,8.4,1264446.24,249879.52
+DEC-0949,Newcastle,Visakhapatnam (Outer),Supramax,13.2,Singapore,VLSFO,592.2,28.5,1046616.59,223391.98
+DEC-0950,Samarinda,Visakhapatnam (Outer),Handysize,13.7,Rotterdam,HSFO,489.8,26.5,800355.17,130557.11
+DEC-0951,Maputo,Gopalpur,Supramax,12.0,Singapore,HSFO,1159.5,9.9,509720.33,55715.05
+DEC-0952,Richards Bay,Visakhapatnam (Inner),Panamax,12.3,Rotterdam,HSFO,558.7,9.1,1728755.83,339005.93
+DEC-0953,Maputo,Paradip,Handysize,11.8,Singapore,VLSFO,729.5,10.5,1447620.08,305588.66
+DEC-0954,Newcastle,Visakhapatnam (Outer),Handysize,12.2,Singapore,LSMGO,852.1,30.8,1944856.27,312154.19
+DEC-0955,Samarinda,Gangavaram,Panamax,14.0,Visakhapatnam,HSFO,634.7,9.6,1433598.61,229474.02
+DEC-0956,Norfolk,Gangavaram,Handysize,13.1,Visakhapatnam,VLSFO,1023.1,17.7,981037.04,143198.93
+DEC-0957,Newcastle,Gopalpur,Handysize,11.7,Visakhapatnam,LSMGO,1054.8,30.1,1724810.14,305542.26
+DEC-0958,Samarinda,Gopalpur,Supramax,11.8,Rotterdam,VLSFO,523.5,25.4,2082620.74,427599.89
+DEC-0959,Richards Bay,Visakhapatnam (Outer),Panamax,12.8,Visakhapatnam,HSFO,884.7,21.2,1126932.99,155291.79
+DEC-0960,Newcastle,Visakhapatnam (Outer),Handysize,13.1,Rotterdam,HSFO,671.0,25.6,1153317.89,156629.5
+DEC-0961,Samarinda,Dhamra,Capesize,13.0,Visakhapatnam,LSMGO,965.3,21.5,2104117.29,318321.03
+DEC-0962,Richards Bay,Visakhapatnam (Outer),Supramax,12.5,Fujairah,HSFO,910.9,28.5,2006329.45,393772.61
+DEC-0963,Samarinda,Haldia,Supramax,13.8,Rotterdam,LSMGO,684.9,30.2,1813002.39,303061.18
+DEC-0964,Samarinda,Gopalpur,Supramax,12.4,Singapore,VLSFO,769.7,24.8,704911.61,71516.08
+DEC-0965,Norfolk,Visakhapatnam (Inner),Handysize,13.7,Fujairah,LSMGO,880.1,17.6,469264.17,77979.38
+DEC-0966,Richards Bay,Paradip,Handysize,12.2,Singapore,VLSFO,678.3,15.6,1117644.99,99251.04
+DEC-0967,Samarinda,Dhamra,Panamax,12.9,Visakhapatnam,LSMGO,798.1,29.6,1943486.53,397205.21
+DEC-0968,Norfolk,Dhamra,Panamax,11.7,Visakhapatnam,VLSFO,916.2,31.9,2084332.83,313867.03
+DEC-0969,Newcastle,Gangavaram,Capesize,13.3,Fujairah,LSMGO,570.5,18.3,1281341.72,187795.94
+DEC-0970,Newcastle,Dhamra,Capesize,13.1,Rotterdam,HSFO,564.8,15.9,1318641.29,178837.92
+DEC-0971,Newcastle,Visakhapatnam (Outer),Capesize,12.3,Visakhapatnam,HSFO,514.5,26.7,1706812.36,327333.74
+DEC-0972,Richards Bay,Visakhapatnam (Outer),Panamax,13.4,Rotterdam,VLSFO,518.9,16.9,1678281.54,230741.93
+DEC-0973,Maputo,Visakhapatnam (Outer),Handysize,12.7,Visakhapatnam,LSMGO,1042.0,24.3,1471323.81,274407.79
+DEC-0974,Newcastle,Dhamra,Capesize,13.8,Rotterdam,HSFO,826.8,16.4,695965.86,67052.03
+DEC-0975,Samarinda,Visakhapatnam (Outer),Panamax,12.0,Visakhapatnam,HSFO,865.6,14.1,893237.62,89450.21
+DEC-0976,Maputo,Visakhapatnam (Outer),Supramax,12.5,Rotterdam,VLSFO,488.2,22.9,1329182.61,246688.51
+DEC-0977,Maputo,Gangavaram,Supramax,12.6,Visakhapatnam,VLSFO,655.9,17.3,1575827.95,324945.64
+DEC-0978,Maputo,Gangavaram,Supramax,11.8,Singapore,HSFO,1040.2,31.2,1888083.89,253902.17
+DEC-0979,Richards Bay,Gangavaram,Handysize,13.7,Singapore,LSMGO,982.0,13.4,1898312.39,200510.19
+DEC-0980,Newcastle,Paradip,Panamax,12.0,Rotterdam,LSMGO,422.0,8.3,1468885.41,166615.34
+DEC-0981,Norfolk,Gopalpur,Capesize,12.2,Singapore,LSMGO,665.4,27.0,1315092.46,227435.26
+DEC-0982,Samarinda,Visakhapatnam (Outer),Panamax,13.1,Visakhapatnam,LSMGO,1073.3,27.9,750207.31,61525.08
+DEC-0983,Maputo,Visakhapatnam (Outer),Panamax,11.9,Fujairah,HSFO,612.1,25.5,1566461.66,329899.67
+DEC-0984,Maputo,Paradip,Handysize,11.8,Rotterdam,LSMGO,530.3,13.2,2004081.99,353745.56
+DEC-0985,Newcastle,Visakhapatnam (Outer),Supramax,12.2,Rotterdam,HSFO,1049.7,28.1,795423.06,166686.52
+DEC-0986,Maputo,Visakhapatnam (Inner),Panamax,13.6,Singapore,HSFO,1127.7,31.3,1941707.04,278820.99
+DEC-0987,Norfolk,Haldia,Supramax,13.2,Fujairah,LSMGO,528.1,9.1,1227908.03,258531.0
+DEC-0988,Newcastle,Visakhapatnam (Outer),Panamax,13.0,Rotterdam,HSFO,1125.9,8.6,1250798.02,176112.27
+DEC-0989,Maputo,Gangavaram,Handysize,13.3,Singapore,HSFO,1018.2,12.3,1934213.46,410309.29
+DEC-0990,Samarinda,Visakhapatnam (Inner),Handysize,13.2,Fujairah,LSMGO,1028.1,31.1,1133046.46,163332.09
+DEC-0991,Norfolk,Haldia,Handysize,13.2,Fujairah,HSFO,918.6,28.5,2169152.5,378413.63
+DEC-0992,Maputo,Dhamra,Capesize,13.7,Rotterdam,VLSFO,1075.6,21.7,2037849.6,169297.44
+DEC-0993,Samarinda,Gangavaram,Panamax,13.3,Fujairah,HSFO,720.1,10.5,1720595.19,272290.57
+DEC-0994,Maputo,Haldia,Supramax,13.8,Singapore,HSFO,1068.9,25.3,1824126.66,222985.82
+DEC-0995,Norfolk,Gangavaram,Panamax,11.9,Rotterdam,HSFO,1166.1,13.3,627249.09,107025.47
+DEC-0996,Maputo,Paradip,Panamax,14.0,Fujairah,VLSFO,716.5,30.8,1353901.14,225441.3
+DEC-0997,Newcastle,Paradip,Capesize,12.3,Visakhapatnam,VLSFO,951.0,18.1,1943384.47,184571.53
+DEC-0998,Maputo,Visakhapatnam (Inner),Handysize,11.7,Rotterdam,LSMGO,1089.7,22.9,1059692.2,119747.44
+DEC-0999,Newcastle,Visakhapatnam (Inner),Panamax,11.7,Fujairah,LSMGO,572.5,31.0,1831167.61,214414.45
+DEC-1000,Maputo,Visakhapatnam (Inner),Handysize,12.2,Visakhapatnam,LSMGO,864.4,21.0,1183989.33,100785.48

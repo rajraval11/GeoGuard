@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: geoguard-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: geoguard_admin
+      POSTGRES_PASSWORD: geoguard_secure_password_2026
+      POSTGRES_DB: geoguard_prod
+    ports:
+      - "5432:5432"
+    volumes:
+      - geoguard_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U geoguard_admin -d geoguard_prod"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  geoguard_pgdata:
+    driver: local
