@@ -9,7 +9,12 @@ const app = express();
 // Security and CORS
 app.use(
   cors({
-    origin: [config.corsOrigin, 'http://localhost:5173', 'http://127.0.0.1:5173'],
+    origin: [
+      'https://geo-guard-tw0.vercel.app',
+      config.corsOrigin,
+      'http://localhost:5173',
+      'http://127.0.0.1:5173'
+    ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
@@ -23,12 +28,17 @@ app.use(express.urlencoded({ extended: true }));
 // Request Logger (Development / Diagnostics)
 app.use((req: Request, res: Response, next) => {
   const start = Date.now();
+
   res.on('finish', () => {
     const duration = Date.now() - start;
+
     if (process.env.NODE_ENV !== 'test') {
-      console.log(`[API] ${req.method} ${req.originalUrl} -> ${res.statusCode} (${duration}ms)`);
+      console.log(
+        `[API] ${req.method} ${req.originalUrl} -> ${res.statusCode} (${duration}ms)`
+      );
     }
   });
+
   next();
 });
 
